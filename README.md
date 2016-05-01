@@ -47,7 +47,6 @@ These are questions about the project as a whole.
 
 * Make it more clear what the edge colors mean.
 * Find some way to use the "graduation year" data field. Maybe color nodes by age/generation?
-* Add a brief explanation to accompany the graph.
 * Collect more data.
 * After more data: Only render a subgraph starting from a specified TA. ("Give me all children and grand-children of [name].")
 * Long term: Find an official EECS organization (like HKN, UPE, etc.) to host this website.
