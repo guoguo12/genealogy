@@ -64,3 +64,41 @@
 - name: Sherdil Niyaz
 - name: Yeseon Lee
 - name: Steven Ho
+- name: Sharad Vikram
+  students:
+    - name: Rudy Laprade
+      class: CS 61A
+- name: Kevin Tee
+  students:
+    - name: Rudy Laprade
+      class: CS 61B
+    # - name: Rudy Laprade
+      # class: CS 188
+- name: Tselil Schramm
+  students:
+    - name: Rudy Laprade
+      class: CS 70
+- name: Pat Virtue
+  students:
+    - name: Rudy Laprade
+      class: CS 189
+- name: Peter Gao
+  students:
+    - name: Rudy Laprade
+      class: CS 189
+- name: Michelle Nguyen
+  students:
+    - name: Rudy Laprade
+      class: CS 186
+- name: Devin He
+  students:
+    - name: Rudy Laprade
+      class: CS 162
+- name: Nicholas Carilini
+  students:
+    - name: Rudy Laprade
+      class: CS 161
+- name: Wenting Zheng
+  students:
+    - name: Rudy Laprade
+      class: CS 168
