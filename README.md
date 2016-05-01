@@ -23,10 +23,10 @@ See the FAQ below for more clarifications.
   * The golden rule is that you must have considered them to be your "primary TA or mentor figure" when you took their course. If they didn't make much of an impact on your life, don't include them. If you didn't go to their discussion but they helped you a ton in office hours, include them. Use your best judgement.
 * Is it okay if my TA didn't know me personally?
   * Yes. They'll be excited to see that they made a difference even when they weren't aware of it!
-* Can I add students of mine?
-  * Only if they were/are also TAs *and* you're confident that they considered you to be their "primary TA or mentor figure" when they took your course.
 * What if I had multiple "primary TAs" for a single class?
   * That's fine, include them all!
+* Can I add students of mine?
+  * Only if they were/are also TAs *and* you're confident that they considered you to be their "primary TA or mentor figure" when they took your course.
 * Are tutors, readers, and lab assistants allowed?
   * Generally, no&mdash;unless they were so involved in the course that they were *de facto* TAs (which is rare).
 * Does it matter if they were undergrads or grad students?
