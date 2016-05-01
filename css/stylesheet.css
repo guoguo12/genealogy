@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   font-size: 90%;
   color: #212121;
   -webkit-touch-callout: none;
@@ -15,7 +15,12 @@ a, a:visited {
   color: inherit;
 }
 
-#info {
+li {
+  list-style-type: square;
+}
+
+#about {
+  opacity: 0;
   position: absolute;
   padding: 15px;
   left: 5%;
