@@ -11,6 +11,7 @@ var defaultClassColor = '#616161';
 
 var main = function(entries) {
   var startTime = new Date();
+
   var s = new sigma({
     renderer: {
       container: document.getElementById('graph'),
@@ -27,6 +28,7 @@ var main = function(entries) {
   });
   var graph = s.graph;
 
+  // Add nodes
   for (var i = 0; i < entries.length; i++) {
     var entry = entries[i];
     graph.addNode({
@@ -39,6 +41,7 @@ var main = function(entries) {
     });
   }
 
+  // Add edges
   for (var i = 0; i < entries.length; i++) {
     var teacher = entries[i];
     if (teacher.students) {
@@ -66,9 +69,11 @@ var main = function(entries) {
     }
   }
 
-  s.cameras[0].ratio *= 1.4; // Zoom out a tiny bit
+  // Zoom out a tiny bit then render
+  s.cameras[0].ratio *= 1.4;
   s.refresh();
 
+  // Make sure no nodes overlap
   s.configNoverlap({
     gridSize: 75
   });
