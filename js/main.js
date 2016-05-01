@@ -7,6 +7,7 @@ var classToColor = {
 }
 
 var main = function(entries) {
+  var startTime = new Date();
   var s = new sigma({
     renderer: {
       container: document.getElementById('graph'),
@@ -69,6 +70,9 @@ var main = function(entries) {
     gridSize: 75
   });
   s.startNoverlap();
+
+  var elapsedTime = ((new Date()) - startTime) / 1000;
+  console.log('main() finished in ' + elapsedTime + 's')
 }
 
 $.ready().then(function() {
