@@ -1,0 +1,16 @@
+- name: Allen Guo
+  year: 2018
+- name: Alicia Luengo
+  year: 2015
+  students:
+    - name: Allen Guo
+      class: CS 61AS
+- name: Joseph Hui
+  students:
+    - name: Allen Guo
+      class: CS 70
+- name: Davis Foote
+  year: 2017
+  students:
+    - name: Allen Guo
+      class: CS 188  
