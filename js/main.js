@@ -2,7 +2,7 @@ var classToColor = {
   'CS 61A':  '#4DD0E1',
   'CS 61AS': '#7986CB',
   'CS 61B':  '#E57373',
-  'CS 61C':  '#4DB6AC',
+  'CS 61C':  '#FFB74D',
   'CS 70':   '#BA68C8'
 }
 
