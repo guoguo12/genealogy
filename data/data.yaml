@@ -13,4 +13,42 @@
   year: 2017
   students:
     - name: Allen Guo
-      class: CS 188  
+      class: CS 188
+- name: Preetum Nakkiran
+  students:
+    - name: Allen Guo
+      class: CS 70
+- name: Manish Raghavan
+  students:
+    - name: Allen Guo
+      class: CS 170
+- name: Stephan Liu
+  students:
+    - name: Allen Guo
+      class: CS 61C
+- name: Akhil Batra
+- name: Alan Yao
+- name: Alice Sheng
+- name: Allen Zhu
+- name: Amit Akula
+- name: Anusha Ramakuri
+- name: Austin Le
+- name: Carlos Flores
+- name: Chris Jeng
+- name: Daniel Nguyen
+- name: Daniel Sochor
+- name: Dennis Zhao
+- name: Gilbert Ghang
+- name: Giulio Zhou
+- name: Jim Ren
+- name: Jimmy Lee
+- name: Kay Ousterhout
+- name: Leo Colobong
+- name: Luise Valentin
+- name: Nick Rose
+- name: Ross Teixeira
+- name: Rudy Laprade
+- name: Sarah Kim
+- name: Sean Zhu
+- name: Sherdil Niyaz
+- name: Yeseon Lee
