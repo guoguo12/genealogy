@@ -22,10 +22,17 @@
   students:
     - name: Allen Guo
       class: CS 170
+    - name: Ross Teixeira
+      class: CS 170
 - name: Stephan Liu
   students:
     - name: Allen Guo
       class: CS 61C
+- name: Marvin Zhang
+  year: 2017
+  students:
+    - name: Ross Teixeira
+      class: CS 61A
 - name: Akhil Batra
 - name: Alan Yao
 - name: Alice Sheng
@@ -47,8 +54,13 @@
 - name: Luise Valentin
 - name: Nick Rose
 - name: Ross Teixeira
+  class: 2017
+  students:
+    - name: Steven Ho
+      class: CS 61BL
 - name: Rudy Laprade
 - name: Sarah Kim
 - name: Sean Zhu
 - name: Sherdil Niyaz
 - name: Yeseon Lee
+- name: Steven Ho
