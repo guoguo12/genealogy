@@ -102,3 +102,59 @@
   students:
     - name: Rudy Laprade
       class: CS 168
+- name: Hamilton Nguyen
+  students:
+    - name: Sarah Kim
+      class: CS 61A
+- name: Iris Wang
+  students:
+    - name: Sarah Kim
+      class: CS 61B
+- name: Roger Chen
+  students:
+    - name: Sarah Kim
+      class: CS 61C
+- name: Sagar Karandikar
+  students:
+    - name: Sarah Kim
+      class: CS 61C
+- name: Allen Huang
+  students:
+    - name: Sarah Kim
+      class: CS 70
+- name: Frank Li
+  students:
+    - name: Sarah Kim
+      class: CS 161
+- name: Caleb Wang
+  students:
+    - name: Sarah Kim
+      class: CS 162
+- name: Omar Ramadan
+  students:
+    - name: Sarah Kim
+      class: CS 164
+- name: Radhika Mittal
+  students:
+    - name: Sarah Kim
+      class: CS 168
+- name: Yun Park
+  students:
+    - name: Sarah Kim
+      class: CS 170
+- name: Jay Patel
+  students:
+    - name: Sarah Kim
+      class: CS 186
+- name: Anting Shen
+  students:
+    - name: Sarah Kim
+      class: CS 194
+- name: Forrest Iandola
+  students:
+    - name: Sarah Kim
+      class: CS 194
+- name: Rachel Albert
+  students:
+    - name: Sarah Kim
+      class: CS 194
