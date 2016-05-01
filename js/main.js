@@ -1,10 +1,13 @@
+// All colors are from https://www.google.com/design/spec/style/color.html#color-color-palette
 var classToColor = {
   'CS 61A':  '#4DD0E1',
   'CS 61AS': '#7986CB',
-  'CS 61B':  '#E57373',
-  'CS 61C':  '#FFB74D',
-  'CS 70':   '#BA68C8'
+  'CS 61B':  '#F06292',
+  'CS 61BL': '#E57373',
+  'CS 61C':  '#BA68C8',
+  'CS 70':   '#81C784'
 }
+var defaultClassColor = '#616161';
 
 var main = function(entries) {
   var startTime = new Date();
@@ -47,7 +50,7 @@ var main = function(entries) {
           target: student.name,
           type: 'arrow',
           size: 50,
-          color: classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : '#D0D0D0'
+          color: classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor
         });
 
         // Approximate tree-forming: if student is above teacher, swap their y-coordinates
@@ -75,8 +78,18 @@ var main = function(entries) {
   console.log('main() finished in ' + elapsedTime + 's')
 }
 
+var showColorLegend = function() {
+  var newHTML = '';
+  $.each(classToColor, function(className, color) {
+    newHTML += '<span style="color: ' + color + '"><br>' + className + '</span>';
+  });
+  newHTML += '<span style="color: ' + defaultClassColor + '"><br>Other</span>';
+  $('#legend').innerHTML = newHTML;
+}
+
 $.ready().then(function() {
   $.fetch('data/data.yaml').then(function(data) {
     main(jsyaml.load(data.responseText));
-  })
+  });
+  showColorLegend();
 });
