@@ -38,6 +38,8 @@ See the FAQ below for more clarifications.
 
 These are questions about the project as a whole.
 
+* Where do I send suggestions, comments, and bug reports?
+  * Please [make an issue](https://github.com/guoguo12/genealogy/issues/new). Thanks!
 * Is this project officially affiliated with&mdash;
   * No.
 * Isn't this really more of a graph instead of a tree?
@@ -45,7 +47,6 @@ These are questions about the project as a whole.
 
 ## Project To-Do
 
-* Make it more clear what the edge colors mean.
 * Find some way to use the "graduation year" data field. Maybe color nodes by age/generation?
 * Collect more data.
 * After more data: Only render a subgraph starting from a specified TA. ("Give me all children and grand-children of [name].")
