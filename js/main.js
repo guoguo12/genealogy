@@ -96,7 +96,8 @@ var main = function(entries) {
 
   // Make sure no nodes overlap
   s.configNoverlap({
-    gridSize: 75
+    gridSize: 50,
+    nodeMargin: 20
   });
   s.startNoverlap();
 
