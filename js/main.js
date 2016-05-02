@@ -42,6 +42,8 @@ var main = function(entries) {
   }
 
   // Add edges
+  var inMap = {};
+  var outMap = {};
   for (var i = 0; i < entries.length; i++) {
     var teacher = entries[i];
     if (teacher.students) {
@@ -56,6 +58,16 @@ var main = function(entries) {
           color: classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor
         });
 
+        // Save in/out info for detailed "info" view (on node hover)
+        if (!inMap[student.name]) {
+          inMap[student.name] = [];
+        }
+        if (!outMap[teacher.name]) {
+          outMap[teacher.name] = [];
+        }
+        inMap[student.name].push(teacher.name + ' (' + student.class + ')');
+        outMap[teacher.name].push(student.name + ' (' + student.class + ')');
+
         // Approximate tree-forming: if student is above teacher, swap their y-coordinates
         // TODO: Make this better
         var teacherNode = graph.nodes(teacher.name);
@@ -68,6 +80,15 @@ var main = function(entries) {
       }
     }
   }
+
+  s.bind('overNode', function(e) {
+    var node = e.data.node;
+    showPersonInfo(node.id, inMap, outMap);
+  });
+
+  s.bind('outNode', function(e) {
+    $('#info').style.display = 'none';
+  });
 
   // Zoom out a tiny bit then render
   s.cameras[0].ratio *= 1.4;
@@ -90,6 +111,27 @@ var showColorLegend = function() {
   });
   newHTML += '<span style="color: ' + defaultClassColor + '"><br>Other</span>';
   $('#legend').innerHTML = newHTML;
+}
+
+var showPersonInfo = function(name, inMap, outMap) {
+  var newHTML = '';
+  newHTML += '<b>' + name + '</b>';
+  if (inMap[name] && inMap[name].length) {
+    newHTML += '<p>Teachers:<ul>';
+    for (var i = 0; i < inMap[name].length; i++) {
+      newHTML += '<li>' + inMap[name][i] + '</li>';
+    }
+    newHTML += '</ul>';
+  }
+  if (outMap[name] && outMap[name].length) {
+    newHTML += '<p>Students:<ul>';
+    for (var i = 0; i < outMap[name].length; i++) {
+      newHTML += '<li>' + outMap[name][i] + '</li>';
+    }
+    newHTML += '</ul>';
+  }
+  $('#info').innerHTML = newHTML;
+  $('#info').style.display = 'block';
 }
 
 $.ready().then(function() {

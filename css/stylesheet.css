@@ -19,15 +19,18 @@ li {
   list-style-type: square;
 }
 
-#about {
-  opacity: 0;
+.textbox {
   position: absolute;
   padding: 15px;
-  left: 5%;
-  bottom: 5%;
   background-color: #F4F4F4;
   border: 1px solid #999;
   z-index: 999;
+}  
+
+#about {
+  opacity: 0;
+  left: 5%;
+  bottom: 5%;
 }
 
 #legend {
@@ -37,6 +40,12 @@ li {
   left: 5%;
   top: 5%;
   z-index: 999;
+}
+
+#info {
+  display: none;
+  right: 5%;
+  top: 5%;
 }
 
 #graph {
