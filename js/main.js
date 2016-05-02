@@ -146,5 +146,5 @@ $.ready().then(function() {
     main(jsyaml.load(data.responseText));
   });
   showColorLegend();
-  $('#about')._.transition({ opacity: 1});
+  $('#about')._.transition({ opacity: 0.9 });
 });
