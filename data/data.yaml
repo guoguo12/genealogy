@@ -95,6 +95,9 @@
       class: CS 189
 - name: Michelle Nguyen
   students:
+    - name: Akhil Batra
+      class: CS 186
+      semester: sp15
     - name: Rudy Laprade
       class: CS 186
 - name: Devin He
@@ -179,3 +182,43 @@
     - name: Sarah Kim
       class: CS 194-26
       semester: fa15
+- name: Andrew Nguyen
+  students:
+    - name: Akhil Batra
+      class: CS 61A
+      semester: fa12
+- name: Harrison Wallace
+  students:
+    - name: Akhil Batra
+      class: CS 61B
+      semester: sp13
+- name: Chung-Wei Lin
+  students:
+    - name: Akhil Batra
+      class: CS 70
+      semester: sp13
+- name: Sung Roa Yoon
+  students:
+    - name: Akhil Batra
+      class: CS 61C
+      semester: fa13
+- name: Winston Hsu
+  students:
+    - name: Akhil Batra
+      class: CS 61C
+      semester: fa13
+- name: Lewin Gan
+  students:
+    - name: Akhil Batra
+      class: CS 170
+      semester: fa13
+- name: Soham Mehta
+  students:
+    - name: Akhil Batra
+      class: CS 184
+      semester: sp14
+- name: Frank Austin Nothaft
+  students:
+    - name: Akhil Batra
+      class: CS 162
+      semester: sp16
