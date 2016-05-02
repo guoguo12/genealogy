@@ -50,7 +50,7 @@ var main = function(entries) {
       for (var j = 0; j < teacher.students.length; j++) {
         var student = teacher.students[j];
         graph.addEdge({
-          id: teacher.name + ':' + student.name,
+          id: teacher.name + ':' + student.name + ':' + student.class,
           source: teacher.name,
           target: student.name,
           type: 'arrow',

@@ -79,8 +79,8 @@
   students:
     - name: Rudy Laprade
       class: CS 61B
-    # - name: Rudy Laprade
-      # class: CS 188
+    - name: Rudy Laprade
+      class: CS 188
 - name: Tselil Schramm
   students:
     - name: Rudy Laprade
