@@ -135,6 +135,12 @@ var showPersonInfo = function(name, inMap, outMap) {
 };
 
 $.ready().then(function() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    if (!confirm('Notice: This website is not optimized for mobile view, and may cause your browser to crash or become unresponsive.')) {
+      window.history.back();
+      return;
+    }
+  }
   $.fetch('data/data.yaml').then(function(data) {
     main(jsyaml.load(data.responseText));
   });
