@@ -52,6 +52,8 @@ These are questions about the project as a whole.
 * After more data: Only render a subgraph starting from a specified TA. ("Give me all children and grand-children of [name].")
 * Long term: Find an official EECS organization (like HKN, UPE, etc.) to host this website.
 
-## Credits
+## Privacy Policy and Credits
+
+This project uses Google Analytics to better understand user behavior. Learn more or opt out [here](https://support.google.com/analytics/answer/6004245).
 
 This project uses [Sigma](https://github.com/jacomyal/sigma.js) for graph drawing and [Bliss](https://github.com/LeaVerou/bliss) for cleaner JavaScript.
