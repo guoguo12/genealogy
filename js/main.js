@@ -6,7 +6,7 @@ var classToColor = {
   'CS 61BL': '#E57373',
   'CS 61C':  '#BA68C8',
   'CS 70':   '#81C784'
-}
+};
 var defaultClassColor = '#616161';
 
 var main = function(entries) {
@@ -102,7 +102,7 @@ var main = function(entries) {
 
   var elapsedTime = ((new Date()) - startTime) / 1000;
   console.log('main() finished in ' + elapsedTime + 's')
-}
+};
 
 var showColorLegend = function() {
   var newHTML = '';
@@ -111,7 +111,7 @@ var showColorLegend = function() {
   });
   newHTML += '<span style="color: ' + defaultClassColor + '"><br>Other</span>';
   $('#legend').innerHTML = newHTML;
-}
+};
 
 var showPersonInfo = function(name, inMap, outMap) {
   var newHTML = '';
@@ -132,7 +132,7 @@ var showPersonInfo = function(name, inMap, outMap) {
   }
   $('#info').innerHTML = newHTML;
   $('#info').style.display = 'block';
-}
+};
 
 $.ready().then(function() {
   $.fetch('data/data.yaml').then(function(data) {
