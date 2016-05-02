@@ -5,29 +5,36 @@
   students:
     - name: Allen Guo
       class: CS 61AS
+      semester: fa14
 - name: Joseph Hui
   students:
     - name: Allen Guo
       class: CS 70
+      semester: fa14
 - name: Davis Foote
   year: 2017
   students:
     - name: Allen Guo
       class: CS 188
+      semester: sp16
 - name: Preetum Nakkiran
   students:
     - name: Allen Guo
       class: CS 70
+      semester: fa14
 - name: Manish Raghavan
   students:
     - name: Allen Guo
       class: CS 170
+      semester: fa15
     - name: Ross Teixeira
       class: CS 170
+      semester: fa15
 - name: Stephan Liu
   students:
     - name: Allen Guo
       class: CS 61C
+      semester: fa15
 - name: Marvin Zhang
   year: 2017
   students:
@@ -106,55 +113,69 @@
   students:
     - name: Sarah Kim
       class: CS 61A
+      semester: sp13
 - name: Iris Wang
   students:
     - name: Sarah Kim
       class: CS 61B
-- name: Roger Chen
-  students:
-    - name: Sarah Kim
-      class: CS 61C
+      semester: fa13
 - name: Sagar Karandikar
   students:
     - name: Sarah Kim
       class: CS 61C
+      semester: sp14
+- name: Roger Chen
+  students:
+    - name: Sarah Kim
+      class: CS 61C
+      semester: sp14
 - name: Allen Huang
   students:
     - name: Sarah Kim
       class: CS 70
+      semester: su13
 - name: Frank Li
   students:
     - name: Sarah Kim
       class: CS 161
+      semester: sp16
 - name: Caleb Wang
   students:
     - name: Sarah Kim
       class: CS 162
+      semester: fa14
 - name: Omar Ramadan
   students:
     - name: Sarah Kim
       class: CS 164
+      semester: sp15
 - name: Radhika Mittal
   students:
     - name: Sarah Kim
       class: CS 168
+      semester: fa14
 - name: Yun Park
   students:
     - name: Sarah Kim
       class: CS 170
+      semester: sp14
 - name: Jay Patel
   students:
     - name: Sarah Kim
       class: CS 186
-- name: Anting Shen
-  students:
-    - name: Sarah Kim
-      class: CS 194
+      semester: sp15
 - name: Forrest Iandola
   students:
     - name: Sarah Kim
-      class: CS 194
+      class: CS 194-15
+      semester: fa15
+- name: Anting Shen
+  students:
+    - name: Sarah Kim
+      class: CS 194-15
+      semester: fa15
 - name: Rachel Albert
   students:
     - name: Sarah Kim
-      class: CS 194
+      class: CS 194-26
+      semester: fa15

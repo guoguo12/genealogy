@@ -65,8 +65,8 @@ var main = function(entries) {
         if (!outMap[teacher.name]) {
           outMap[teacher.name] = [];
         }
-        inMap[student.name].push(teacher.name + ' (' + student.class + ')');
-        outMap[teacher.name].push(student.name + ' (' + student.class + ')');
+        inMap[student.name].push(teacher.name + ' (' + student.class + (student.semester ? ', ' + student.semester : '') + ')');
+        outMap[teacher.name].push(student.name + ' (' + student.class + (student.semester ? ', ' + student.semester : '') + ')');
 
         // Approximate tree-forming: if student is above teacher, swap their y-coordinates
         // TODO: Make this better
