@@ -39,7 +39,7 @@ See the FAQ below for more clarifications.
 These are questions about the project as a whole.
 
 * Where do I send suggestions, comments, and bug reports?
-  * Please [make an issue](https://github.com/guoguo12/genealogy/issues/new). Thanks!
+  * Please [make an issue](https://github.com/guoguo12/genealogy/issues/new). Or, if you're down to get your hands dirty, fork this repo and make a pull request. Thanks!
 * Is this project officially affiliated with&mdash;
   * No.
 * Isn't this really more of a graph instead of a tree?
