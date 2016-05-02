@@ -9,7 +9,7 @@ Please send an email to allenguo@berkeley.edu containing the following informati
 
 1. Your full name.
 2. Your graduation year (or expected graduation year).
-3. A list where each entry is of the form "[full name] was my TA for [class]".
+3. A list where each entry is of the form "[full name] was my TA for [class] during [semester]".
 
 Important: Don't worry if the people you list weren't your official instructor (according to Tele-BEARS or bCourses).
 What matters is that they were your **primary TA or mentor figure** for that course, and that they were an official GSI for
