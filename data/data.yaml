@@ -5,6 +5,9 @@
 - name: Akhil Batra
   students: []
   year: 2016
+- name: Alan Yao
+  students: []
+  year: 2016
 - name: Aleks Kamko
   students:
   - {class: CS 162, name: Alicia Luengo, semester: fa15}
@@ -32,12 +35,19 @@
   students:
   - {class: CS 162, name: Roger Chen, semester: fa14}
   - {class: CS 162, name: Sarah Kim, semester: fa14}
+  - {class: CS 162, name: Alan Yao, semester: fa14}
+- name: Chenyu Zhao
+  students:
+  - {class: CS 70, name: Alan Yao, semester: sp13}
 - name: Chung-Wei Lin
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
 - name: Dan Crankshaw
   students:
   - {class: CS 186, name: Roger Chen, semester: sp14}
+- name: Daniel Xu
+  students:
+  - {class: CS 189, name: Alan Yao, semester: sp15}
 - name: Davis Foote
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
@@ -73,6 +83,7 @@
 - name: Harrison Wallace
   students:
   - {class: CS 61B, name: Akhil Batra, semester: sp13}
+  - {class: CS 61B, name: Alan Yao, semester: sp13}
 - name: Iris Wang
   students:
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
@@ -85,6 +96,9 @@
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+- name: Kelvin Chou
+  students:
+  - {class: CS 61C, name: Alan Yao, semester: fa13}
 - name: Kevin Liston
   students:
   - {class: CS 61C, name: Alicia Luengo, semester: su14}
@@ -103,10 +117,14 @@
 - name: Lewin Gan
   students:
   - {class: CS 170, name: Akhil Batra, semester: fa13}
+  - {class: CS 170, name: Alan Yao, semester: fa13}
 - name: Manish Raghavan
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
   - {class: CS 170, name: Ross Teixeira, semester: fa15}
+- name: Marc Khoury
+  students:
+  - {class: CS 274, name: Alan Yao, semester: sp15}
 - name: Marvin Zhang
   students:
   - {class: CS 61A, name: Ross Teixeira}
@@ -163,6 +181,7 @@
   students:
   - {class: CS 188, name: Alicia Luengo, semester: sp15}
   - {class: CS 61AS, name: Vivek Rangaswamy, semester: fa12}
+  - {class: CS 161, name: Alan Yao, semester: sp14}
 - name: Ross Teixeira
   students:
   - {class: CS 61BL, name: Steven Ho}
@@ -171,6 +190,9 @@
 - name: Sagar Karandikar
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
+- name: Sahaana Suri
+  students:
+  - {class: EE 126, name: Alan Yao, semester: fa14}
 - name: Sarah Kim
   students: []
 - name: Shaon Barman
