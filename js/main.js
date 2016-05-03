@@ -12,7 +12,7 @@ var defaultClassColor = '#616161';
 var main = function(entries) {
   var startTime = new Date();
 
-  var s = new sigma({
+  s = new sigma({
     renderer: {
       container: document.getElementById('graph'),
       type: 'canvas'
@@ -44,19 +44,23 @@ var main = function(entries) {
   // Add edges
   var inMap = {};
   var outMap = {};
+  var edgesToColors = {};
   for (var i = 0; i < entries.length; i++) {
     var teacher = entries[i];
     if (teacher.students) {
       for (var j = 0; j < teacher.students.length; j++) {
         var student = teacher.students[j];
+        var edgeId = teacher.name + ':' + student.name + ':' + student.class;
+        var edgeColor = classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor;
         graph.addEdge({
-          id: teacher.name + ':' + student.name + ':' + student.class,
+          id: edgeId,
           source: teacher.name,
           target: student.name,
           type: 'arrow',
           size: 50,
-          color: classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor
+          color: edgeColor
         });
+        edgesToColors[edgeId] = edgeColor;
 
         // Save in/out info for detailed "info" view (on node hover)
         if (!inMap[student.name]) {
@@ -84,10 +88,28 @@ var main = function(entries) {
   s.bind('overNode', function(e) {
     var node = e.data.node;
     showPersonInfo(node.id, inMap, outMap);
+
+    var edges = s.graph.edges();
+    for (var i = 0; i < edges.length; i++) {
+      var edge = edges[i];
+      var idParts = edge.id.split(':');
+      var teacher = idParts[0];
+      var student = idParts[1];
+      if (teacher != node.id && student != node.id) {
+        edge.color = 'transparent';
+      }
+    }
+    s.refresh();
   });
 
   s.bind('outNode', function(e) {
     $('#info').style.display = 'none';
+    var edges = s.graph.edges();
+    for (var i = 0; i < edges.length; i++) {
+      var edge = edges[i];
+      edge.color = edgesToColors[edge.id];
+    }
+    s.refresh();
   });
 
   // Zoom out a tiny bit then render
