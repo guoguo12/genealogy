@@ -29,8 +29,7 @@ var main = function(entries) {
   var graph = s.graph;
 
   // Add nodes
-  for (var i = 0; i < entries.length; i++) {
-    var entry = entries[i];
+  entries.forEach(function(entry) {
     graph.addNode({
       id: entry.name,
       label: entry.name,
@@ -39,17 +38,15 @@ var main = function(entries) {
       size: 5 + (entry.students ? entry.students.length : 0)
       // TODO: Assign node colors in some meaningful way
     });
-  }
+  });
 
   // Add edges
   var inMap = {};
   var outMap = {};
   var edgesToColors = {};
-  for (var i = 0; i < entries.length; i++) {
-    var teacher = entries[i];
+  entries.forEach(function(teacher) {
     if (teacher.students) {
-      for (var j = 0; j < teacher.students.length; j++) {
-        var student = teacher.students[j];
+      teacher.students.forEach(function(student) {
         var edgeId = teacher.name + ':' + student.name + ':' + student.class;
         var edgeColor = classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor;
         graph.addEdge({
@@ -81,17 +78,16 @@ var main = function(entries) {
           studentNode.y = teacherNode.y;
           teacherNode.y = tmp;
         }
-      }
+      });
     }
-  }
+  });
 
   s.bind('overNode', function(e) {
     var node = e.data.node;
     showPersonInfo(node.id, inMap, outMap);
 
     var edges = s.graph.edges();
-    for (var i = 0; i < edges.length; i++) {
-      var edge = edges[i];
+    edges.forEach(function(edge) {
       var idParts = edge.id.split(':');
       var teacher = idParts[0];
       var student = idParts[1];
@@ -101,19 +97,18 @@ var main = function(entries) {
         edge.size = 3;
         edge.type = 'arrow';
       }
-    }
+    });
     s.refresh();
   });
 
   s.bind('outNode', function(e) {
     $('#info').style.display = 'none';
     var edges = s.graph.edges();
-    for (var i = 0; i < edges.length; i++) {
-      var edge = edges[i];
+    edges.forEach(function(edge) {
       edge.color = edgesToColors[edge.id];
       edge.size = 1;
       edge.type = 'line';
-    }
+    });
     s.refresh();
   });
 
@@ -166,16 +161,16 @@ var showPersonInfo = function(name, inMap, outMap) {
   newHTML += '<b>' + name + '</b>';
   if (inMap[name] && inMap[name].length) {
     newHTML += '<p>Teachers:<ul>';
-    for (var i = 0; i < inMap[name].length; i++) {
-      newHTML += '<li>' + inMap[name][i] + '</li>';
-    }
+    inMap[name].forEach(function(teacher) {
+      newHTML += '<li>' + teacher + '</li>';
+    });
     newHTML += '</ul>';
   }
   if (outMap[name] && outMap[name].length) {
     newHTML += '<p>Students:<ul>';
-    for (var i = 0; i < outMap[name].length; i++) {
-      newHTML += '<li>' + outMap[name][i] + '</li>';
-    }
+    outMap[name].forEach(function(student) {
+      newHTML += '<li>' + student + '</li>';
+    });
     newHTML += '</ul>';
   }
   $('#info').innerHTML = newHTML;
