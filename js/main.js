@@ -22,7 +22,7 @@ var main = function(entries) {
       minEdgeSize: 0,
       maxEdgeSize: 0,
       defaultLabelSize: 14,
-      labelThreshold: 6
+      labelThreshold: 5
 
     }
   });
@@ -118,7 +118,7 @@ var main = function(entries) {
   });
 
   // Zoom out a tiny bit then render
-  s.cameras[0].ratio *= 1.4;
+  s.cameras[0].ratio *= 1.2;
   s.refresh();
 
   // Make sure no nodes overlap
