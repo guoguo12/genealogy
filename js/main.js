@@ -19,8 +19,8 @@ var main = function(entries) {
     },
     settings: {
       font: 'monospace',
-      minEdgeSize: 4,
-      maxEdgeSize: 4,
+      minEdgeSize: 3,
+      maxEdgeSize: 3,
       defaultLabelSize: 14,
       labelThreshold: 6
 
