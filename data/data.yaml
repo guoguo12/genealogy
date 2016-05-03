@@ -12,6 +12,9 @@
   students:
   - {class: CS 162, name: Alicia Luengo, semester: fa15}
   - {class: CS 162, name: Anusha Ramakuri, semester: fa15}
+- name: Alex Kantchelian
+  students:
+  - {class: CS 170, name: Andrew Huang, semester: sp12}
 - name: Alex Triana
   students:
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
@@ -25,6 +28,8 @@
 - name: Allen Huang
   students:
   - {class: CS 70, name: Sarah Kim, semester: su13}
+- name: Andrew Huang
+  students: []
 - name: Andrew Nguyen
   students:
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
@@ -64,6 +69,9 @@
 - name: Diego Kiner
   students:
   - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
+- name: Eric Kim
+  students:
+  - {class: CS 61A, name: Andrew Huang, semester: fa10}
 - name: Eric Love
   students:
   - {class: CS 152, name: Rohin Shah, semester: sp14}
@@ -108,6 +116,9 @@
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+- name: Kaushik Iyer
+  students:
+  - {class: CS 61B, name: Andrew Huang, semester: sp11}
 - name: Kelvin Chou
   students:
   - {class: CS 61C, name: Alan Yao, semester: fa13}
