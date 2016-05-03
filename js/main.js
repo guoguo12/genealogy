@@ -33,8 +33,8 @@ var main = function(entries) {
     graph.addNode({
       id: entry.name,
       label: entry.name,
-      x: Math.random(),  // Positions are refined below
-      y: Math.random(),
+      x: entry.name.charCodeAt(0),  // Positions are refined below
+      y: entry.name.charCodeAt(1),
       size: 5 + (entry.students ? entry.students.length : 0)
       // TODO: Assign node colors in some meaningful way
     });
