@@ -35,7 +35,7 @@ var main = function(entries) {
       label: entry.name,
       x: entry.name.charCodeAt(0),  // Positions are refined below
       y: entry.name.charCodeAt(1),
-      size: 5 + Math.pow(entry.students ? entry.students.length : 0, 0.8)
+      size: 5 + 2 * Math.pow(entry.students ? entry.students.length : 0, 0.5)
       // TODO: Assign node colors in some meaningful way
     });
   });
