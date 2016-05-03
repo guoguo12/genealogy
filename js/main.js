@@ -9,6 +9,8 @@ var classToColor = {
 };
 var defaultClassColor = '#616161';
 
+var activeSearchHit = '';
+
 var main = function(entries) {
   var startTime = new Date();
 
@@ -82,6 +84,7 @@ var main = function(entries) {
     }
   });
 
+  // Bind node hover handler
   s.bind('overNode', function(e) {
     var node = e.data.node;
     showPersonInfo(node.id, inMap, outMap);
@@ -101,6 +104,7 @@ var main = function(entries) {
     s.refresh();
   });
 
+  // Bind node un-hover handler
   s.bind('outNode', function(e) {
     $('#info').style.display = 'none';
     var edges = s.graph.edges();
@@ -111,6 +115,17 @@ var main = function(entries) {
     });
     s.refresh();
   });
+
+  // Bind search handler
+  $('#search').onkeydown = function(e) {
+    if (e.keyCode == 13) {
+      highlightSearchHit($('#search').value);
+      $('body').onmousedown = function(e) {
+        cancelSearchHit();
+        delete $('body').onmousedown;
+      }
+    }
+  };
 
   // Zoom out a tiny bit then render
   s.cameras[0].ratio *= 1.2;
@@ -137,6 +152,7 @@ var showColorLegend = function() {
 };
 
 var highlightSearchHit = function(name) {
+  cancelSearchHit();
   node = s.graph.nodes(name);
   if (node) {
     activeSearchHit = node.id;
