@@ -2,7 +2,7 @@
 
 """
 Reads the data file (YAML) and combines entries with the same name.
-Also reformats nicely and concisely.
+Also reformats concisely and orders alphabetically by name.
 
 Requires PyYAML (`pip install pyyaml`).
 
@@ -10,6 +10,7 @@ Usage:
     python clean.py [dataFile]
 """
 
+import operator
 import sys
 import yaml
 
@@ -35,6 +36,7 @@ with open(sys.argv[1], 'r') as f:
                 new_entry['students'] += entry['students']
         new_y.append(new_entry)
 
+new_y = sorted(new_y, key=operator.itemgetter('name'))
 new_yaml = yaml.dump(new_y)
 print new_yaml
 

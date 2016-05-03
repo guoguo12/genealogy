@@ -23,6 +23,7 @@ if len(sys.argv) != 3:
 student = sys.argv[2]
 with open(sys.argv[1]) as f:
     lines = [line.strip() for line in f.readlines()]
+    print '\n- name: ' + student
     for line in lines:
         if not line:
             continue
