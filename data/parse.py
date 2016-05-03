@@ -3,7 +3,7 @@
 """
 Parses files where each line is of the form
     [full name] was my TA for [class] during [semester]
-Prints results to stdout.
+Prints YAML results to stdout.
 
 Usage:
     python parse.py [inputFile] [student]

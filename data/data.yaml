@@ -1,329 +1,217 @@
-- name: Allen Guo
-  year: 2018
-- name: Alicia Luengo
-  year: 2015
+- name: Roger Chen
   students:
-    - name: Allen Guo
-      class: CS 61AS
-      semester: fa14
-- name: Joseph Hui
-  students:
-    - name: Allen Guo
-      class: CS 70
-      semester: fa14
-- name: Davis Foote
-  year: 2017
-  students:
-    - name: Allen Guo
-      class: CS 188
-      semester: sp16
-- name: Preetum Nakkiran
-  students:
-    - name: Allen Guo
-      class: CS 70
-      semester: fa14
-- name: Manish Raghavan
-  students:
-    - name: Allen Guo
-      class: CS 170
-      semester: fa15
-    - name: Ross Teixeira
-      class: CS 170
-      semester: fa15
-- name: Stephan Liu
-  students:
-    - name: Allen Guo
-      class: CS 61C
-      semester: fa15
-- name: Marvin Zhang
-  year: 2017
-  students:
-    - name: Ross Teixeira
-      class: CS 61A
-- name: Akhil Batra
+  - {class: CS 61C, name: Sarah Kim, semester: sp14}
   year: 2016
-- name: Ross Teixeira
-  class: 2017
-  students:
-    - name: Steven Ho
-      class: CS 61BL
-- name: Rudy Laprade
-- name: Sarah Kim
-- name: Steven Ho
-- name: Sharad Vikram
-  students:
-    - name: Rudy Laprade
-      class: CS 61A
-- name: Kevin Tee
-  students:
-    - name: Roger Chen
-      class: CS 70
-      semester: fa13
-    - name: Roger Chen
-      class: CS 188
-      semester: fa14
-    - name: Roger Chen
-      class: CS 189
-      semester: sp15
-    - name: Rudy Laprade
-      class: CS 61B
-    - name: Rudy Laprade
-      class: CS 188
-- name: Tselil Schramm
-  students:
-    - name: Rudy Laprade
-      class: CS 70
-- name: Pat Virtue
-  students:
-    - name: Rudy Laprade
-      class: CS 189
-- name: Peter Gao
-  students:
-    - name: Rudy Laprade
-      class: CS 189
-- name: Michelle Nguyen
-  students:
-    - name: Akhil Batra
-      class: CS 186
-      semester: sp15
-    - name: Rudy Laprade
-      class: CS 186
-- name: Devin He
-  students:
-    - name: Rudy Laprade
-      class: CS 162
-- name: Nicholas Carlini
-  students:
-    - name: Rudy Laprade
-      class: CS 161
-- name: Wenting Zheng
-  students:
-    - name: Rudy Laprade
-      class: CS 168
-- name: Hamilton Nguyen
-  students:
-    - name: Sarah Kim
-      class: CS 61A
-      semester: sp13
-- name: Iris Wang
-  students:
-    - name: Sarah Kim
-      class: CS 61B
-      semester: fa13
 - name: Sagar Karandikar
   students:
-    - name: Sarah Kim
-      class: CS 61C
-      semester: sp14
-- name: Roger Chen
-  year: 2016
-  students:
-    - name: Sarah Kim
-      class: CS 61C
-      semester: sp14
-- name: Allen Huang
-  students:
-    - name: Sarah Kim
-      class: CS 70
-      semester: su13
-- name: Frank Li
-  students:
-    - name: Sarah Kim
-      class: CS 161
-      semester: sp16
-- name: Caleb Wang
-  students:
-    - name: Roger Chen
-      class: CS 162
-      semester: fa14
-    - name: Sarah Kim
-      class: CS 162
-      semester: fa14
-- name: Omar Ramadan
-  students:
-    - name: Sarah Kim
-      class: CS 164
-      semester: sp15
-- name: Radhika Mittal
-  students:
-    - name: Roger Chen
-      class: CS 168
-      semester: fa14
-    - name: Sarah Kim
-      class: CS 168
-      semester: fa14
-- name: Yun Park
-  students:
-    - name: Roger Chen
-      class: CS 170
-      semester: sp14
-    - name: Sarah Kim
-      class: CS 170
-      semester: sp14
-- name: Jay Patel
-  students:
-    - name: Sarah Kim
-      class: CS 186
-      semester: sp15
-- name: Forrest Iandola
-  students:
-    - name: Roger Chen
-      class: CS 194-15
-      semester: fa15
-    - name: Sarah Kim
-      class: CS 194-15
-      semester: fa15
-- name: Anting Shen
-  students:
-    - name: Roger Chen
-      class: CS 194-15
-      semester: fa15
-    - name: Sarah Kim
-      class: CS 194-15
-      semester: fa15
-- name: Rachel Albert
-  students:
-    - name: Roger Chen
-      class: CS 194-26
-      semester: fa15
-    - name: Sarah Kim
-      class: CS 194-26
-      semester: fa15
-- name: Andrew Nguyen
-  students:
-    - name: Akhil Batra
-      class: CS 61A
-      semester: fa12
-- name: Harrison Wallace
-  students:
-    - name: Akhil Batra
-      class: CS 61B
-      semester: sp13
-- name: Chung-Wei Lin
-  students:
-    - name: Akhil Batra
-      class: CS 70
-      semester: sp13
-- name: Sung Roa Yoon
-  students:
-    - name: Akhil Batra
-      class: CS 61C
-      semester: fa13
-    - name: Roger Chen
-      class: CS 61C
-      semester: sp13
-- name: Winston Hsu
-  students:
-    - name: Akhil Batra
-      class: CS 61C
-      semester: fa13
-- name: Lewin Gan
-  students:
-    - name: Akhil Batra
-      class: CS 170
-      semester: fa13
-- name: Soham Mehta
-  students:
-    - name: Akhil Batra
-      class: CS 184
-      semester: sp14
-- name: Frank Austin Nothaft
-  students:
-    - name: Akhil Batra
-      class: CS 162
-      semester: sp16
-- name: Steven Tang
-  students:
-    - name: Roger Chen
-      class: CS 61A
-      semester: fa12
-- name: Peter Chen
-  students:
-    - name: Roger Chen
-      class: CS 164
-      semester: fa13
-- name: Ajay Tripathi
-  students:
-    - name: Roger Chen
-      class: EE 20
-      semester: sp14
-- name: Dan Crankshaw
-  students:
-    - name: Roger Chen
-      class: CS 186
-      semester: sp14
-- name: Stephen Bailey
-  students:
-    - name: Roger Chen
-      class: CS 184
-      semester: sp15
-- name: Robin Hu
-  students:
-    - name: Roger Chen
-      class: CS 161
-      semester: sp16
-- name: Mona Gupta
-  students:
-    - name: Alicia Luengo
-      class: CS 61AS
-      semester: fa13
-- name: Erik Krogen
-  students:
-    - name: Alicia Luengo
-      class: CS 61B
-      semester: sp14
-- name: Kevin Liston
-  students:
-    - name: Alicia Luengo
-      class: CS 61C
-      semester: su14
-- name: Jimmy Wu
-  students:
-    - name: Alicia Luengo
-      class: CS 170
-      semester: sp15
-- name: Rohin Shah
-  students:
-    - name: Alicia Luengo
-      class: CS 188
-      semester: sp15
-- name: Aleks Kamko
-  students:
-    - name: Alicia Luengo
-      class: CS 162
-      semester: fa15
-- name: Shaun Singh
-  students:
-    - name: Alicia Luengo
-      class: CS 189
-      semester: fa15
-- name: Eric Tzeng
-  students:
-    - name: Rohin Shah
-      class: CS 61A
-      semester: fa10
-- name: Mike Clancy
-  students:
-    - name: Rohin Shah
-      class: CS 61BL
-      semester: sp11
+  - {class: CS 61C, name: Sarah Kim, semester: sp14}
 - name: Shaon Barman
   students:
-    - name: Rohin Shah
-      class: CS 164
-      semester: sp12
+  - {class: CS 164, name: Rohin Shah, semester: sp12}
+- name: Frank Li
+  students:
+  - {class: CS 161, name: Sarah Kim, semester: sp16}
+- name: Peter Gao
+  students:
+  - {class: CS 189, name: Rudy Laprade}
+- name: Devin He
+  students:
+  - {class: CS 162, name: Rudy Laprade}
+- name: Tselil Schramm
+  students:
+  - {class: CS 70, name: Rudy Laprade}
+- name: Radhika Mittal
+  students:
+  - {class: CS 168, name: Roger Chen, semester: fa14}
+  - {class: CS 168, name: Sarah Kim, semester: fa14}
+- name: Allen Huang
+  students:
+  - {class: CS 70, name: Sarah Kim, semester: su13}
+- name: Chung-Wei Lin
+  students:
+  - {class: CS 70, name: Akhil Batra, semester: sp13}
+- name: Kevin Liston
+  students:
+  - {class: CS 61C, name: Alicia Luengo, semester: su14}
+- name: Hamilton Nguyen
+  students:
+  - {class: CS 61A, name: Sarah Kim, semester: sp13}
+- name: Steven Tang
+  students:
+  - {class: CS 61A, name: Roger Chen, semester: fa12}
+- name: Forrest Iandola
+  students:
+  - {class: CS 194-15, name: Roger Chen, semester: fa15}
+  - {class: CS 194-15, name: Sarah Kim, semester: fa15}
+- name: Sarah Kim
+  students: []
+- name: Lewin Gan
+  students:
+  - {class: CS 170, name: Akhil Batra, semester: fa13}
+- name: Nicholas Carlini
+  students:
+  - {class: CS 161, name: Rudy Laprade}
+- name: Pat Virtue
+  students:
+  - {class: CS 189, name: Rudy Laprade}
+- name: Wenting Zheng
+  students:
+  - {class: CS 168, name: Rudy Laprade}
+- name: Rudy Laprade
+  students: []
+- name: Kevin Tee
+  students:
+  - {class: CS 70, name: Roger Chen, semester: fa13}
+  - {class: CS 188, name: Roger Chen, semester: fa14}
+  - {class: CS 189, name: Roger Chen, semester: sp15}
+  - {class: CS 61B, name: Rudy Laprade}
+  - {class: CS 188, name: Rudy Laprade}
+  - {class: CS 188, name: Vivek Rangaswamy, semester: fa15}
+  - {class: CS 189, name: Vivek Rangaswamy, semester: sp16}
+- name: Jimmy Wu
+  students:
+  - {class: CS 170, name: Alicia Luengo, semester: sp15}
+- name: Marvin Zhang
+  students:
+  - {class: CS 61A, name: Ross Teixeira}
+  year: 2017
+- name: Mike Clancy
+  students:
+  - {class: CS 61BL, name: Rohin Shah, semester: sp11}
+- name: Winston Hsu
+  students:
+  - {class: CS 61C, name: Akhil Batra, semester: fa13}
+- name: Andrew Nguyen
+  students:
+  - {class: CS 61A, name: Akhil Batra, semester: fa12}
+- name: Rohin Shah
+  students:
+  - {class: CS 188, name: Alicia Luengo, semester: sp15}
+  - {class: CS 61AS, name: Vivek Rangaswamy, semester: fa12}
+- name: Omar Ramadan
+  students:
+  - {class: CS 164, name: Sarah Kim, semester: sp15}
+- name: Mona Gupta
+  students:
+  - {class: CS 61AS, name: Alicia Luengo, semester: fa13}
+  - {class: CS 61B, name: Vivek Rangaswamy, semester: sp13}
+- name: Diego Kiner
+  students:
+  - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
+- name: Erik Krogen
+  students:
+  - {class: CS 61B, name: Alicia Luengo, semester: sp14}
+- name: Shaun Singh
+  students:
+  - {class: CS 189, name: Alicia Luengo, semester: fa15}
+- name: Alicia Luengo
+  students:
+  - {class: CS 61AS, name: Allen Guo, semester: fa14}
+  year: 2015
+- name: Yun Park
+  students:
+  - {class: CS 170, name: Roger Chen, semester: sp14}
+  - {class: CS 170, name: Sarah Kim, semester: sp14}
+- name: Harrison Wallace
+  students:
+  - {class: CS 61B, name: Akhil Batra, semester: sp13}
+- name: Soham Mehta
+  students:
+  - {class: CS 184, name: Akhil Batra, semester: sp14}
+- name: Jay Patel
+  students:
+  - {class: CS 186, name: Sarah Kim, semester: sp15}
 - name: Neeraja Yadwadkar
   students:
-    - name: Rohin Shah
-      class: CS 162
-      semester: sp13
+  - {class: CS 162, name: Rohin Shah, semester: sp13}
 - name: Eric Love
   students:
-    - name: Rohin Shah
-      class: CS 152
-      semester: sp14
+  - {class: CS 152, name: Rohin Shah, semester: sp14}
+- name: Iris Wang
+  students:
+  - {class: CS 61B, name: Sarah Kim, semester: fa13}
+- name: Caleb Wang
+  students:
+  - {class: CS 162, name: Roger Chen, semester: fa14}
+  - {class: CS 162, name: Sarah Kim, semester: fa14}
+- name: Stephan Liu
+  students:
+  - {class: CS 61C, name: Allen Guo, semester: fa15}
+- name: Rachel Albert
+  students:
+  - {class: CS 194-26, name: Roger Chen, semester: fa15}
+  - {class: CS 194-26, name: Sarah Kim, semester: fa15}
 - name: Brielin Brown
   students:
-    - name: Rohin Shah
-      class: CS 174
-      semester: sp14
+  - {class: CS 174, name: Rohin Shah, semester: sp14}
+- name: Anting Shen
+  students:
+  - {class: CS 194-15, name: Roger Chen, semester: fa15}
+  - {class: CS 194-15, name: Sarah Kim, semester: fa15}
+- name: Michelle Nguyen
+  students:
+  - {class: CS 186, name: Akhil Batra, semester: sp15}
+  - {class: CS 186, name: Rudy Laprade}
+  - {class: CS 186, name: Vivek Rangaswamy, semester: fa15}
+- name: Preetum Nakkiran
+  students:
+  - {class: CS 70, name: Allen Guo, semester: fa14}
+- name: Manish Raghavan
+  students:
+  - {class: CS 170, name: Allen Guo, semester: fa15}
+  - {class: CS 170, name: Ross Teixeira, semester: fa15}
+- name: Akhil Batra
+  students: []
+  year: 2016
+- name: Steven Ho
+  students: []
+- name: Ross Teixeira
+  students:
+  - {class: CS 61BL, name: Steven Ho}
+- name: Davis Foote
+  students:
+  - {class: CS 188, name: Allen Guo, semester: sp16}
+  year: 2017
+- name: Peter Chen
+  students:
+  - {class: CS 164, name: Roger Chen, semester: fa13}
+- name: Aleks Kamko
+  students:
+  - {class: CS 162, name: Alicia Luengo, semester: fa15}
+- name: Robin Hu
+  students:
+  - {class: CS 161, name: Roger Chen, semester: sp16}
+- name: Eric Tzeng
+  students:
+  - {class: CS 61A, name: Rohin Shah, semester: fa10}
+- name: Kyungna Kim
+  students:
+  - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
+- name: Frank Austin Nothaft
+  students:
+  - {class: CS 162, name: Akhil Batra, semester: sp16}
+- name: Ajay Tripathi
+  students:
+  - {class: EE 20, name: Roger Chen, semester: sp14}
+  - {class: CS 61C, name: Vivek Rangaswamy, semester: fa14}
+- name: Sharad Vikram
+  students:
+  - {class: CS 61A, name: Rudy Laprade}
+- name: Stephen Bailey
+  students:
+  - {class: CS 184, name: Roger Chen, semester: sp15}
+- name: Sung Roa Yoon
+  students:
+  - {class: CS 61C, name: Akhil Batra, semester: fa13}
+  - {class: CS 61C, name: Roger Chen, semester: sp13}
+- name: Dan Crankshaw
+  students:
+  - {class: CS 186, name: Roger Chen, semester: sp14}
+- name: Allen Guo
+  students: []
+  year: 2018
+- name: Joseph Hui
+  students:
+  - {class: CS 70, name: Allen Guo, semester: fa14}
+- name: Vivek Rangaswamy
+  year: 2016
