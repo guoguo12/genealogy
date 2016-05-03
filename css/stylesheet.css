@@ -25,6 +25,7 @@ li {
   background-color: #F4F4F4;
   border: 1px solid #999;
   z-index: 999;
+  opacity: 0.9;
 }  
 
 #about {
