@@ -141,6 +141,26 @@ var showColorLegend = function() {
   $('#legend').innerHTML = newHTML;
 };
 
+var highlightSearchHit = function(name) {
+  node = s.graph.nodes(name);
+  if (node) {
+    activeSearchHit = node.id;
+    node.color = 'gold';
+    s.dispatchEvent('overNode', { node: node });
+    s.refresh();
+  }
+};
+
+var cancelSearchHit = function() {
+  if (activeSearchHit) {
+    s.dispatchEvent('outNode', { node: node });
+    s.graph.nodes().forEach(function(node) {
+      node.color = 'black';
+    });
+    s.refresh();
+  }
+};
+
 var showPersonInfo = function(name, inMap, outMap) {
   var newHTML = '';
   newHTML += '<b>' + name + '</b>';
