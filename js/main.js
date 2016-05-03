@@ -19,8 +19,8 @@ var main = function(entries) {
     },
     settings: {
       font: 'monospace',
-      minEdgeSize: 3,
-      maxEdgeSize: 3,
+      minEdgeSize: 0,
+      maxEdgeSize: 0,
       defaultLabelSize: 14,
       labelThreshold: 6
 
@@ -56,8 +56,8 @@ var main = function(entries) {
           id: edgeId,
           source: teacher.name,
           target: student.name,
-          type: 'arrow',
-          size: 50,
+          type: 'line',
+          size: 2,
           color: edgeColor
         });
         edgesToColors[edgeId] = edgeColor;
@@ -97,6 +97,9 @@ var main = function(entries) {
       var student = idParts[1];
       if (teacher != node.id && student != node.id) {
         edge.color = 'transparent';
+      } else {
+        edge.size = 3;
+        edge.type = 'arrow';
       }
     }
     s.refresh();
@@ -108,6 +111,8 @@ var main = function(entries) {
     for (var i = 0; i < edges.length; i++) {
       var edge = edges[i];
       edge.color = edgesToColors[edge.id];
+      edge.size = 1;
+      edge.type = 'line';
     }
     s.refresh();
   });
