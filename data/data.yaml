@@ -262,3 +262,38 @@
     - name: Roger Chen
       class: CS 161
       semester: sp16
+- name: Mona Gupta
+  students:
+    - name: Alicia Luengo
+      class: CS 61AS
+      semester: fa13
+- name: Erik Krogen
+  students:
+    - name: Alicia Luengo
+      class: CS 61B
+      semester: sp14
+- name: Kevin Liston
+  students:
+    - name: Alicia Luengo
+      class: CS 61C
+      semester: su14
+- name: Jimmy Wu
+  students:
+    - name: Alicia Luengo
+      class: CS 170
+      semester: sp15
+- name: Rohin Shah
+  students:
+    - name: Alicia Luengo
+      class: CS 188
+      semester: sp15
+- name: Aleks Kamko
+  students:
+    - name: Alicia Luengo
+      class: CS 162
+      semester: fa15
+- name: Shaun Singh
+  students:
+    - name: Alicia Luengo
+      class: CS 189
+      semester: fa15
