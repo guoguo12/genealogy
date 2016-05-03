@@ -57,7 +57,7 @@ var main = function(entries) {
           source: teacher.name,
           target: student.name,
           type: 'line',
-          size: 2,
+          size: 1,
           color: edgeColor
         });
         edgesToColors[edgeId] = edgeColor;
