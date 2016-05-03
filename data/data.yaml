@@ -78,6 +78,15 @@
       class: CS 61A
 - name: Kevin Tee
   students:
+    - name: Roger Chen
+      class: CS 70
+      semester: fa13
+    - name: Roger Chen
+      class: CS 188
+      semester: fa14
+    - name: Roger Chen
+      class: CS 189
+      semester: sp15
     - name: Rudy Laprade
       class: CS 61B
     - name: Rudy Laprade
@@ -129,6 +138,7 @@
       class: CS 61C
       semester: sp14
 - name: Roger Chen
+  year: 2016
   students:
     - name: Sarah Kim
       class: CS 61C
@@ -145,6 +155,9 @@
       semester: sp16
 - name: Caleb Wang
   students:
+    - name: Roger Chen
+      class: CS 162
+      semester: fa14
     - name: Sarah Kim
       class: CS 162
       semester: fa14
@@ -155,11 +168,17 @@
       semester: sp15
 - name: Radhika Mittal
   students:
+    - name: Roger Chen
+      class: CS 168
+      semester: fa14
     - name: Sarah Kim
       class: CS 168
       semester: fa14
 - name: Yun Park
   students:
+    - name: Roger Chen
+      class: CS 170
+      semester: sp14
     - name: Sarah Kim
       class: CS 170
       semester: sp14
@@ -170,16 +189,25 @@
       semester: sp15
 - name: Forrest Iandola
   students:
+    - name: Roger Chen
+      class: CS 194-15
+      semester: fa15
     - name: Sarah Kim
       class: CS 194-15
       semester: fa15
 - name: Anting Shen
   students:
+    - name: Roger Chen
+      class: CS 194-15
+      semester: fa15
     - name: Sarah Kim
       class: CS 194-15
       semester: fa15
 - name: Rachel Albert
   students:
+    - name: Roger Chen
+      class: CS 194-26
+      semester: fa15
     - name: Sarah Kim
       class: CS 194-26
       semester: fa15
@@ -203,6 +231,9 @@
     - name: Akhil Batra
       class: CS 61C
       semester: fa13
+    - name: Roger Chen
+      class: CS 61C
+      semester: sp13
 - name: Winston Hsu
   students:
     - name: Akhil Batra
@@ -222,4 +253,34 @@
   students:
     - name: Akhil Batra
       class: CS 162
+      semester: sp16
+- name: Steven Tang
+  students:
+    - name: Roger Chen
+      class: CS 61A
+      semester: fa12
+- name: Peter Chen
+  students:
+    - name: Roger Chen
+      class: CS 164
+      semester: fa13
+- name: Ajay Tripathi
+  students:
+    - name: Roger Chen
+      class: EE 20
+      semester: sp14
+- name: Dan Crankshaw
+  students:
+    - name: Roger Chen
+      class: CS 186
+      semester: sp14
+- name: Stephen Bailey
+  students:
+    - name: Roger Chen
+      class: CS 184
+      semester: sp15
+- name: Robin Hu
+  students:
+    - name: Roger Chen
+      class: CS 161
       semester: sp16
