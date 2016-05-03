@@ -297,3 +297,33 @@
     - name: Alicia Luengo
       class: CS 189
       semester: fa15
+- name: Eric Tzeng
+  students:
+    - name: Rohin Shah
+      class: CS 61A
+      semester: fa10
+- name: Mike Clancy
+  students:
+    - name: Rohin Shah
+      class: CS 61BL
+      semester: sp11
+- name: Shaon Barman
+  students:
+    - name: Rohin Shah
+      class: CS 164
+      semester: sp12
+- name: Neeraja Yadwadkar
+  students:
+    - name: Rohin Shah
+      class: CS 162
+      semester: sp13
+- name: Eric Love
+  students:
+    - name: Rohin Shah
+      class: CS 152
+      semester: sp14
+- name: Brielin Brown
+  students:
+    - name: Rohin Shah
+      class: CS 174
+      semester: sp14
