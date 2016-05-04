@@ -13,6 +13,7 @@
   - {class: CS 162, name: Alicia Luengo, semester: fa15}
   - {class: CS 162, name: Anusha Ramakuri, semester: fa15}
   - {class: CS 162, name: Judy Wang, semester: fa15}
+  - {class: CS 162, name: Chris Jeng, semester: fa15}
 - name: Alex Kantchelian
   students:
   - {class: CS 170, name: Andrew Huang, semester: sp12}
@@ -51,6 +52,8 @@
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
+- name: Chris Jeng
+  students: []
 - name: Chung-Wei Lin
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
@@ -114,6 +117,9 @@
 - name: Jay Patel
   students:
   - {class: CS 186, name: Sarah Kim, semester: sp15}
+- name: Jimmy Lee
+  students:
+  - {class: CS 61B, name: Chris Jeng, semester: su14}
 - name: Jimmy Wu
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
