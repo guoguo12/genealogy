@@ -285,15 +285,15 @@ var filterByCourse = function(course) {
   }
 }
 
-function computeLongest() {
+var computeLongest = function() {
   entries.forEach(function(e) { longestPath(e); });
   var sortedKeys = Object.keys(memo).sort(function(a, b){ return memo[a] - memo[b] });
   sortedKeys.forEach(function(k) { console.log(k, memo[k], longest[k]); });
-}
+};
 
 memo = {}
 longest = {}
-function longestPath(e, prev) {
+var longestPath = function(e, prev) {
   if (Object.keys(memo).indexOf(e.name) !== -1) {
     return memo[e.name];
   }
@@ -319,7 +319,7 @@ function longestPath(e, prev) {
     longest[e.name] = [e.name].concat(longest[childrenEntries[bestIndex].name]);
   }
   return memo[e.name];
-}
+};
 
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
