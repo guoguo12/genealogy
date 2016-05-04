@@ -74,6 +74,9 @@
   - {class: CS 194-15, name: Sarah Kim, semester: fa15}
 - name: Anusha Ramakuri
   students: []
+- name: Ben Mildenhall
+  students:
+  - {class: CS 184, name: Owen Jow, semester: sp16}
 - name: Ben Sklaroff
   students:
   - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
@@ -166,7 +169,8 @@
   students:
   - {class: CS 61B, name: Alicia Luengo, semester: sp14}
 - name: Evan Ye
-  students: []
+  students:
+  - {class: CS 186, name: Owen Jow, semester: fa15}
   year: 2015
 - name: Forrest Iandola
   students:
@@ -184,6 +188,9 @@
 - name: Frank Liu
   students:
   - {class: CS 161, name: Judy Wang, semester: sp16}
+- name: Gregory Kahn
+  students:
+  - {class: CS 188, name: Owen Jow, semester: sp16}
 - name: Hamilton Nguyen
   students:
   - {class: CS 61A, name: Sarah Kim, semester: sp13}
@@ -349,6 +356,9 @@
 - name: Omar Ramadan
   students:
   - {class: CS 164, name: Sarah Kim, semester: sp15}
+- name: Owen Jow
+  students: []
+  year: 2018
 - name: Pat Virtue
   students:
   - {class: CS 189, name: Rudy Laprade}
@@ -467,7 +477,8 @@
   - {class: CS 61A, name: Anusha Ramakuri, semester: fa12}
   - {class: CS 61A, name: Japheth Wong, semester: fa11}
 - name: Sumukh Sridhara
-  students: []
+  students:
+  - {class: CS 61A, name: Owen Jow, semester: fa14}
   year: 2016
 - name: Sung Roa Yoon
   students:
@@ -497,9 +508,13 @@
 - name: Weilun Sun
   students:
   - {class: CS 184, name: Zheng Zhu, semester: sp16}
+  - {class: CS 184, name: Owen Jow, semester: sp16}
 - name: Wenting Zheng
   students:
   - {class: CS 168, name: Rudy Laprade}
+- name: William Huang
+  students:
+  - {class: CS 61C, name: Owen Jow, semester: sp15}
 - name: Winston Hsu
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
