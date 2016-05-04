@@ -96,6 +96,7 @@
   - {class: CS 162, name: Roger Chen, semester: fa14}
   - {class: CS 162, name: Sarah Kim, semester: fa14}
   - {class: CS 162, name: Alan Yao, semester: fa14}
+  - {class: CS 162, name: Evan Ye, semester: fa14}
 - name: Calvin Cheng
   students:
   - {class: CS 174, name: Steven Bi, semester: sp16}
@@ -116,6 +117,9 @@
 - name: Dan Crankshaw
   students:
   - {class: CS 186, name: Roger Chen, semester: sp14}
+- name: Dan Wang
+  students:
+  - {class: CS 61B, name: Evan Ye, semester: sp13}
 - name: Daniel Bruckner
   students:
   - {class: CS 162, name: Japheth Wong, semester: sp13}
@@ -155,6 +159,9 @@
 - name: Erik Krogen
   students:
   - {class: CS 61B, name: Alicia Luengo, semester: sp14}
+- name: Evan Ye
+  students: []
+  year: 2015
 - name: Forrest Iandola
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -214,6 +221,9 @@
 - name: Joey Greenspun
   students:
   - {class: EE 16A, name: Samantha Wathugala, semester: fa15}
+- name: Joey Moghadam
+  students:
+  - {class: CS 188, name: Evan Ye, semester: fa14}
 - name: John Du
   students:
   - {class: CS 188, name: Daniel Nguyen, semester: fa14}
@@ -238,6 +248,7 @@
   students:
   - {class: CS 61C, name: Alan Yao, semester: fa13}
   - {class: CS 61C, name: Anusha Ramakuri, semester: fa13}
+  - {class: CS 61C, name: Evan Ye, semester: fa13}
 - name: Kevin Liston
   students:
   - {class: CS 61C, name: Alicia Luengo, semester: su14}
@@ -263,6 +274,7 @@
   - {class: CS 170, name: Akhil Batra, semester: fa13}
   - {class: CS 170, name: Alan Yao, semester: fa13}
   - {class: CS 170, name: Steven Bi, semester: fa13}
+  - {class: CS 170, name: Evan Ye, semester: fa13}
 - name: Manish Raghavan
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
@@ -466,6 +478,8 @@
   - {class: CS 170, name: Roger Chen, semester: sp14}
   - {class: CS 170, name: Sarah Kim, semester: sp14}
   - {class: CS 170, name: Anusha Ramakuri, semester: fa14}
+  - {class: CS 170, name: Evan Ye, semester: fa13}
+  - {class: CS 189, name: Evan Ye, semester: sp15}
 - name: Yunjae Cho
   students:
   - {class: EE 40, name: Kate Rakelly, semester: sp12}
