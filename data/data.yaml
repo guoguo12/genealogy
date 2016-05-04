@@ -17,6 +17,7 @@
   - {class: CS 162, name: Anusha Ramakuri, semester: fa15}
   - {class: CS 162, name: Judy Wang, semester: fa15}
   - {class: CS 162, name: Chris Jeng, semester: fa15}
+  - {class: CS 162, name: Dibyo Majumdar, semester: sp16}
 - name: Alex Kantchelian
   students:
   - {class: CS 170, name: Andrew Huang, semester: sp12}
@@ -81,6 +82,9 @@
 - name: Devin He
   students:
   - {class: CS 162, name: Rudy Laprade}
+- name: Dibyo Majumdar
+  students: []
+  year: 2016
 - name: Diego Kiner
   students:
   - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
@@ -170,6 +174,7 @@
   - {class: CS 189, name: Vivek Rangaswamy, semester: sp16}
   - {class: CS 188, name: Anusha Ramakuri, semester: fa14}
   - {class: CS 189, name: Anusha Ramakuri, semester: sp15}
+  - {class: CS 61A, name: Dibyo Majumdar, semester: sp14}
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
@@ -200,6 +205,7 @@
   - {class: CS 186, name: Akhil Batra, semester: sp15}
   - {class: CS 186, name: Rudy Laprade}
   - {class: CS 186, name: Vivek Rangaswamy, semester: fa15}
+  - {class: CS 186, name: Dibyo Majumdar, semester: fa16}
 - name: Mike Clancy
   students:
   - {class: CS 61BL, name: Rohin Shah, semester: sp11}
