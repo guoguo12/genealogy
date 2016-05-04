@@ -49,6 +49,7 @@
 - name: Alicia Luengo
   students:
   - {class: CS 61AS, name: Allen Guo, semester: fa14}
+  - {class: CS 61B, name: Tiffany Perumpail, semester: sp16}
   year: 2015
 - name: Allen Guo
   students: []
@@ -81,6 +82,7 @@
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
   - {class: CS 61AS, name: Steven Bi, semester: fa12}
+  - {class: CS 61A, name: Tiffany Perumpail, semester: fa15}
 - name: Andrew Nguyen
   students:
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
@@ -642,6 +644,9 @@
   - {class: CS 61C, name: Roger Chen, semester: sp13}
   - {class: CS 61C, name: Kate Rakelly, semester: sp13}
   - {class: CS 61C, name: Shreyas Chand, semester: sp13}
+- name: Tiffany Perumpail
+  students: []
+  year: 2018
 - name: Tom Watson
   students:
   - {class: CS 70, name: Kate Rakelly, semester: sp12}
