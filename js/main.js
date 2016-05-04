@@ -36,6 +36,7 @@ var main = function(entries) {
   var graph = s.graph;
 
   // Add nodes
+  yearMap = {};
   entries.forEach(function(entry) {
     graph.addNode({
       id: entry.name,
@@ -45,6 +46,9 @@ var main = function(entries) {
       size: 5 + Math.pow(entry.students ? entry.students.length : 0, 0.8)
       // TODO: Assign node colors in some meaningful way
     });
+    if (Object.keys(entry).indexOf('year') !== -1) {
+      yearMap[entry.name] = "'" + ('' + entry.year).substring(2);
+    }
   });
 
   // Add edges
@@ -108,7 +112,7 @@ var main = function(entries) {
     }
 
     var node = e.data.node;
-    showPersonInfo(node.id, inMap, outMap);
+    showPersonInfo(node, inMap, outMap);
 
     var edges = s.graph.edges();
     edges.forEach(function(edge) {
@@ -229,9 +233,10 @@ var cancelSearchHit = function() {
   }
 };
 
-var showPersonInfo = function(name, inMap, outMap) {
+var showPersonInfo = function(node, inMap, outMap) {
+  var name = node.id;
   var newHTML = '';
-  newHTML += '<b>' + name + '</b>';
+  newHTML += '<b>' + name + (Object.keys(yearMap).indexOf(name) !== -1 ? ' (' + yearMap[name]  + ')' : '') + '</b>';
   if (inMap[name] && inMap[name].length) {
     newHTML += '<p>Teachers:<ul>';
     inMap[name].forEach(function(teacher) {
