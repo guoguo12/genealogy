@@ -1,5 +1,5 @@
 // All colors are from https://www.google.com/design/spec/style/color.html#color-color-palette
-var classToColor = {
+var classToColorMap = {
   'CS 61A':  '#4DD0E1',
   'CS 61AS': '#7986CB',
   'CS 61B':  '#F06292',
@@ -9,6 +9,11 @@ var classToColor = {
 };
 var defaultClassColor = '#616161';
 
+var classToColor = function(course) {
+  return classToColorMap.hasOwnProperty(course) ? classToColorMap[course] : defaultClassColor;
+}
+
+var activeFilter = '';
 var activeSearchHit = '';
 
 var main = function(entries) {
@@ -51,7 +56,7 @@ var main = function(entries) {
     if (teacher.students) {
       teacher.students.forEach(function(student) {
         var edgeId = teacher.name + ':' + student.name + ':' + student.class;
-        var edgeColor = classToColor.hasOwnProperty(student.class) ? classToColor[student.class] : defaultClassColor;
+        var edgeColor = classToColor(student.class);
         graph.addEdge({
           id: edgeId,
           source: teacher.name,
@@ -62,9 +67,7 @@ var main = function(entries) {
         });
         edgesToColors[edgeId] = edgeColor;
 
-        // Add course to filter dropdown
         if (Object.keys(seenCourses).indexOf(student.class) === -1) {
-          $('#filter').innerHTML += '<option value="' + student.class + '">' + student.class + '</option>';
           seenCourses[student.class] = true;
         }
 
@@ -89,6 +92,13 @@ var main = function(entries) {
         }
       });
     }
+  });
+
+  // Fill in filtering dropdown
+  var seenCoursesList = Object.keys(seenCourses);
+  seenCoursesList.sort();
+  seenCoursesList.forEach(function(course) {
+    $('#filter').innerHTML += '<option value="' + course + '">' + course + '</option>';
   });
 
   // Bind node hover handler
@@ -120,18 +130,25 @@ var main = function(entries) {
       return;
     }
     $('#info').style.display = 'none';
-    var edges = s.graph.edges();
-    edges.forEach(function(edge) {
-      edge.color = edgesToColors[edge.id];
-      edge.size = 1;
-    });
-    s.refresh();
+    if (activeFilter) { // Hack to reapply filter
+      var activeFilterCopy = activeFilter;
+      activeFilter = '';
+      filterByCourse(activeFilterCopy);
+    } else {
+      var edges = s.graph.edges();
+      edges.forEach(function(edge) {
+        edge.color = edgesToColors[edge.id];
+        edge.size = 1;
+      });
+      s.refresh();
+    }
   });
 
   // Bind search handler
   $('#search').onkeydown = function(e) {
     if (e.keyCode == 13) {
       highlightSearchHit($('#search').value);
+      $('#filter-wrapper').style.display = 'none';
       $('#search-wrapper').style.display = 'none';
       $('#search-cancel').style.display = 'inline';
     }
@@ -177,7 +194,7 @@ var main = function(entries) {
 
 var showColorLegend = function() {
   var newHTML = '';
-  $.each(classToColor, function(className, color) {
+  $.each(classToColorMap, function(className, color) {
     newHTML += '<span style="color: ' + color + '"><br>' + className + '</span>';
   });
   newHTML += '<span style="color: ' + defaultClassColor + '"><br>Other</span>';
@@ -200,6 +217,7 @@ var highlightSearchHit = function(name) {
 var cancelSearchHit = function() {
   if (activeSearchHit) {
     activeSearchHit = '';
+    $('#filter-wrapper').style.display = 'inline';
     $('#search-wrapper').style.display = 'inline';
     $('#search-cancel').style.display = 'none';
     $('#search').focus();
@@ -234,17 +252,27 @@ var showPersonInfo = function(name, inMap, outMap) {
 
 var filterByCourse = function(course) {
   if (course) {
+    activeFilter = course;
     s.graph.edges().forEach(function(edge) {
       var idParts = edge.id.split(':');
       if (idParts[2] !== course) {
         edge.color = 'transparent';
+        edge.size = 1;
       } else {
-        edge.color = classToColor[idParts[2]];
+        edge.color = classToColor(idParts[2]);
+        edge.size = 1;
       }
     });
     s.refresh();
     $('#search-wrapper').style.display = 'none';
   } else {
+    activeFilter = '';
+    s.graph.edges().forEach(function(edge) {
+      var idParts = edge.id.split(':');
+      edge.color = classToColor(idParts[2]);
+      edge.size = 1;
+    });
+    s.refresh();
     $('#search-wrapper').style.display = 'inline';
   }
 }
