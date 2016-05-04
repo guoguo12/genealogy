@@ -333,7 +333,7 @@ var topClasses = function() {
   });
   var sortedKeys = Object.keys(counter).sort(function(a, b){ return counter[a] - counter[b] });
   sortedKeys.forEach(function(k) { console.log(k, counter[k]); });
-}
+};
 
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
