@@ -3,6 +3,7 @@
   - {class: EE 20, name: Roger Chen, semester: sp14}
   - {class: CS 61C, name: Vivek Rangaswamy, semester: fa14}
   - {class: CS 70, name: Caryn Tran, semester: sp15}
+  - {class: CS 70, name: Daniel Nguyen, semester: su14}
 - name: Ajay Triptathi
   students:
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
@@ -32,6 +33,9 @@
   students:
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
   - {class: CS 168, name: Ross Teixeira, semester: fa16}
+- name: Alice Sheng
+  students:
+  - {class: CS 168, name: Daniel Nguyen, semester: fa15}
 - name: Alicia Luengo
   students:
   - {class: CS 61AS, name: Allen Guo, semester: fa14}
@@ -68,15 +72,22 @@
   - {class: CS 194-15, name: Sarah Kim, semester: fa15}
 - name: Anusha Ramakuri
   students: []
+- name: Bill Yeh
+  students:
+  - {class: CS 161, name: Daniel Nguyen, semester: sp16}
 - name: Brandon Luong
   students:
   - {class: CS 61C, name: Japheth Wong, semester: fa12}
+- name: Brian Hou
+  students:
+  - {class: CS 189, name: Daniel Nguyen, semester: sp16}
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
 - name: Bryan Mau
   students:
   - {class: CS 61B, name: Amanda Chow, semester: sp14}
+  - {class: CS 61B, name: Daniel Nguyen, semester: fa13}
 - name: Cale Horeff
   students: []
   year: 2017
@@ -108,6 +119,9 @@
 - name: Daniel Bruckner
   students:
   - {class: CS 162, name: Japheth Wong, semester: sp13}
+- name: Daniel Nguyen
+  students: []
+  year: 2017
 - name: Daniel Xu
   students:
   - {class: CS 189, name: Alan Yao, semester: sp15}
@@ -193,12 +207,16 @@
 - name: Jimmy Wu
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
+  - {class: CS 170, name: Daniel Nguyen, semester: sp15}
 - name: Jingyi Li
   students:
   - {class: CS 160, name: Judy Wang, semester: sp16}
 - name: Joey Greenspun
   students:
   - {class: EE 16A, name: Samantha Wathugala, semester: fa15}
+- name: John Du
+  students:
+  - {class: CS 188, name: Daniel Nguyen, semester: fa14}
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
@@ -338,6 +356,7 @@
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
   - {class: CS 162, name: David Adams, semester: sp15}
+  - {class: CS 61C, name: Daniel Nguyen, semester: fa14}
   year: 2016
 - name: Rohan Chitnis
   students:
@@ -383,6 +402,9 @@
 - name: Shreyas Chand
   students:
   - {class: CS 61C, name: Ross Teixeira, semester: sp15}
+- name: Shu Zhong
+  students:
+  - {class: CS 61B, name: Daniel Nguyen, semester: sp14}
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
