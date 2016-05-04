@@ -6,6 +6,9 @@
   - {class: CS 70, name: Daniel Nguyen, semester: su14}
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
   year: 2015
+- name: Ajeya Cotra
+  students: []
+  year: 2016
 - name: Akhil Batra
   students: []
   year: 2016
@@ -51,6 +54,7 @@
 - name: Allen Nguyen
   students:
   - {class: CS 61A, name: Austin Le, semester: fa13}
+  - {class: CS 61A, name: Ajeya Cotra, semester: fa13}
 - name: Allon Wagner
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
@@ -167,8 +171,12 @@
   - {class: CS 188, name: Caryn Tran, semester: fa15}
   year: 2017
 - name: Daylen Yang
-  students: []
+  students:
+  - {class: CS 189, name: Ajeya Cotra, semester: sp16}
   year: 2017
+- name: Derek Leung
+  students:
+  - {class: CS 61B, name: Ajeya Cotra, semester: sp14}
 - name: Devin He
   students:
   - {class: CS 162, name: Rudy Laprade}
@@ -297,6 +305,9 @@
   - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
 - name: Judy Wang
   students: []
+- name: Kang Wook Lee
+  students:
+  - {class: EE 126, name: Ajeya Cotra, semester: fa14}
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
@@ -444,6 +455,9 @@
   students:
   - {class: CS 168, name: Roger Chen, semester: fa14}
   - {class: CS 168, name: Sarah Kim, semester: fa14}
+- name: Ramtin Pedarsani
+  students:
+  - {class: EE 126, name: Ajeya Cotra, semester: fa14}
 - name: Rashmi Vinayak
   students:
   - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
@@ -476,6 +490,7 @@
   - {class: CS 61AS, name: Steven Bi, semester: fa12}
   - {class: CS 61B, name: Japheth Wong, semester: sp12}
   - {class: CS 188, name: Daylen Yang, semester: sp15}
+  - {class: CS 188, name: Ajeya Cotra, semester: sp15}
 - name: Ross Teixeira
   students:
   - {class: CS 61BL, name: Steven Ho}
