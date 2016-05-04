@@ -32,6 +32,7 @@
   students:
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
   - {class: CS 168, name: Ross Teixeira, semester: fa16}
+  - {class: CS 168, name: Melanie Cebula, semester: fa15}
 - name: Alice Sheng
   students:
   - {class: CS 168, name: Daniel Nguyen, semester: fa15}
@@ -105,6 +106,9 @@
   students:
   - {class: CS 61B, name: Amanda Chow, semester: sp14}
   - {class: CS 61B, name: Daniel Nguyen, semester: fa13}
+- name: Bryan Munar
+  students:
+  - {class: CS 186, name: Melanie Cebula, semester: fa15}
 - name: Cale Horeff
   students: []
   year: 2017
@@ -181,6 +185,7 @@
 - name: Evan Ye
   students:
   - {class: CS 186, name: Owen Jow, semester: fa15}
+  - {class: CS 186, name: Melanie Cebula, semester: fa15}
   year: 2015
 - name: Faraz Tavakoli
   students:
@@ -202,6 +207,9 @@
 - name: George Yiu
   students:
   - {class: CS 162, name: Jimmy Wu, semester: sp14}
+- name: Govind Ramnarayan
+  students:
+  - {class: CS 70, name: Melanie Cebula, semester: sp14}
 - name: Gregory Kahn
   students:
   - {class: CS 188, name: Owen Jow, semester: sp16}
@@ -239,6 +247,9 @@
 - name: Jeff Chang
   students:
   - {class: CS 61B, name: Austin Le, semester: sp14}
+- name: Jene Li
+  students:
+  - {class: CS 61B, name: Melanie Cebula, semester: fa13}
 - name: Jimmy Lee
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
@@ -324,6 +335,9 @@
 - name: Marion Halim
   students:
   - {class: CS 61AS, name: Judy Wang, semester: fa13}
+- name: Mark Miyashita
+  students:
+  - {class: CS 61A, name: Melanie Cebula, semester: sp13}
 - name: Marvin Zhang
   students:
   - {class: CS 61A, name: Ross Teixeira}
@@ -333,6 +347,9 @@
 - name: Matthew Griffin
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
+- name: Melanie Cebula
+  students: []
+  year: 2016
 - name: Michael McCoyd
   students:
   - {class: CS 161, name: Japheth Wong, semester: sp14}
@@ -358,6 +375,7 @@
 - name: Munim Ali
   students:
   - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
+  - {class: CS 61B, name: Melanie Cebula, semester: fa13}
 - name: Nathan Rockenbach
   students:
   - {class: CS 170, name: Japheth Wong, semester: sp13}
@@ -381,6 +399,7 @@
 - name: Pat Virtue
   students:
   - {class: CS 189, name: Rudy Laprade}
+  - {class: CS 188, name: Melanie Cebula, semester: fa14}
 - name: Pete Yeh
   students:
   - {class: CS 186, name: Anusha Ramakuri, semester: sp16}
@@ -448,6 +467,7 @@
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
   - {class: CS 61C, name: Zheng Zhu, semester: fa14}
   - {class: CS 61C, name: Sumukh Sridhara, semester: sp14}
+  - {class: CS 61C, name: Melanie Cebula, semester: sp14}
 - name: Sahaana Suri
   students:
   - {class: EE 126, name: Alan Yao, semester: fa14}
@@ -529,6 +549,9 @@
 - name: Varun Pai
   students:
   - {class: CS 61B, name: Kate Rakelly, semester: sp12}
+- name: Vedant Kumar
+  students:
+  - {class: CS 164, name: Melanie Cebula, semester: sp15}
 - name: Vivek Rangaswamy
   students:
   - {class: CS 61AS, name: Caryn Tran, semester: fa14}
