@@ -53,6 +53,7 @@ div.awesomplete {
   left: 5%;
   top: 5%;
   z-index: 999;
+  white-space: nowrap;
 }
 
 #info {
