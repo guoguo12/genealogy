@@ -11,6 +11,9 @@
 - name: Alan Yao
   students: []
   year: 2016
+- name: Alec Mouri
+  students:
+  - {class: CS 162, name: Cale Horeff, semester: fa15}
 - name: Aleks Kamko
   students:
   - {class: CS 162, name: Alicia Luengo, semester: fa15}
@@ -50,6 +53,9 @@
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
+- name: Cale Horeff
+  students: []
+  year: 2017
 - name: Caleb Wang
   students:
   - {class: CS 162, name: Roger Chen, semester: fa14}
@@ -108,6 +114,9 @@
 - name: Frank Austin Nothaft
   students:
   - {class: CS 162, name: Akhil Batra, semester: sp16}
+- name: Frank Ban
+  students:
+  - {class: CS 170, name: Cale Horeff, semester: sp15}
 - name: Frank Li
   students:
   - {class: CS 161, name: Sarah Kim, semester: sp16}
@@ -130,6 +139,7 @@
 - name: Iris Wang
   students:
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
+  - {class: CS 61B, name: Cale Horeff, semester: sp14}
 - name: Jay Patel
   students:
   - {class: CS 186, name: Sarah Kim, semester: sp15}
@@ -197,7 +207,11 @@
 - name: Marvin Zhang
   students:
   - {class: CS 61A, name: Ross Teixeira}
+  - {class: CS 189, name: Cale Horeff, semester: sp16}
   year: 2017
+- name: Matthew Griffin
+  students:
+  - {class: CS 61C, name: Cale Horeff, semester: fa14}
 - name: Michael Zhang
   students:
   - {class: CS 70, name: Samantha Wathugala, semester: sp16}
@@ -232,6 +246,7 @@
 - name: Pete Yeh
   students:
   - {class: CS 186, name: Anusha Ramakuri, semester: sp16}
+  - {class: CS 186, name: Cale Horeff, semester: fa15}
 - name: Peter Chen
   students:
   - {class: CS 164, name: Roger Chen, semester: fa13}
@@ -314,6 +329,9 @@
 - name: Tselil Schramm
   students:
   - {class: CS 70, name: Rudy Laprade}
+- name: Vaishaal Shankar
+  students:
+  - {class: CS 61A, name: Cale Horeff, semester: fa13}
 - name: Vivek Rangaswamy
   students: []
   year: 2016
