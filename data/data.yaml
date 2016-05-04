@@ -51,6 +51,7 @@
 - name: Andrew Nguyen
   students:
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
+  - {class: CS 61A, name: Zheng Zhu, semester: fa13}
 - name: Anting Shen
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -82,6 +83,9 @@
 - name: Chung-Wei Lin
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
+- name: Chungwei Lin
+  students:
+  - {class: CS 70, name: Zheng Zhu, semester: sp14}
 - name: Dan Crankshaw
   students:
   - {class: CS 186, name: Roger Chen, semester: sp14}
@@ -156,9 +160,13 @@
   students:
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
   - {class: CS 61B, name: Cale Horeff, semester: sp14}
+  - {class: CS 61B, name: Zheng Zhu, semester: sp14}
 - name: Japheth Wong
   students: []
   year: 2015
+- name: Jason Jia
+  students:
+  - {class: CS 162, name: Zheng Zhu, semester: sp15}
 - name: Jay Patel
   students:
   - {class: CS 186, name: Sarah Kim, semester: sp15}
@@ -263,6 +271,10 @@
 - name: Nicholas Carlini
   students:
   - {class: CS 161, name: Rudy Laprade}
+  - {class: CS 161, name: Zheng Zhu, semester: sp16}
+- name: Nima Ahmadipouranari
+  students:
+  - {class: CS 170, name: Zheng Zhu, semester: fa14}
 - name: Nima Anari
   students:
   - {class: CS 70, name: Steven Bi, semester: sp13}
@@ -301,6 +313,9 @@
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
   - {class: CS 162, name: David Adams, semester: sp15}
   year: 2016
+- name: Rohan Chitnis
+  students:
+  - {class: CS 188, name: Zheng Zhu, semester: fa15}
 - name: Rohin Shah
   students:
   - {class: CS 188, name: Alicia Luengo, semester: sp15}
@@ -318,6 +333,7 @@
 - name: Sagar Karandikar
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
+  - {class: CS 61C, name: Zheng Zhu, semester: fa14}
 - name: Sahaana Suri
   students:
   - {class: EE 126, name: Alan Yao, semester: fa14}
@@ -373,6 +389,9 @@
 - name: Vivek Rangaswamy
   students: []
   year: 2016
+- name: Weilun Sun
+  students:
+  - {class: CS 184, name: Zheng Zhu, semester: sp16}
 - name: Wenting Zheng
   students:
   - {class: CS 168, name: Rudy Laprade}
@@ -387,3 +406,6 @@
 - name: Zeyu Liu
   students:
   - {class: CS 186, name: Judy Wang, semester: fa15}
+- name: Zheng Zhu
+  students: []
+  year: 2017
