@@ -46,6 +46,7 @@ var main = function(entries) {
   var inMap = {};
   var outMap = {};
   var edgesToColors = {};
+  var seenCourses = {};
   entries.forEach(function(teacher) {
     if (teacher.students) {
       teacher.students.forEach(function(student) {
@@ -60,6 +61,12 @@ var main = function(entries) {
           color: edgeColor
         });
         edgesToColors[edgeId] = edgeColor;
+
+        // Add course to filter dropdown
+        if (Object.keys(seenCourses).indexOf(student.class) === -1) {
+          $('#filter').innerHTML += '<option value="' + student.class + '">' + student.class + '</option>';
+          seenCourses[student.class] = true;
+        }
 
         // Save in/out info for detailed "info" view (on node hover)
         if (!inMap[student.name]) {
@@ -224,6 +231,23 @@ var showPersonInfo = function(name, inMap, outMap) {
   $('#info').innerHTML = newHTML;
   $('#info').style.display = 'block';
 };
+
+var filterByCourse = function(course) {
+  if (course) {
+    s.graph.edges().forEach(function(edge) {
+      var idParts = edge.id.split(':');
+      if (idParts[2] !== course) {
+        edge.color = 'transparent';
+      } else {
+        edge.color = classToColor[idParts[2]];
+      }
+    });
+    s.refresh();
+    $('#search-wrapper').style.display = 'none';
+  } else {
+    $('#search-wrapper').style.display = 'inline';
+  }
+}
 
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
