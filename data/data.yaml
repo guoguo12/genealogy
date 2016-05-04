@@ -7,7 +7,8 @@
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
   year: 2015
 - name: Ajeya Cotra
-  students: []
+  students:
+  - {class: CS 61A, name: Nathan Mandi, semester: fa14}
   year: 2016
 - name: Akhil Batra
   students: []
@@ -81,6 +82,9 @@
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
   - {class: CS 61A, name: Zheng Zhu, semester: fa13}
   - {class: CS 61A, name: Shreyas Chand, semester: fa12}
+- name: Andy Zhang
+  students:
+  - {class: EE 16A, name: Nathan Mandi, semester: sp16}
 - name: Anting Shen
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -96,6 +100,12 @@
 - name: Austin Le
   students: []
   year: 2017
+- name: Barak Gila
+  students:
+  - {class: CS 170, name: Nathan Mandi, semester: fa15}
+- name: Beliz Gunel
+  students:
+  - {class: EE 16A, name: Nathan Mandi, semester: sp16}
 - name: Ben Mildenhall
   students:
   - {class: CS 184, name: Owen Jow, semester: sp16}
@@ -174,10 +184,12 @@
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
   - {class: CS 188, name: Caryn Tran, semester: fa15}
+  - {class: CS 188, name: Nathan Mandi, semester: su15}
   year: 2017
 - name: Daylen Yang
   students:
   - {class: CS 189, name: Ajeya Cotra, semester: sp16}
+  - {class: CS 189, name: Nathan Mandi, semester: sp16}
   year: 2017
 - name: Derek Leung
   students:
@@ -305,6 +317,7 @@
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
   - {class: CS 70, name: Daylen Yang, semester: fa14}
+  - {class: CS 70, name: Nathan Mandi, semester: fa14}
 - name: Joy Jeng
   students:
   - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
@@ -313,6 +326,9 @@
 - name: Kang Wook Lee
   students:
   - {class: EE 126, name: Ajeya Cotra, semester: fa14}
+- name: Kangwook Lee
+  students:
+  - {class: EE 126, name: Nathan Mandi, semester: fa15}
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
@@ -353,6 +369,9 @@
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
+- name: Leah Dickstein
+  students:
+  - {class: EE 16A, name: Nathan Mandi, semester: sp16}
 - name: Lewin Gan
   students:
   - {class: CS 170, name: Akhil Batra, semester: fa13}
@@ -364,6 +383,7 @@
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
   - {class: CS 170, name: Ross Teixeira, semester: fa15}
+  - {class: CS 170, name: Nathan Mandi, semester: fa15}
 - name: Marc Khoury
   students:
   - {class: CS 274, name: Alan Yao, semester: sp15}
@@ -378,7 +398,12 @@
   - {class: CS 61A, name: Ross Teixeira}
   - {class: CS 189, name: Cale Horeff, semester: sp16}
   - {class: CS 189, name: Stephan Liu, semester: sp16}
+  - {class: CS 189, name: Nathan Mandi, semester: sp16}
   year: 2017
+- name: Matthew Chow
+  students:
+  - {class: CS 61A, name: Nathan Mandi, semester: fa14}
+  - {class: CS 61B, name: Nathan Mandi, semester: sp15}
 - name: Matthew Griffin
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
@@ -411,6 +436,9 @@
   students:
   - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
+- name: Nathan Mandi
+  students: []
+  year: 2018
 - name: Nathan Rockenbach
   students:
   - {class: CS 170, name: Japheth Wong, semester: sp13}
@@ -452,6 +480,7 @@
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
   - {class: CS 70, name: Daylen Yang, semester: fa14}
+  - {class: CS 70, name: Nathan Mandi, semester: fa14}
   year: 2016
 - name: Rachel Albert
   students:
@@ -467,6 +496,9 @@
 - name: Rashmi Vinayak
   students:
   - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
+- name: Reia Cho
+  students:
+  - {class: EE 16A, name: Nathan Mandi, semester: sp16}
 - name: Riyaz Faizullabhoy
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
@@ -502,6 +534,9 @@
   students:
   - {class: CS 61BL, name: Steven Ho}
   year: 2017
+- name: Roy Dong
+  students:
+  - {class: EE 120, name: Nathan Mandi, semester: sp16}
 - name: Rudy Laprade
   students: []
 - name: Sagar Karandikar
@@ -521,7 +556,8 @@
   - {class: CS 164, name: Japheth Wong, semester: fa14}
   - {class: CS 164, name: Shreyas Chand, semester: fa14}
 - name: Sarah Kim
-  students: []
+  students:
+  - {class: CS 61B, name: Nathan Mandi, semester: sp15}
 - name: Shaon Barman
   students:
   - {class: CS 164, name: Rohin Shah, semester: sp12}
@@ -571,6 +607,7 @@
 - name: Sumukh Sridhara
   students:
   - {class: CS 61A, name: Owen Jow, semester: fa14}
+  - {class: CS 61A, name: Nathan Mandi, semester: fa14}
   year: 2016
 - name: Sung Roa Yoon
   students:
