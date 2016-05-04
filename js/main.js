@@ -195,7 +195,7 @@ var main = function(entries) {
 var showColorLegend = function() {
   var newHTML = '';
   $.each(classToColorMap, function(className, color) {
-    newHTML += '<span style="color: ' + color + '"><br>' + className + '</span>';
+    newHTML += '<span style="color: ' + color + '" onclick="filterByCourse(\'' + className + '\')"><br>' + className + '</span>';
   });
   newHTML += '<span style="color: ' + defaultClassColor + '"><br>Other</span>';
   $('#legend').innerHTML = newHTML;
@@ -252,6 +252,10 @@ var showPersonInfo = function(name, inMap, outMap) {
 
 var filterByCourse = function(course) {
   if (course) {
+    if ($('#filter').value !== course) {
+      $('#filter').value = course;
+    }
+
     activeFilter = course;
     s.graph.edges().forEach(function(edge) {
       var idParts = edge.id.split(':');
