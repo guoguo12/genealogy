@@ -6,7 +6,7 @@ Parses files where each line is of the form
 Prints YAML results to stdout.
 
 Usage:
-    python parse.py [inputFile] [student]
+    python parse.py [inputFile] [student] [year]
 """
 
 import re
@@ -16,14 +16,15 @@ import sys
 ADD_SPACE_AFTER_DEPT = True
 
 
-if len(sys.argv) != 3:
-    print 'Usage: python parse.py [inputFile] [student]'
+if len(sys.argv) != 4:
+    print 'Usage: python parse.py [inputFile] [student] [year]'
     sys.exit(1)
 
 student = sys.argv[2]
+year = sys.argv[3]
 with open(sys.argv[1]) as f:
     lines = [line.strip() for line in f.readlines()]
-    print '\n- name: ' + student
+    print '\n- name: %s\n  year: %s' % (student, year)
     for line in lines:
         if not line:
             continue
