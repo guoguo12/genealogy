@@ -41,9 +41,15 @@
 - name: Allen Huang
   students:
   - {class: CS 70, name: Sarah Kim, semester: su13}
+- name: Allon Wagner
+  students:
+  - {class: CS 176, name: Amanda Chow, semester: fa15}
 - name: Alvin Wong
   students:
   - {class: CS 188, name: Japheth Wong, semester: sp14}
+- name: Amanda Chow
+  students: []
+  year: 2017
 - name: Andrew Huang
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
@@ -64,6 +70,9 @@
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
+- name: Bryan Mau
+  students:
+  - {class: CS 61B, name: Amanda Chow, semester: sp14}
 - name: Cale Horeff
   students: []
   year: 2017
@@ -305,6 +314,9 @@
   students:
   - {class: CS 168, name: Roger Chen, semester: fa14}
   - {class: CS 168, name: Sarah Kim, semester: fa14}
+- name: Riyaz Faizullabhoy
+  students:
+  - {class: CS 61C, name: Amanda Chow, semester: fa14}
 - name: Robin Hu
   students:
   - {class: CS 161, name: Roger Chen, semester: sp16}
@@ -380,6 +392,9 @@
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
   - {class: CS 61C, name: Roger Chen, semester: sp13}
+- name: TongKe Xue
+  students:
+  - {class: CS 172, name: Amanda Chow, semester: sp15}
 - name: Tselil Schramm
   students:
   - {class: CS 70, name: Rudy Laprade}
