@@ -285,6 +285,42 @@ var filterByCourse = function(course) {
   }
 }
 
+function computeLongest() {
+  entries.forEach(function(e) { longestPath(e); });
+  var sortedKeys = Object.keys(memo).sort(function(a, b){ return memo[a] - memo[b] });
+  sortedKeys.forEach(function(k) { console.log(k, memo[k], longest[k]); });
+}
+
+memo = {}
+longest = {}
+function longestPath(e, prev) {
+  if (Object.keys(memo).indexOf(e.name) !== -1) {
+    return memo[e.name];
+  }
+  if (!e.students || e.students.length === 0) {
+    memo[e.name] = 1;
+    longest[e.name] = [e.name];
+  } else {
+    var children = e.students.map(function(s) { return s.name; });
+    if (prev) {
+      children = children.filter(function(c) { return c !== prev; });
+    }
+    var childrenEntries = entries.filter(function(e) { return children.indexOf(e.name) !== -1; });
+    var childrenLengths = childrenEntries.map(function(e) { return longestPath(e); });
+    var maxLength = -1;
+    var bestIndex = -1;
+    for (var i = 0; i < childrenEntries.length; i++) {
+      if (childrenLengths[i] > maxLength) {
+        maxLength = childrenLengths[i];
+        bestIndex = i;
+      }
+    }
+    memo[e.name] = maxLength + 1;
+    longest[e.name] = [e.name].concat(longest[childrenEntries[bestIndex].name]);
+  }
+  return memo[e.name];
+}
+
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
     if (!confirm('Notice: This website is not optimized for mobile view, and may cause your browser to crash or become unresponsive.')) {
@@ -293,7 +329,8 @@ $.ready().then(function() {
     }
   }
   $.fetch('data/data.yaml').then(function(data) {
-    main(jsyaml.load(data.responseText));
+    entries = jsyaml.load(data.responseText);
+    main(entries);
   });
   showColorLegend();
   $('#about')._.transition({ opacity: 0.9 });
