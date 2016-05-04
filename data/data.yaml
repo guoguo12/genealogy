@@ -107,6 +107,9 @@
 - name: Andy Zhang
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+- name: Ankit Mathur
+  students: []
+  year: 2018
 - name: Anting Shen
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -477,6 +480,8 @@
   - {class: CS 170, name: Allen Guo, semester: fa15}
   - {class: CS 170, name: Ross Teixeira, semester: fa15}
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
+  - {class: CS 170, name: Ankit Mathur, semester: fa15}
+  - {class: CS 70, name: Ankit Mathur, semester: sp15}
 - name: Marc Khoury
   students:
   - {class: CS 274, name: Alan Yao, semester: sp15}
@@ -551,6 +556,9 @@
 - name: Nathan Rockenbach
   students:
   - {class: CS 170, name: Japheth Wong, semester: sp13}
+- name: Nathaniel Mailoa
+  students:
+  - {class: EE 16A, name: Ankit Mathur, semester: sp15}
 - name: Neeraja Yadwadkar
   students:
   - {class: CS 162, name: Rohin Shah, semester: sp13}
@@ -744,6 +752,7 @@
   - {class: CS 61A, name: Anusha Ramakuri, semester: fa12}
   - {class: CS 61A, name: Japheth Wong, semester: fa11}
   - {class: CS 61A, name: Varun Naik, semester: fa12}
+  - {class: CS 61A, name: Ankit Mathur, semester: fa14}
 - name: Sumukh Sridhara
   students:
   - {class: CS 61A, name: Owen Jow, semester: fa14}
