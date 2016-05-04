@@ -127,13 +127,8 @@ var main = function(entries) {
   $('#search').onkeydown = function(e) {
     if (e.keyCode == 13) {
       highlightSearchHit($('#search').value);
-      $('body').onmousedown = function(e) {
-        console.log(e);
-        if (!(e.target.children.length > 0 && e.target.children[0].tagName.toLowerCase() === 'mark')) { // If not clicking on autocomplete result
-          cancelSearchHit();
-          delete $('body').onmousedown;
-        }
-      }
+      $('#search-wrapper').style.display = 'none';
+      $('#search-cancel').style.display = 'inline';
     }
   };
   // $('body').onkeydown = function(e) {
@@ -188,10 +183,11 @@ var highlightSearchHit = function(name) {
   cancelSearchHit();
   node = s.graph.nodes(name);
   if (node) {
+    $('#search').value = '';
     s.dispatchEvent('overNode', { node: node });
     s.cameras[0].goTo(defaultCameraSettings);
     activeSearchHit = node.id;
-    node.color = 'gold';
+    node.color = '#FFA726';
     s.refresh();
   }
 };
@@ -199,6 +195,9 @@ var highlightSearchHit = function(name) {
 var cancelSearchHit = function() {
   if (activeSearchHit) {
     activeSearchHit = '';
+    $('#search-wrapper').style.display = 'inline';
+    $('#search-cancel').style.display = 'none';
+    $('#search').focus();
     s.dispatchEvent('outNode', { node: node });
     s.graph.nodes().forEach(function(node) {
       node.color = 'black';
