@@ -55,7 +55,7 @@ var main = function(entries) {
           id: edgeId,
           source: teacher.name,
           target: student.name,
-          type: 'line',
+          type: 'arrow',
           size: 1,
           color: edgeColor
         });
@@ -102,7 +102,6 @@ var main = function(entries) {
         edge.color = 'transparent';
       } else {
         edge.size = 3;
-        edge.type = 'arrow';
       }
     });
     s.refresh();
@@ -118,7 +117,6 @@ var main = function(entries) {
     edges.forEach(function(edge) {
       edge.color = edgesToColors[edge.id];
       edge.size = 1;
-      edge.type = 'line';
     });
     s.refresh();
   });
