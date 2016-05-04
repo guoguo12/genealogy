@@ -37,6 +37,7 @@
 - name: Alice Sheng
   students:
   - {class: CS 168, name: Daniel Nguyen, semester: fa15}
+  - {class: CS 168, name: Austin Le, semester: fa15}
 - name: Alicia Luengo
   students:
   - {class: CS 61AS, name: Allen Guo, semester: fa14}
@@ -47,6 +48,9 @@
 - name: Allen Huang
   students:
   - {class: CS 70, name: Sarah Kim, semester: su13}
+- name: Allen Nguyen
+  students:
+  - {class: CS 61A, name: Austin Le, semester: fa13}
 - name: Allon Wagner
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
@@ -74,9 +78,16 @@
   - {class: CS 194-15, name: Sarah Kim, semester: fa15}
 - name: Anusha Ramakuri
   students: []
+- name: Austin Chen
+  students:
+  - {class: CS 161, name: Austin Le, semester: sp16}
+- name: Austin Le
+  students: []
+  year: 2017
 - name: Ben Mildenhall
   students:
   - {class: CS 184, name: Owen Jow, semester: sp16}
+  - {class: CS 184, name: Austin Le, semester: sp16}
 - name: Ben Sklaroff
   students:
   - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
@@ -150,6 +161,9 @@
 - name: Devin He
   students:
   - {class: CS 162, name: Rudy Laprade}
+- name: Diane Wang
+  students:
+  - {class: CS 160, name: Austin Le, semester: sp16}
 - name: Dibyo Majumdar
   students: []
   year: 2016
@@ -221,6 +235,9 @@
 - name: Jay Patel
   students:
   - {class: CS 186, name: Sarah Kim, semester: sp15}
+- name: Jeff Chang
+  students:
+  - {class: CS 61B, name: Austin Le, semester: sp14}
 - name: Jimmy Lee
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
@@ -285,6 +302,7 @@
   - {class: CS 189, name: Anusha Ramakuri, semester: sp15}
   - {class: CS 61A, name: Dibyo Majumdar, semester: sp14}
   - {class: CS 61B, name: Stephan Liu, semester: sp14}
+  - {class: CS 188, name: Austin Le, semester: fa14}
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
@@ -327,6 +345,7 @@
   - {class: CS 186, name: Dibyo Majumdar, semester: fa16}
   - {class: CS 186, name: Japheth Wong, semester: sp15}
   - {class: CS 186, name: Sumukh Sridhara, semester: fa15}
+  - {class: CS 186, name: Austin Le, semester: fa15}
 - name: Mike Clancy
   students:
   - {class: CS 61BL, name: Rohin Shah, semester: sp11}
@@ -402,6 +421,7 @@
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
   - {class: CS 162, name: David Adams, semester: sp15}
   - {class: CS 61C, name: Daniel Nguyen, semester: fa14}
+  - {class: CS 162, name: Austin Le, semester: sp15}
   year: 2016
 - name: Rohan Chitnis
   students:
@@ -449,6 +469,7 @@
 - name: Shreyas Chand
   students:
   - {class: CS 61C, name: Ross Teixeira, semester: sp15}
+  - {class: CS 61C, name: Austin Le, semester: sp14}
   year: 2016
 - name: Shu Zhong
   students:
