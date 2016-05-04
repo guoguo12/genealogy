@@ -2,6 +2,9 @@
   students:
   - {class: EE 20, name: Roger Chen, semester: sp14}
   - {class: CS 61C, name: Vivek Rangaswamy, semester: fa14}
+- name: Ajay Triptathi
+  students:
+  - {class: CS 70, name: Ross Teixeira, semester: sp15}
 - name: Akhil Batra
   students: []
   year: 2016
@@ -27,6 +30,7 @@
 - name: Alex Triana
   students:
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
+  - {class: CS 168, name: Ross Teixeira, semester: fa16}
 - name: Alicia Luengo
   students:
   - {class: CS 61AS, name: Allen Guo, semester: fa14}
@@ -175,6 +179,9 @@
   - {class: CS 70, name: Allen Guo, semester: fa14}
 - name: Judy Wang
   students: []
+- name: Karthik Narayan
+  students:
+  - {class: CS 188, name: Ross Teixeira, semester: sp16}
 - name: Kaushik Iyer
   students:
   - {class: CS 61B, name: Andrew Huang, semester: sp11}
@@ -305,6 +312,7 @@
 - name: Ross Teixeira
   students:
   - {class: CS 61BL, name: Steven Ho}
+  year: 2017
 - name: Rudy Laprade
   students: []
 - name: Sagar Karandikar
@@ -330,6 +338,9 @@
 - name: Shaun Singh
   students:
   - {class: CS 189, name: Alicia Luengo, semester: fa15}
+- name: Shreyas Chand
+  students:
+  - {class: CS 61C, name: Ross Teixeira, semester: sp15}
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
