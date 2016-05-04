@@ -26,6 +26,7 @@
   - {class: CS 162, name: Judy Wang, semester: fa15}
   - {class: CS 162, name: Chris Jeng, semester: fa15}
   - {class: CS 162, name: Dibyo Majumdar, semester: sp16}
+  - {class: CS 162, name: Sumukh Sridhara, semester: sp16}
 - name: Alex Kantchelian
   students:
   - {class: CS 170, name: Andrew Huang, semester: sp12}
@@ -230,6 +231,9 @@
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+- name: Joy Jeng
+  students:
+  - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
 - name: Judy Wang
   students: []
 - name: Karthik Narayan
@@ -307,6 +311,7 @@
   - {class: CS 186, name: Vivek Rangaswamy, semester: fa15}
   - {class: CS 186, name: Dibyo Majumdar, semester: fa16}
   - {class: CS 186, name: Japheth Wong, semester: sp15}
+  - {class: CS 186, name: Sumukh Sridhara, semester: fa15}
 - name: Mike Clancy
   students:
   - {class: CS 61BL, name: Rohin Shah, semester: sp11}
@@ -314,6 +319,9 @@
   students:
   - {class: CS 61AS, name: Alicia Luengo, semester: fa13}
   - {class: CS 61B, name: Vivek Rangaswamy, semester: sp13}
+- name: Munim Ali
+  students:
+  - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
 - name: Nathan Rockenbach
   students:
   - {class: CS 170, name: Japheth Wong, semester: sp13}
@@ -391,6 +399,7 @@
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
   - {class: CS 61C, name: Zheng Zhu, semester: fa14}
+  - {class: CS 61C, name: Sumukh Sridhara, semester: sp14}
 - name: Sahaana Suri
   students:
   - {class: EE 126, name: Alan Yao, semester: fa14}
@@ -440,6 +449,9 @@
   - {class: CS 61A, name: Roger Chen, semester: fa12}
   - {class: CS 61A, name: Anusha Ramakuri, semester: fa12}
   - {class: CS 61A, name: Japheth Wong, semester: fa11}
+- name: Sumukh Sridhara
+  students: []
+  year: 2016
 - name: Sung Roa Yoon
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
