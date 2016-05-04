@@ -4,8 +4,6 @@
   - {class: CS 61C, name: Vivek Rangaswamy, semester: fa14}
   - {class: CS 70, name: Caryn Tran, semester: sp15}
   - {class: CS 70, name: Daniel Nguyen, semester: su14}
-- name: Ajay Triptathi
-  students:
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
 - name: Akhil Batra
   students: []
@@ -131,8 +129,6 @@
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
   - {class: CS 70, name: Shreyas Chand, semester: sp13}
-- name: Chungwei Lin
-  students:
   - {class: CS 70, name: Zheng Zhu, semester: sp14}
 - name: Dan Crankshaw
   students:
@@ -199,8 +195,6 @@
 - name: Frank Li
   students:
   - {class: CS 161, name: Sarah Kim, semester: sp16}
-- name: Frank Liu
-  students:
   - {class: CS 161, name: Judy Wang, semester: sp16}
 - name: Gregory Kahn
   students:
@@ -369,8 +363,6 @@
 - name: Nima Ahmadipouranari
   students:
   - {class: CS 170, name: Zheng Zhu, semester: fa14}
-- name: Nima Anari
-  students:
   - {class: CS 70, name: Steven Bi, semester: sp13}
 - name: Omar Ramadan
   students:
