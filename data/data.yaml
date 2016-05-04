@@ -67,6 +67,7 @@
   students:
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
   - {class: CS 61A, name: Zheng Zhu, semester: fa13}
+  - {class: CS 61A, name: Shreyas Chand, semester: fa12}
 - name: Anting Shen
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -112,6 +113,7 @@
 - name: Chung-Wei Lin
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
+  - {class: CS 70, name: Shreyas Chand, semester: sp13}
 - name: Chungwei Lin
   students:
   - {class: CS 70, name: Zheng Zhu, semester: sp14}
@@ -409,6 +411,7 @@
 - name: Sarah Chasins
   students:
   - {class: CS 164, name: Japheth Wong, semester: fa14}
+  - {class: CS 164, name: Shreyas Chand, semester: fa14}
 - name: Sarah Kim
   students: []
 - name: Shaon Barman
@@ -423,6 +426,7 @@
 - name: Shreyas Chand
   students:
   - {class: CS 61C, name: Ross Teixeira, semester: sp15}
+  year: 2016
 - name: Shu Zhong
   students:
   - {class: CS 61B, name: Daniel Nguyen, semester: sp14}
@@ -457,6 +461,7 @@
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
   - {class: CS 61C, name: Roger Chen, semester: sp13}
   - {class: CS 61C, name: Kate Rakelly, semester: sp13}
+  - {class: CS 61C, name: Shreyas Chand, semester: sp13}
 - name: Tom Watson
   students:
   - {class: CS 70, name: Kate Rakelly, semester: sp12}
