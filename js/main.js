@@ -321,6 +321,20 @@ var longestPath = function(e, prev) {
   return memo[e.name];
 };
 
+var topClasses = function() {
+  var courses = s.graph.edges().map(function(e) { return e.id.split(':')[2]; });
+  var counter = {};
+  courses.forEach(function(c) {
+    if (Object.keys(counter).indexOf(c) !== -1) {
+      counter[c]++;
+    } else {
+      counter[c] = 1;
+    }
+  });
+  var sortedKeys = Object.keys(counter).sort(function(a, b){ return counter[a] - counter[b] });
+  sortedKeys.forEach(function(k) { console.log(k, counter[k]); });
+}
+
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
     if (!confirm('Notice: This website is not optimized for mobile view, and may cause your browser to crash or become unresponsive.')) {
