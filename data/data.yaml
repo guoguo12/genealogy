@@ -74,6 +74,9 @@
   - {class: CS 194-15, name: Sarah Kim, semester: fa15}
 - name: Anusha Ramakuri
   students: []
+- name: Ben Sklaroff
+  students:
+  - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
 - name: Bill Yeh
   students:
   - {class: CS 161, name: Daniel Nguyen, semester: sp16}
@@ -230,6 +233,9 @@
 - name: John Du
   students:
   - {class: CS 188, name: Daniel Nguyen, semester: fa14}
+- name: Jon Kotker
+  students:
+  - {class: EE 20, name: Preetum Nakkiran, semester: fa12}
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
@@ -356,9 +362,13 @@
 - name: Peter Gao
   students:
   - {class: CS 189, name: Rudy Laprade}
+- name: Piyush Srivastava
+  students:
+  - {class: CS 170, name: Preetum Nakkiran, semester: fa13}
 - name: Preetum Nakkiran
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+  year: 2016
 - name: Rachel Albert
   students:
   - {class: CS 194-26, name: Roger Chen, semester: fa15}
@@ -367,6 +377,9 @@
   students:
   - {class: CS 168, name: Roger Chen, semester: fa14}
   - {class: CS 168, name: Sarah Kim, semester: fa14}
+- name: Rashmi Vinayak
+  students:
+  - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
 - name: Riyaz Faizullabhoy
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
