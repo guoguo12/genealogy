@@ -5,6 +5,9 @@
 - name: Akhil Batra
   students: []
   year: 2016
+- name: Akshay Ramachandran
+  students:
+  - {class: CS 172, name: Steven Bi, semester: sp16}
 - name: Alan Yao
   students: []
   year: 2016
@@ -33,6 +36,7 @@
 - name: Andrew Huang
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
+  - {class: CS 61AS, name: Steven Bi, semester: fa12}
 - name: Andrew Nguyen
   students:
   - {class: CS 61A, name: Akhil Batra, semester: fa12}
@@ -50,6 +54,9 @@
   - {class: CS 162, name: Roger Chen, semester: fa14}
   - {class: CS 162, name: Sarah Kim, semester: fa14}
   - {class: CS 162, name: Alan Yao, semester: fa14}
+- name: Calvin Cheng
+  students:
+  - {class: CS 174, name: Steven Bi, semester: sp16}
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
@@ -170,6 +177,7 @@
   students:
   - {class: CS 170, name: Akhil Batra, semester: fa13}
   - {class: CS 170, name: Alan Yao, semester: fa13}
+  - {class: CS 170, name: Steven Bi, semester: fa13}
 - name: Manish Raghavan
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
@@ -205,6 +213,9 @@
 - name: Nicholas Carlini
   students:
   - {class: CS 161, name: Rudy Laprade}
+- name: Nima Anari
+  students:
+  - {class: CS 70, name: Steven Bi, semester: sp13}
 - name: Omar Ramadan
   students:
   - {class: CS 164, name: Sarah Kim, semester: sp15}
@@ -244,6 +255,7 @@
   - {class: CS 61AS, name: Vivek Rangaswamy, semester: fa12}
   - {class: CS 161, name: Alan Yao, semester: sp14}
   - {class: CS 188, name: Judy Wang, semester: sp15}
+  - {class: CS 61AS, name: Steven Bi, semester: fa12}
 - name: Ross Teixeira
   students:
   - {class: CS 61BL, name: Steven Ho}
@@ -256,8 +268,8 @@
   students:
   - {class: EE 126, name: Alan Yao, semester: fa14}
 - name: Samantha Wathugala
-  year: 2018
   students: []
+  year: 2018
 - name: Sarah Kim
   students: []
 - name: Shaon Barman
@@ -278,6 +290,9 @@
 - name: Stephen Bailey
   students:
   - {class: CS 184, name: Roger Chen, semester: sp15}
+- name: Steven Bi
+  students: []
+  year: 2016
 - name: Steven Ho
   students: []
 - name: Steven Tang
