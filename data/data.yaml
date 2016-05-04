@@ -96,6 +96,9 @@
 - name: Brandon Luong
   students:
   - {class: CS 61C, name: Japheth Wong, semester: fa12}
+- name: Brian Chu
+  students:
+  - {class: CS 189, name: Daylen Yang, semester: fa15}
 - name: Brian Hou
   students:
   - {class: CS 189, name: Daniel Nguyen, semester: sp16}
@@ -157,6 +160,9 @@
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
   - {class: CS 188, name: Caryn Tran, semester: fa15}
+  year: 2017
+- name: Daylen Yang
+  students: []
   year: 2017
 - name: Devin He
   students:
@@ -235,6 +241,7 @@
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
   - {class: CS 61B, name: Cale Horeff, semester: sp14}
   - {class: CS 61B, name: Zheng Zhu, semester: sp14}
+  - {class: CS 61B, name: Daylen Yang, semester: sp14}
 - name: Japheth Wong
   students: []
   year: 2015
@@ -257,6 +264,7 @@
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
   - {class: CS 170, name: Daniel Nguyen, semester: sp15}
+  - {class: CS 170, name: Daylen Yang, semester: sp15}
   year: 2015
 - name: Jingyi Li
   students:
@@ -276,6 +284,7 @@
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+  - {class: CS 70, name: Daylen Yang, semester: fa14}
 - name: Joy Jeng
   students:
   - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
@@ -302,6 +311,7 @@
   students:
   - {class: CS 61C, name: Alicia Luengo, semester: su14}
   - {class: CS 61C, name: Judy Wang, semester: su14}
+  - {class: CS 61C, name: Daylen Yang, semester: sp14}
 - name: Kevin Tee
   students:
   - {class: CS 70, name: Roger Chen, semester: fa13}
@@ -416,6 +426,7 @@
 - name: Preetum Nakkiran
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
+  - {class: CS 70, name: Daylen Yang, semester: fa14}
   year: 2016
 - name: Rachel Albert
   students:
@@ -456,6 +467,7 @@
   - {class: CS 188, name: Judy Wang, semester: sp15}
   - {class: CS 61AS, name: Steven Bi, semester: fa12}
   - {class: CS 61B, name: Japheth Wong, semester: sp12}
+  - {class: CS 188, name: Daylen Yang, semester: sp15}
 - name: Ross Teixeira
   students:
   - {class: CS 61BL, name: Steven Ho}
