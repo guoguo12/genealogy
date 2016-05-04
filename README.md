@@ -56,4 +56,4 @@ These are questions about the project as a whole.
 
 This project uses Google Analytics to better understand user behavior. Learn more or opt out [here](https://support.google.com/analytics/answer/6004245).
 
-This project uses [Sigma](https://github.com/jacomyal/sigma.js) for graph drawing and [Bliss](https://github.com/LeaVerou/bliss) for cleaner JavaScript.
+This project uses [Sigma](https://github.com/jacomyal/sigma.js) for graph drawing, [Bliss](https://github.com/LeaVerou/bliss) for cleaner JavaScript, and [Awesomplete](https://leaverou.github.io/awesomplete/) for autocomplete.
