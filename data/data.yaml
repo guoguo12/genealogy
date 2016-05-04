@@ -75,6 +75,7 @@
 - name: David Adams
   students:
   - {class: CS 61C, name: Samantha Wathugala, semester: fa15}
+  year: 2015
 - name: Davis Foote
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
@@ -254,6 +255,7 @@
 - name: Roger Chen
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
+  - {class: CS 162, name: David Adams, semester: sp15}
   year: 2016
 - name: Rohin Shah
   students:
