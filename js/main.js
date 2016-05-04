@@ -86,6 +86,10 @@ var main = function(entries) {
 
   // Bind node hover handler
   s.bind('overNode', function(e) {
+    if (activeSearchHit) {
+      return;
+    }
+
     var node = e.data.node;
     showPersonInfo(node.id, inMap, outMap);
 
@@ -106,6 +110,9 @@ var main = function(entries) {
 
   // Bind node un-hover handler
   s.bind('outNode', function(e) {
+    if (activeSearchHit) {
+      return;
+    }
     $('#info').style.display = 'none';
     var edges = s.graph.edges();
     edges.forEach(function(edge) {
@@ -121,14 +128,40 @@ var main = function(entries) {
     if (e.keyCode == 13) {
       highlightSearchHit($('#search').value);
       $('body').onmousedown = function(e) {
-        cancelSearchHit();
-        delete $('body').onmousedown;
+        console.log(e);
+        if (!(e.target.children.length > 0 && e.target.children[0].tagName.toLowerCase() === 'mark')) { // If not clicking on autocomplete result
+          cancelSearchHit();
+          delete $('body').onmousedown;
+        }
       }
     }
   };
+  // $('body').onkeydown = function(e) {
+    // if (e.keyCode == 27) {
+      // cancelSearchHit();
+    // }
+  // };
+
+  // Set up autocomplete for search
+  var names = entries.map(function(e) { return e.name; });
+  names.sort();
+  new Awesomplete($('#search'), {
+    list: names,
+    minChars: 1
+  });
+  $('body').addEventListener('awesomplete-selectcomplete', function(e) {
+    $('#search').onkeydown({ keyCode: 13 });  // trigger search handler
+  });
 
   // Zoom out a tiny bit then render
-  s.cameras[0].ratio *= 1.2;
+  var c = s.cameras[0];
+  c.ratio *= 1.2;
+  defaultCameraSettings = {
+    x: c.x,
+    y: c.y,
+    ratio: c.ratio,
+    angle: c.angle
+  };
   s.refresh();
 
   // Make sure no nodes overlap
@@ -155,15 +188,17 @@ var highlightSearchHit = function(name) {
   cancelSearchHit();
   node = s.graph.nodes(name);
   if (node) {
+    s.dispatchEvent('overNode', { node: node });
+    s.cameras[0].goTo(defaultCameraSettings);
     activeSearchHit = node.id;
     node.color = 'gold';
-    s.dispatchEvent('overNode', { node: node });
     s.refresh();
   }
 };
 
 var cancelSearchHit = function() {
   if (activeSearchHit) {
+    activeSearchHit = '';
     s.dispatchEvent('outNode', { node: node });
     s.graph.nodes().forEach(function(node) {
       node.color = 'black';

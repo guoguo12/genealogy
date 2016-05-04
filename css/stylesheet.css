@@ -19,10 +19,6 @@ a, a:visited {
   color: inherit;
 }
 
-li {
-  list-style-type: square;
-}
-
 .fr {
   float: right;
 }
@@ -34,6 +30,10 @@ li {
   border: 1px solid #999;
   z-index: 999;
   opacity: 0.9;
+}
+
+.textbox ul li {
+  list-style-type: square;
 }
 
 #about {
