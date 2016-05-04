@@ -122,6 +122,7 @@
 - name: Austin Chen
   students:
   - {class: CS 161, name: Austin Le, semester: sp16}
+  - {class: CS 161, name: Richard Liang, semester: sp16}
 - name: Austin Le
   students: []
   year: 2017
@@ -141,6 +142,7 @@
 - name: Ben Sklaroff
   students:
   - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
+  - {class: CS 164, name: Hurshal Patel, semester: fa13}
 - name: Beth Marrone
   students:
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
@@ -186,6 +188,9 @@
 - name: Caryn Tran
   students: []
   year: 2017
+- name: Chelsea Finn
+  students:
+  - {class: CS 188, name: Richard Liang, semester: sp15}
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
@@ -199,6 +204,9 @@
 - name: Claire Baek
   students:
   - {class: CS 70, name: Pete Yeh, semester: sp14}
+- name: Courtney Wang
+  students:
+  - {class: CS 61BL, name: Hurshal Patel, semester: sp11}
 - name: Dan Crankshaw
   students:
   - {class: CS 186, name: Roger Chen, semester: sp14}
@@ -218,6 +226,7 @@
 - name: David Adams
   students:
   - {class: CS 61C, name: Samantha Wathugala, semester: fa15}
+  - {class: CS 61C, name: Richard Liang, semester: fa14}
   year: 2015
 - name: Davis Foote
   students:
@@ -266,6 +275,9 @@
 - name: Erik Krogen
   students:
   - {class: CS 61B, name: Alicia Luengo, semester: sp14}
+- name: Eugene Fang
+  students:
+  - {class: EE 192, name: Hurshal Patel, semester: sp14}
 - name: Evan Yao
   students:
   - {class: EE 20, name: Varun Naik, semester: sp14}
@@ -317,6 +329,7 @@
 - name: Hurshal Patel
   students:
   - {class: EE 20, name: Anusha Ramakuri, semester: sp14}
+  year: 2014
 - name: Ian Ornstein
   students:
   - {class: CS 70, name: Anusha Ramakuri, semester: sp14}
@@ -325,6 +338,9 @@
   students:
   - {class: CS 70, name: Japheth Wong, semester: fa12}
   - {class: CS 70, name: Ajay Tripathi, semester: fa12}
+- name: Ibrahim Awwal
+  students:
+  - {class: EE 20N, name: Hurshal Patel, semester: fa11}
 - name: Iris Wang
   students:
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
@@ -471,6 +487,7 @@
   students:
   - {class: CS 61A, name: Melanie Cebula, semester: sp13}
   - {class: CS 61A, name: Lydia Lee, semester: fa13}
+  - {class: CS 61A, name: Richard Liang, semester: fa13}
 - name: Marvin Zhang
   students:
   - {class: CS 61A, name: Ross Teixeira}
@@ -599,6 +616,9 @@
 - name: Reia Cho
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+- name: Richard Liang
+  students: []
+  year: 2017
 - name: Richard Liaw
   students: []
   year: 2017
@@ -729,6 +749,7 @@
   - {class: CS 61A, name: Owen Jow, semester: fa14}
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
+  - {class: CS 61A, name: Richard Liang, semester: fa14}
   year: 2016
 - name: Sung Roa Yoon
   students:
@@ -742,6 +763,9 @@
 - name: Tiffany Perumpail
   students: []
   year: 2018
+- name: Tom Magrino
+  students:
+  - {class: CS 61A, name: Hurshal Patel, semester: fa10}
 - name: Tom Watson
   students:
   - {class: CS 70, name: Kate Rakelly, semester: sp12}
