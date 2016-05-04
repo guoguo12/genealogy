@@ -182,6 +182,9 @@
   students:
   - {class: CS 186, name: Owen Jow, semester: fa15}
   year: 2015
+- name: Faraz Tavakoli
+  students:
+  - {class: CS 176, name: Jimmy Wu, semester: fa14}
 - name: Forrest Iandola
   students:
   - {class: CS 194-15, name: Roger Chen, semester: fa15}
@@ -196,12 +199,16 @@
   students:
   - {class: CS 161, name: Sarah Kim, semester: sp16}
   - {class: CS 161, name: Judy Wang, semester: sp16}
+- name: George Yiu
+  students:
+  - {class: CS 162, name: Jimmy Wu, semester: sp14}
 - name: Gregory Kahn
   students:
   - {class: CS 188, name: Owen Jow, semester: sp16}
 - name: Hamilton Nguyen
   students:
   - {class: CS 61A, name: Sarah Kim, semester: sp13}
+  - {class: CS 61A, name: Jimmy Wu, semester: fa11}
 - name: Harrison Wallace
   students:
   - {class: CS 61B, name: Akhil Batra, semester: sp13}
@@ -239,6 +246,7 @@
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
   - {class: CS 170, name: Daniel Nguyen, semester: sp15}
+  year: 2015
 - name: Jingyi Li
   students:
   - {class: CS 160, name: Judy Wang, semester: sp16}
@@ -404,6 +412,9 @@
 - name: Riyaz Faizullabhoy
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
+- name: Robert Nishihara
+  students:
+  - {class: CS 174, name: Jimmy Wu, semester: sp15}
 - name: Robin Hu
   students:
   - {class: CS 161, name: Roger Chen, semester: sp16}
@@ -466,6 +477,9 @@
 - name: Shu Zhong
   students:
   - {class: CS 61B, name: Daniel Nguyen, semester: sp14}
+- name: Siu Man Chan
+  students:
+  - {class: CS 170, name: Jimmy Wu, semester: sp13}
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
@@ -508,6 +522,7 @@
 - name: Tselil Schramm
   students:
   - {class: CS 70, name: Rudy Laprade}
+  - {class: CS 270, name: Jimmy Wu, semester: sp15}
 - name: Vaishaal Shankar
   students:
   - {class: CS 61A, name: Cale Horeff, semester: fa13}
