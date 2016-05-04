@@ -51,6 +51,9 @@
 - name: Amanda Chow
   students: []
   year: 2017
+- name: Andrew Chen
+  students:
+  - {class: CS 162, name: Stephan Liu, semester: fa15}
 - name: Andrew Huang
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
@@ -230,6 +233,7 @@
   - {class: CS 188, name: Anusha Ramakuri, semester: fa14}
   - {class: CS 189, name: Anusha Ramakuri, semester: sp15}
   - {class: CS 61A, name: Dibyo Majumdar, semester: sp14}
+  - {class: CS 61B, name: Stephan Liu, semester: sp14}
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
@@ -252,6 +256,7 @@
   students:
   - {class: CS 61A, name: Ross Teixeira}
   - {class: CS 189, name: Cale Horeff, semester: sp16}
+  - {class: CS 189, name: Stephan Liu, semester: sp16}
   year: 2017
 - name: Matthew Griffin
   students:
@@ -378,9 +383,13 @@
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
+- name: Soumya Basu
+  students:
+  - {class: CS 61A, name: Stephan Liu, semester: fa13}
 - name: Stephan Liu
   students:
   - {class: CS 61C, name: Allen Guo, semester: fa15}
+  year: 2017
 - name: Stephen Bailey
   students:
   - {class: CS 184, name: Roger Chen, semester: sp15}
