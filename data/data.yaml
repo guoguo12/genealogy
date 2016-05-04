@@ -5,6 +5,7 @@
   - {class: CS 70, name: Caryn Tran, semester: sp15}
   - {class: CS 70, name: Daniel Nguyen, semester: su14}
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
+  year: 2015
 - name: Akhil Batra
   students: []
   year: 2016
@@ -77,6 +78,9 @@
   - {class: CS 194-15, name: Sarah Kim, semester: fa15}
 - name: Anusha Ramakuri
   students: []
+- name: Austin Buchan
+  students:
+  - {class: CS 150, name: Ajay Tripathi, semester: fa13}
 - name: Austin Chen
   students:
   - {class: CS 161, name: Austin Le, semester: sp16}
@@ -102,6 +106,7 @@
 - name: Brian Hou
   students:
   - {class: CS 189, name: Daniel Nguyen, semester: sp16}
+  - {class: CS 188, name: Ajay Tripathi, semester: su14}
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
@@ -223,6 +228,7 @@
   students:
   - {class: CS 61A, name: Sarah Kim, semester: sp13}
   - {class: CS 61A, name: Jimmy Wu, semester: fa11}
+  - {class: CS 61A, name: Ajay Tripathi, semester: fa11}
 - name: Harrison Wallace
   students:
   - {class: CS 61B, name: Akhil Batra, semester: sp13}
@@ -236,6 +242,7 @@
 - name: Ian Vonseggern
   students:
   - {class: CS 70, name: Japheth Wong, semester: fa12}
+  - {class: CS 70, name: Ajay Tripathi, semester: fa12}
 - name: Iris Wang
   students:
   - {class: CS 61B, name: Sarah Kim, semester: fa13}
@@ -335,6 +342,7 @@
   - {class: CS 170, name: Alan Yao, semester: fa13}
   - {class: CS 170, name: Steven Bi, semester: fa13}
   - {class: CS 170, name: Evan Ye, semester: fa13}
+  - {class: CS 170, name: Ajay Tripathi, semester: sp14}
 - name: Manish Raghavan
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
@@ -525,6 +533,9 @@
 - name: Stephen Bailey
   students:
   - {class: CS 184, name: Roger Chen, semester: sp15}
+- name: Stephen Twigg
+  students:
+  - {class: CS 150, name: Ajay Tripathi, semester: fa13}
 - name: Steven Bi
   students: []
   year: 2016
