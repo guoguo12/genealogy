@@ -2,6 +2,7 @@
   students:
   - {class: EE 20, name: Roger Chen, semester: sp14}
   - {class: CS 61C, name: Vivek Rangaswamy, semester: fa14}
+  - {class: CS 70, name: Caryn Tran, semester: sp15}
 - name: Ajay Triptathi
   students:
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
@@ -84,6 +85,9 @@
 - name: Calvin Cheng
   students:
   - {class: CS 174, name: Steven Bi, semester: sp16}
+- name: Caryn Tran
+  students: []
+  year: 2017
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
@@ -111,6 +115,7 @@
 - name: Davis Foote
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
+  - {class: CS 188, name: Caryn Tran, semester: fa15}
   year: 2017
 - name: Devin He
   students:
@@ -320,6 +325,7 @@
 - name: Robin Hu
   students:
   - {class: CS 161, name: Roger Chen, semester: sp16}
+  - {class: CS 161, name: Caryn Tran, semester: fa15}
 - name: Roger Chen
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
@@ -402,7 +408,8 @@
   students:
   - {class: CS 61A, name: Cale Horeff, semester: fa13}
 - name: Vivek Rangaswamy
-  students: []
+  students:
+  - {class: CS 61AS, name: Caryn Tran, semester: fa14}
   year: 2016
 - name: Weilun Sun
   students:
