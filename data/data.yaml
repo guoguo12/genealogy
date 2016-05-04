@@ -207,6 +207,9 @@
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
+- name: Kate Rakelly
+  students: []
+  year: 2015
 - name: Kaushik Iyer
   students:
   - {class: CS 61B, name: Andrew Huang, semester: sp11}
@@ -407,6 +410,10 @@
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
   - {class: CS 61C, name: Roger Chen, semester: sp13}
+  - {class: CS 61C, name: Kate Rakelly, semester: sp13}
+- name: Tom Watson
+  students:
+  - {class: CS 70, name: Kate Rakelly, semester: sp12}
 - name: TongKe Xue
   students:
   - {class: CS 172, name: Amanda Chow, semester: sp15}
@@ -416,6 +423,9 @@
 - name: Vaishaal Shankar
   students:
   - {class: CS 61A, name: Cale Horeff, semester: fa13}
+- name: Varun Pai
+  students:
+  - {class: CS 61B, name: Kate Rakelly, semester: sp12}
 - name: Vivek Rangaswamy
   students:
   - {class: CS 61AS, name: Caryn Tran, semester: fa14}
@@ -434,6 +444,9 @@
   - {class: CS 170, name: Roger Chen, semester: sp14}
   - {class: CS 170, name: Sarah Kim, semester: sp14}
   - {class: CS 170, name: Anusha Ramakuri, semester: fa14}
+- name: Yunjae Cho
+  students:
+  - {class: EE 40, name: Kate Rakelly, semester: sp12}
 - name: Zeyu Liu
   students:
   - {class: CS 186, name: Judy Wang, semester: fa15}
