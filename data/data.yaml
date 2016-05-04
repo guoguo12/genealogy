@@ -1,3 +1,6 @@
+- name: Abhishek Fatehpuria
+  students: []
+  year: 2017
 - name: Ajay Tripathi
   students:
   - {class: EE 20, name: Roger Chen, semester: sp14}
@@ -5,6 +8,7 @@
   - {class: CS 70, name: Caryn Tran, semester: sp15}
   - {class: CS 70, name: Daniel Nguyen, semester: su14}
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
+  - {class: EE 20, name: Leah Dickstein, semester: sp14}
   year: 2015
 - name: Ajeya Cotra
   students:
@@ -103,6 +107,9 @@
 - name: Barak Gila
   students:
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
+- name: Behnam Behroozpour
+  students:
+  - {class: EE 40, name: Leah Dickstein, semester: sp15}
 - name: Beliz Gunel
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
@@ -113,6 +120,9 @@
 - name: Ben Sklaroff
   students:
   - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
+- name: Beth Marrone
+  students:
+  - {class: CS 61A, name: Leah Dickstein, semester: fa14}
 - name: Bill Yeh
   students:
   - {class: CS 161, name: Daniel Nguyen, semester: sp16}
@@ -126,6 +136,7 @@
   students:
   - {class: CS 189, name: Daniel Nguyen, semester: sp16}
   - {class: CS 188, name: Ajay Tripathi, semester: su14}
+  - {class: CS 189, name: Leah Dickstein, semester: fa16}
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
@@ -185,11 +196,13 @@
   - {class: CS 188, name: Allen Guo, semester: sp16}
   - {class: CS 188, name: Caryn Tran, semester: fa15}
   - {class: CS 188, name: Nathan Mandi, semester: su15}
+  - {class: CS 188, name: Leah Dickstein, semester: fa15}
   year: 2017
 - name: Daylen Yang
   students:
   - {class: CS 189, name: Ajeya Cotra, semester: sp16}
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
+  - {class: CS 189, name: Leah Dickstein, semester: fa16}
   year: 2017
 - name: Derek Leung
   students:
@@ -206,6 +219,10 @@
 - name: Diego Kiner
   students:
   - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
+  - {class: EE 127, name: Leah Dickstein, semester: sp15}
+- name: Dorsa Sadigh
+  students:
+  - {class: EE 120, name: Leah Dickstein, semester: fa15}
 - name: Eric Kim
   students:
   - {class: CS 61A, name: Andrew Huang, semester: fa10}
@@ -264,6 +281,7 @@
 - name: Ian Ornstein
   students:
   - {class: CS 70, name: Anusha Ramakuri, semester: sp14}
+  - {class: CS 70, name: Leah Dickstein, semester: sp14}
 - name: Ian Vonseggern
   students:
   - {class: CS 70, name: Japheth Wong, semester: fa12}
@@ -274,6 +292,7 @@
   - {class: CS 61B, name: Cale Horeff, semester: sp14}
   - {class: CS 61B, name: Zheng Zhu, semester: sp14}
   - {class: CS 61B, name: Daylen Yang, semester: sp14}
+  - {class: CS 61B, name: Abhishek Fatehpuria, semester: sp14}
 - name: Japheth Wong
   students: []
   year: 2015
@@ -297,6 +316,7 @@
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
   - {class: CS 170, name: Daniel Nguyen, semester: sp15}
   - {class: CS 170, name: Daylen Yang, semester: sp15}
+  - {class: CS 170, name: Leah Dickstein, semester: sp15}
   year: 2015
 - name: Jingyi Li
   students:
@@ -329,6 +349,7 @@
 - name: Kangwook Lee
   students:
   - {class: EE 126, name: Nathan Mandi, semester: fa15}
+  - {class: EE 126, name: Leah Dickstein, semester: fa14}
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
@@ -372,6 +393,7 @@
 - name: Leah Dickstein
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+  year: 2017
 - name: Lewin Gan
   students:
   - {class: CS 170, name: Akhil Batra, semester: fa13}
@@ -379,6 +401,7 @@
   - {class: CS 170, name: Steven Bi, semester: fa13}
   - {class: CS 170, name: Evan Ye, semester: fa13}
   - {class: CS 170, name: Ajay Tripathi, semester: sp14}
+  - {class: CS 170, name: Abhishek Fatehpuria, semester: sp15}
 - name: Manish Raghavan
   students:
   - {class: CS 170, name: Allen Guo, semester: fa15}
@@ -399,6 +422,7 @@
   - {class: CS 189, name: Cale Horeff, semester: sp16}
   - {class: CS 189, name: Stephan Liu, semester: sp16}
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
+  - {class: CS 189, name: Leah Dickstein, semester: fa16}
   year: 2017
 - name: Matthew Chow
   students:
@@ -408,7 +432,8 @@
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
 - name: Melanie Cebula
-  students: []
+  students:
+  - {class: CS 61B, name: Leah Dickstein, semester: sp15}
   year: 2016
 - name: Michael McCoyd
   students:
@@ -493,6 +518,7 @@
 - name: Ramtin Pedarsani
   students:
   - {class: EE 126, name: Ajeya Cotra, semester: fa14}
+  - {class: EE 126, name: Leah Dickstein, semester: fa14}
 - name: Rashmi Vinayak
   students:
   - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
@@ -608,6 +634,7 @@
   students:
   - {class: CS 61A, name: Owen Jow, semester: fa14}
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
+  - {class: CS 61A, name: Leah Dickstein, semester: fa14}
   year: 2016
 - name: Sung Roa Yoon
   students:
