@@ -1,11 +1,11 @@
 // All colors are from https://www.google.com/design/spec/style/color.html#color-color-palette
 var classToColorMap = {
   'CS 61A':  '#4DD0E1',
-  'CS 61AS': '#7986CB',
   'CS 61B':  '#F06292',
-  'CS 61BL': '#E57373',
   'CS 61C':  '#BA68C8',
-  'CS 70':   '#81C784'
+  'CS 70':   '#81C784',
+  'CS 170':  '#E57373',
+  'CS 188':  '#7986CB'
 };
 var defaultClassColor = '#616161';
 
