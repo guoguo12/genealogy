@@ -19,6 +19,10 @@ a, a:visited {
   color: inherit;
 }
 
+div.awesomplete {
+  vertical-align: top;
+}
+
 .fr {
   float: right;
 }
