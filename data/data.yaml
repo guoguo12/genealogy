@@ -67,6 +67,11 @@
 - name: Andrew Chen
   students:
   - {class: CS 162, name: Stephan Liu, semester: fa15}
+- name: Andrew Fang
+  students:
+  - {class: CS 160, name: Erik Krogen, semester: fa14}
+  - {class: CS 160, name: Diane Wang, semester: sp15}
+  year: 2015
 - name: Andrew Huang
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
@@ -325,6 +330,7 @@
   - {class: CS 61C, name: Alan Yao, semester: fa13}
   - {class: CS 61C, name: Anusha Ramakuri, semester: fa13}
   - {class: CS 61C, name: Evan Ye, semester: fa13}
+  - {class: CS 162, name: Andrew Fang, semester: sp14}
 - name: Kevin Liston
   students:
   - {class: CS 61C, name: Alicia Luengo, semester: su14}
@@ -464,6 +470,7 @@
 - name: Riyaz Faizullabhoy
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
+  - {class: CS 162, name: Andrew Fang, semester: sp14}
 - name: Robert Nishihara
   students:
   - {class: CS 174, name: Jimmy Wu, semester: sp15}
