@@ -9,10 +9,8 @@
   - {class: CS 70, name: Daniel Nguyen, semester: su14}
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
   - {class: EE 20, name: Leah Dickstein, semester: sp14}
-  year: 2015
-- name: Ajay Tripathy
-  students:
   - {class: CS 70, name: Michelle Tian, semester: fa14}
+  year: 2015
 - name: Ajeya Cotra
   students:
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
