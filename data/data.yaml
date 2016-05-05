@@ -311,6 +311,7 @@
 - name: George Yiu
   students:
   - {class: CS 162, name: Jimmy Wu, semester: sp14}
+  - {class: CS 162, name: Riyaz Faizullabhoy, semester: fa13}
 - name: Govind Ramnarayan
   students:
   - {class: CS 70, name: Melanie Cebula, semester: sp14}
@@ -554,6 +555,7 @@
 - name: Nathan Rockenbach
   students:
   - {class: CS 170, name: Japheth Wong, semester: sp13}
+  - {class: CS 170, name: Riyaz Faizullabhoy, semester: sp13}
 - name: Nathaniel Mailoa
   students:
   - {class: EE 16A, name: Ankit Mathur, semester: sp15}
@@ -694,6 +696,7 @@
   students:
   - {class: CS 164, name: Japheth Wong, semester: fa14}
   - {class: CS 164, name: Shreyas Chand, semester: fa14}
+  - {class: CS 164, name: Riyaz Faizullabhoy, semester: fa14}
 - name: Sarah Kim
   students:
   - {class: CS 61B, name: Nathan Mandi, semester: sp15}
@@ -703,6 +706,7 @@
 - name: Sharad Vikram
   students:
   - {class: CS 61A, name: Rudy Laprade}
+  - {class: CS 189, name: Riyaz Faizullabhoy, semester: sp14}
 - name: Shaun Singh
   students:
   - {class: CS 189, name: Alicia Luengo, semester: fa15}
@@ -773,6 +777,7 @@
 - name: Tom Magrino
   students:
   - {class: CS 61A, name: Hurshal Patel, semester: fa10}
+  - {class: CS 61A, name: Riyaz Faizullabhoy, semester: sp12}
 - name: Tom Watson
   students:
   - {class: CS 70, name: Kate Rakelly, semester: sp12}
