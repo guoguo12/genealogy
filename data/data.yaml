@@ -12,6 +12,9 @@
   - {class: EE 20, name: Leah Dickstein, semester: sp14}
   - {class: CS 70, name: Michelle Tian, semester: fa14}
   - {class: CS 70, name: Michael Zhang, semester: sp15}
+  - {class: CS 70, name: Shana Hu, semester: su13}
+  - {class: CS 61C, name: Shana Hu, semester: fa13}
+  - {class: CS 70, name: Arany Uthayakumar, semester: fa14}
   year: 2015
 - name: Ajeya Cotra
   students:
@@ -127,6 +130,9 @@
   - {class: CS 170, name: Pete Yeh, semester: sp15}
 - name: Anusha Ramakuri
   students: []
+- name: Arany Uthayakumar
+  students: []
+  year: 2017
 - name: Austin Buchan
   students:
   - {class: CS 150, name: Ajay Tripathi, semester: fa13}
@@ -161,6 +167,7 @@
 - name: Beth Marrone
   students:
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
+  - {class: CS 61A, name: Arany Uthayakumar, semester: su14}
 - name: Bill Yeh
   students:
   - {class: CS 161, name: Daniel Nguyen, semester: sp16}
@@ -179,6 +186,9 @@
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
+- name: Brittany Cheng
+  students:
+  - {class: CS 160, name: Shana Hu, semester: sp14}
 - name: Bryan Mau
   students:
   - {class: CS 61B, name: Amanda Chow, semester: sp14}
@@ -351,6 +361,7 @@
   - {class: CS 61A, name: Jimmy Wu, semester: fa11}
   - {class: CS 61A, name: Ajay Tripathi, semester: fa11}
   - {class: CS 61A, name: Caleb Wang, semester: fa11}
+  - {class: CS 61A, name: Shana Hu, semester: fa12}
 - name: Harrison Wallace
   students:
   - {class: CS 61B, name: Akhil Batra, semester: sp13}
@@ -394,6 +405,7 @@
   students:
   - {class: CS 61B, name: Austin Le, semester: sp14}
   - {class: CS 61B, name: Michelle Tian, semester: sp14}
+  - {class: CS 61B, name: Shana Hu, semester: sp13}
 - name: Jeffrey Dong
   students:
   - {class: CS 61C, name: Varun Naik, semester: fa13}
@@ -404,6 +416,7 @@
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
   - {class: CS 61B, name: Amruta Yelamanchili, semester: fa14}
+  - {class: CS 61B, name: Lara McConnaughey, semester: fa15}
 - name: Jimmy Wu
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
@@ -490,6 +503,9 @@
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
+- name: Lara McConnaughey
+  students: []
+  year: 2018
 - name: Leah Dickstein
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
@@ -532,6 +548,7 @@
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
   - {class: CS 189, name: Pete Yeh, semester: sp16}
+  - {class: CS 61a, name: Lara McConnaughey, semester: sp15}
   year: 2017
 - name: Matt Miller
   students:
@@ -554,6 +571,9 @@
   students:
   - {class: CS 61B, name: Leah Dickstein, semester: sp15}
   year: 2016
+- name: Michael Ball
+  students:
+  - {class: CS 10, name: Arany Uthayakumar, semester: fa13}
 - name: Michael McCoyd
   students:
   - {class: CS 161, name: Japheth Wong, semester: sp14}
@@ -663,6 +683,9 @@
 - name: Rashmi Vinayak
   students:
   - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
+- name: Rebecca Herman
+  students:
+  - {class: CS 61C, name: Lara McConnaughey, semester: sp16}
 - name: Reia Cho
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
@@ -747,6 +770,9 @@
 - name: Sarah Kim
   students:
   - {class: CS 61B, name: Nathan Mandi, semester: sp15}
+- name: Shana Hu
+  students: []
+  year: 2016
 - name: Shaon Barman
   students:
   - {class: CS 164, name: Rohin Shah, semester: sp12}
