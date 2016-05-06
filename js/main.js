@@ -303,14 +303,14 @@ var goToLayout = function(layoutName) {
 }
 
 var computeLongest = function() {
-  entries.forEach(function(e) { longestPath(e); });
+  entries.forEach(function(e) { longestPath(e, []); });
   var sortedKeys = Object.keys(memo).sort(function(a, b){ return memo[a] - memo[b] });
   sortedKeys.forEach(function(k) { console.log(k, memo[k], longest[k]); });
 };
 
 memo = {}
 longest = {}
-var longestPath = function(e, prev) {
+var longestPath = function(e, seen) {
   if (Object.keys(memo).indexOf(e.name) !== -1) {
     return memo[e.name];
   }
@@ -319,11 +319,10 @@ var longestPath = function(e, prev) {
     longest[e.name] = [e.name];
   } else {
     var children = e.students.map(function(s) { return s.name; });
-    if (prev) {
-      children = children.filter(function(c) { return c !== prev; });
-    }
-    var childrenEntries = entries.filter(function(e) { return children.indexOf(e.name) !== -1; });
-    var childrenLengths = childrenEntries.map(function(e) { return longestPath(e); });
+    var childrenEntries = entries.filter(function(e) {
+      return children.indexOf(e.name) !== -1 && seen.indexOf(e.name) === -1;
+    });
+    var childrenLengths = childrenEntries.map(function(e) { return longestPath(e, [e.name].concat(seen)); });
     var maxLength = -1;
     var bestIndex = -1;
     for (var i = 0; i < childrenEntries.length; i++) {
