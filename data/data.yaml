@@ -102,6 +102,9 @@
   - {class: CS 160, name: Erik Krogen, semester: fa14}
   - {class: CS 160, name: Diane Wang, semester: sp15}
   year: 2015
+- name: Andrew Godbehere
+  students:
+  - {class: CS 70, name: Kunal Marwaha, semester: fa12}
 - name: Andrew Huang
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
@@ -207,6 +210,7 @@
   - {class: CS 162, name: Evan Ye, semester: fa14}
   - {class: CS 61B, name: Patrick Lutz, semester: fa13}
   - {class: CS 61B, name: Pete Yeh, semester: fa13}
+  - {class: CS 61B, name: Kunal Marwaha, semester: fa13}
   year: 2015
 - name: Calvin Cheng
   students:
@@ -244,6 +248,9 @@
 - name: Daniel Bruckner
   students:
   - {class: CS 162, name: Japheth Wong, semester: sp13}
+- name: Daniel Freeman
+  students:
+  - {class: CS 191, name: Kunal Marwaha, semester: fa14}
 - name: Daniel Nguyen
   students: []
   year: 2017
@@ -310,6 +317,7 @@
 - name: Eric Tzeng
   students:
   - {class: CS 61A, name: Rohin Shah, semester: fa10}
+  - {class: CS 61A, name: Govind Ramnarayan, semester: fa10}
 - name: Erik Krogen
   students:
   - {class: CS 61B, name: Alicia Luengo, semester: sp14}
@@ -352,6 +360,7 @@
 - name: Govind Ramnarayan
   students:
   - {class: CS 70, name: Melanie Cebula, semester: sp14}
+  year: 2014
 - name: Gregory Kahn
   students:
   - {class: CS 188, name: Owen Jow, semester: sp16}
@@ -459,6 +468,7 @@
   students:
   - {class: EE 126, name: Nathan Mandi, semester: fa15}
   - {class: EE 126, name: Leah Dickstein, semester: fa14}
+  - {class: EE 126, name: Kunal Marwaha, semester: fa14}
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
@@ -500,6 +510,9 @@
   - {class: CS 61B, name: Richard Liaw, semester: sp14}
   - {class: CS 189, name: Richard Liaw, semester: sp15}
   - {class: CS 189, name: Andrew Chen, semester: sp15}
+- name: Kunal Marwaha
+  students: []
+  year: 2016
 - name: Kyungna Kim
   students:
   - {class: EE 16A, name: Vivek Rangaswamy, semester: sp16}
@@ -535,6 +548,9 @@
 - name: Marion Halim
   students:
   - {class: CS 61AS, name: Judy Wang, semester: fa13}
+- name: Mark Hettick
+  students:
+  - {class: EE 143, name: Kunal Marwaha, semester: sp16}
 - name: Mark Miyashita
   students:
   - {class: CS 61A, name: Melanie Cebula, semester: sp13}
@@ -632,6 +648,7 @@
   students:
   - {class: CS 170, name: Zheng Zhu, semester: fa14}
   - {class: CS 70, name: Steven Bi, semester: sp13}
+  - {class: CS 170, name: Govind Ramnarayan, semester: fa12}
 - name: Omar Ramadan
   students:
   - {class: CS 164, name: Sarah Kim, semester: sp15}
@@ -680,6 +697,7 @@
   students:
   - {class: EE 126, name: Ajeya Cotra, semester: fa14}
   - {class: EE 126, name: Leah Dickstein, semester: fa14}
+  - {class: EE 126, name: Kunal Marwaha, semester: fa14}
 - name: Rashmi Vinayak
   students:
   - {class: EE 121, name: Preetum Nakkiran, semester: fa13}
@@ -690,6 +708,9 @@
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
   - {class: EE 16A, name: Amruta Yelamanchili, semester: sp16}
+- name: Richard Hwang
+  students:
+  - {class: CS 61A, name: Kunal Marwaha, semester: sp13}
 - name: Richard Liang
   students: []
   year: 2017
@@ -794,6 +815,9 @@
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
+- name: Siu-Man Chan
+  students:
+  - {class: CS 70, name: Govind Ramnarayan, semester: sp12}
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
@@ -819,6 +843,9 @@
 - name: Steven Bi
   students: []
   year: 2016
+- name: Steven Callender
+  students:
+  - {class: EE 105, name: Kunal Marwaha, semester: fa13}
 - name: Steven Ho
   students: []
 - name: Steven Tang
@@ -841,6 +868,7 @@
   - {class: CS 61C, name: Roger Chen, semester: sp13}
   - {class: CS 61C, name: Kate Rakelly, semester: sp13}
   - {class: CS 61C, name: Shreyas Chand, semester: sp13}
+  - {class: CS 61C, name: Kunal Marwaha, semester: sp14}
 - name: Teodor Moldovan
   students:
   - {class: CS 188, name: Patrick Lutz, semester: sp14}
@@ -862,6 +890,9 @@
   - {class: CS 70, name: Rudy Laprade}
   - {class: CS 270, name: Jimmy Wu, semester: sp15}
   - {class: CS 270, name: Patrick Lutz, semester: sp15}
+- name: Tuomas Haarnoja
+  students:
+  - {class: CS 189, name: Kunal Marwaha, semester: sp16}
 - name: Vaishaal Shankar
   students:
   - {class: CS 61A, name: Cale Horeff, semester: fa13}
@@ -886,6 +917,9 @@
 - name: Wenting Zheng
   students:
   - {class: CS 168, name: Rudy Laprade}
+- name: Wesley Chow
+  students:
+  - {class: CS 162, name: Govind Ramnarayan, semester: sp13}
 - name: William Huang
   students:
   - {class: CS 61C, name: Owen Jow, semester: sp15}
@@ -893,6 +927,10 @@
 - name: Winston Hsu
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
+- name: Yun Jae Cho
+  students:
+  - {class: EE 40, name: Kunal Marwaha, semester: sp13}
+  - {class: EE 120, name: Kunal Marwaha, semester: sp14}
 - name: Yun Park
   students:
   - {class: CS 170, name: Roger Chen, semester: sp14}
@@ -900,6 +938,7 @@
   - {class: CS 170, name: Anusha Ramakuri, semester: fa14}
   - {class: CS 170, name: Evan Ye, semester: fa13}
   - {class: CS 189, name: Evan Ye, semester: sp15}
+  - {class: CS 170, name: Kunal Marwaha, semester: sp14}
 - name: Yunjae Cho
   students:
   - {class: EE 40, name: Kate Rakelly, semester: sp12}
