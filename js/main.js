@@ -16,7 +16,7 @@ var classToColor = function(course) {
 var activeFilter = '';
 var activeSearchHit = '';
 
-var main = function(entries) {
+var main = function(entries, useForceDirectedLayout) {
   var startTime = new Date();
 
   s = new sigma({
@@ -185,12 +185,20 @@ var main = function(entries) {
   };
   s.refresh();
 
-  // Make sure no nodes overlap
-  s.configNoverlap({
-    gridSize: 50,
-    nodeMargin: 20
-  });
-  s.startNoverlap();
+  if (useForceDirectedLayout) {
+    s.startForceAtlas2({
+      gravity: 0.5,
+      linLogMode: true
+    });
+    window.setTimeout(function() { s.killForceAtlas2(); }, 10000);
+  } else {
+    // Make sure no nodes overlap
+    s.configNoverlap({
+      gridSize: 50,
+      nodeMargin: 20
+    });
+    s.startNoverlap();
+  }
 
   var elapsedTime = ((new Date()) - startTime) / 1000;
   console.log('main() finished in ' + elapsedTime + 's')
@@ -344,7 +352,8 @@ $.ready().then(function() {
   }
   $.fetch('data/data.yaml').then(function(data) {
     entries = jsyaml.load(data.responseText);
-    main(entries);
+    useForceDirectedLayout = window.location.search.substring(1, 1 + 'forceDirected'.length) === 'forceDirected';
+    main(entries, useForceDirectedLayout);
   });
   showColorLegend();
   $('#about')._.transition({ opacity: 0.9 });
