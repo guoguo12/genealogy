@@ -1,5 +1,6 @@
 - name: Abhishek Fatehpuria
-  students: []
+  students:
+  - {class: CS 170, name: Nicholas Ward, semester: sp16}
   year: 2017
 - name: Ajay Tripathi
   students:
@@ -10,10 +11,12 @@
   - {class: CS 70, name: Ross Teixeira, semester: sp15}
   - {class: EE 20, name: Leah Dickstein, semester: sp14}
   - {class: CS 70, name: Michelle Tian, semester: fa14}
+  - {class: CS 70, name: Michael Zhang, semester: sp15}
   year: 2015
 - name: Ajeya Cotra
   students:
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
+  - {class: CS 188, name: Amruta Yelamanchili, semester: fa15}
   year: 2016
 - name: Akhil Batra
   students: []
@@ -28,8 +31,12 @@
   students:
   - {class: CS 61C, name: Richard Liaw, semester: su14}
 - name: Alan Yao
-  students: []
+  students:
+  - {class: CS 170, name: Michael Zhang, semester: fa15}
   year: 2016
+- name: Alana Tran
+  students:
+  - {class: CS 61A, name: Nicholas Ward, semester: sp15}
 - name: Alec Mouri
   students:
   - {class: CS 162, name: Cale Horeff, semester: fa15}
@@ -80,6 +87,9 @@
 - name: Amanda Chow
   students: []
   year: 2017
+- name: Amruta Yelamanchili
+  students: []
+  year: 2017
 - name: Andrew Chen
   students:
   - {class: CS 162, name: Stephan Liu, semester: fa15}
@@ -124,9 +134,13 @@
   students:
   - {class: CS 161, name: Austin Le, semester: sp16}
   - {class: CS 161, name: Richard Liang, semester: sp16}
+  - {class: CS 61B, name: Michael Zhang, semester: sp15}
 - name: Austin Le
   students: []
   year: 2017
+- name: Austin Tai
+  students:
+  - {class: CS 61C, name: Nicholas Ward, semester: fa16}
 - name: Barak Gila
   students:
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
@@ -161,6 +175,7 @@
   - {class: CS 189, name: Daniel Nguyen, semester: sp16}
   - {class: CS 188, name: Ajay Tripathi, semester: su14}
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
+  - {class: CS 189, name: Amruta Yelamanchili, semester: sp16}
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
@@ -205,6 +220,7 @@
 - name: Claire Baek
   students:
   - {class: CS 70, name: Pete Yeh, semester: sp14}
+  - {class: CS 70, name: Davis Foote, semester: sp14}
 - name: Courtney Wang
   students:
   - {class: CS 61BL, name: Hurshal Patel, semester: sp11}
@@ -224,11 +240,15 @@
 - name: Daniel Xu
   students:
   - {class: CS 189, name: Alan Yao, semester: sp15}
+  - {class: CS 189, name: Davis Foote, semester: sp15}
 - name: David Adams
   students:
   - {class: CS 61C, name: Samantha Wathugala, semester: fa15}
   - {class: CS 61C, name: Richard Liang, semester: fa14}
   year: 2015
+- name: David Liu
+  students:
+  - {class: CS 70, name: Amruta Yelamanchili, semester: sp15}
 - name: Davis Foote
   students:
   - {class: CS 188, name: Allen Guo, semester: sp16}
@@ -242,9 +262,13 @@
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
   year: 2017
+- name: Derek Ahmed
+  students:
+  - {class: CS 61C, name: Michael Zhang, semester: fa15}
 - name: Derek Leung
   students:
   - {class: CS 61B, name: Ajeya Cotra, semester: sp14}
+  - {class: CS 186, name: Amruta Yelamanchili, semester: sp16}
 - name: Devin He
   students:
   - {class: CS 162, name: Rudy Laprade}
@@ -258,6 +282,9 @@
   students:
   - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
   - {class: EE 127, name: Leah Dickstein, semester: sp15}
+- name: Donggyu Kim
+  students:
+  - {class: CS 61C, name: Amruta Yelamanchili, semester: sp15}
 - name: Dorsa Sadigh
   students:
   - {class: EE 120, name: Leah Dickstein, semester: fa15}
@@ -351,6 +378,9 @@
   - {class: CS 61B, name: Daylen Yang, semester: sp14}
   - {class: CS 61B, name: Abhishek Fatehpuria, semester: sp14}
   - {class: CS 162, name: Andrew Chen, semester: sp15}
+- name: Jack Qiao
+  students:
+  - {class: CS 61A, name: Michael Zhang, semester: fa14}
 - name: Japheth Wong
   students: []
   year: 2015
@@ -373,6 +403,7 @@
 - name: Jimmy Lee
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
+  - {class: CS 61B, name: Amruta Yelamanchili, semester: fa14}
 - name: Jimmy Wu
   students:
   - {class: CS 170, name: Alicia Luengo, semester: sp15}
@@ -462,6 +493,7 @@
 - name: Leah Dickstein
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+  - {class: EE 16A, name: Davis Foote, semester: sp16}
   year: 2017
 - name: Lewin Gan
   students:
@@ -508,9 +540,13 @@
   students:
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
   - {class: CS 61B, name: Nathan Mandi, semester: sp15}
+  - {class: CS 170, name: Amruta Yelamanchili, semester: fa15}
 - name: Matthew Griffin
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
+- name: Max Dougherty
+  students:
+  - {class: CS 10, name: Amruta Yelamanchili, semester: fa13}
 - name: Max Wolffe
   students: []
   year: 2016
@@ -524,6 +560,7 @@
 - name: Michael Zhang
   students:
   - {class: CS 70, name: Samantha Wathugala, semester: sp16}
+  year: 2018
 - name: Michelle Nguyen
   students:
   - {class: CS 186, name: Akhil Batra, semester: sp15}
@@ -549,6 +586,7 @@
   students:
   - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
+  - {class: CS 61B, name: Nicholas Ward, semester: fa14}
 - name: Nathan Mandi
   students: []
   year: 2018
@@ -567,6 +605,9 @@
   - {class: CS 161, name: Rudy Laprade}
   - {class: CS 161, name: Zheng Zhu, semester: sp16}
   - {class: CS 161, name: Varun Naik, semester: sp16}
+- name: Nicholas Ward
+  students: []
+  year: 2018
 - name: Nima Ahmadipouranari
   students:
   - {class: CS 170, name: Zheng Zhu, semester: fa14}
@@ -605,6 +646,7 @@
   - {class: CS 70, name: Allen Guo, semester: fa14}
   - {class: CS 70, name: Daylen Yang, semester: fa14}
   - {class: CS 70, name: Nathan Mandi, semester: fa14}
+  - {class: CS 70, name: Nicholas Ward, semester: fa14}
   year: 2016
 - name: Rachel Albert
   students:
@@ -624,6 +666,7 @@
 - name: Reia Cho
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+  - {class: EE 16A, name: Amruta Yelamanchili, semester: sp16}
 - name: Richard Liang
   students: []
   year: 2017
@@ -637,6 +680,9 @@
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
   - {class: CS 162, name: Andrew Fang, semester: sp14}
+- name: Robert Huang
+  students:
+  - {class: CS 61A, name: Amruta Yelamanchili, semester: sp14}
 - name: Robert Nishihara
   students:
   - {class: CS 174, name: Jimmy Wu, semester: sp15}
@@ -658,6 +704,7 @@
   - {class: CS 61A, name: Pete Yeh, semester: su13}
   - {class: CS 61C, name: Pete Yeh, semester: fa14}
   - {class: CS 188, name: Pete Yeh, semester: fa15}
+  - {class: CS 189, name: Michael Zhang, semester: sp16}
 - name: Rohin Shah
   students:
   - {class: CS 188, name: Alicia Luengo, semester: sp15}
