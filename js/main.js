@@ -18,6 +18,7 @@ var activeSearchHit = '';
 
 var main = function(entries) {
   var startTime = new Date();
+  var layout = $('#layout').value;
 
   s = new sigma({
     renderer: {
@@ -87,12 +88,14 @@ var main = function(entries) {
 
         // Approximate tree-forming: if student is above teacher, swap their y-coordinates
         // TODO: Make this better
-        var teacherNode = graph.nodes(teacher.name);
-        var studentNode = graph.nodes(student.name);
-        if (studentNode.y < teacherNode.y) {
-          var tmp = studentNode.y;
-          studentNode.y = teacherNode.y;
-          teacherNode.y = tmp;
+        if (layout !== 'forceDirected') {
+          var teacherNode = graph.nodes(teacher.name);
+          var studentNode = graph.nodes(student.name);
+          if (studentNode.y < teacherNode.y) {
+            var tmp = studentNode.y;
+            studentNode.y = teacherNode.y;
+            teacherNode.y = tmp;
+          }
         }
       });
     }
@@ -186,7 +189,6 @@ var main = function(entries) {
   };
   s.refresh();
 
-  var layout = $('#layout').value;
   if (!layout || layout === 'forceDirected') {
     s.startForceAtlas2({
       gravity: 0.5,
