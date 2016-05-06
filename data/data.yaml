@@ -33,6 +33,7 @@
 - name: Alan Christopher
   students:
   - {class: CS 61C, name: Richard Liaw, semester: su14}
+  - {class: CS 61C, name: Alex Yang, semester: su14}
 - name: Alan Yao
   students:
   - {class: CS 170, name: Michael Zhang, semester: fa15}
@@ -43,6 +44,7 @@
 - name: Alec Mouri
   students:
   - {class: CS 162, name: Cale Horeff, semester: fa15}
+  - {class: CS 162, name: Alex Yang, semester: sp15}
 - name: Aleks Kamko
   students:
   - {class: CS 162, name: Alicia Luengo, semester: fa15}
@@ -60,6 +62,9 @@
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
   - {class: CS 168, name: Ross Teixeira, semester: fa16}
   - {class: CS 168, name: Melanie Cebula, semester: fa15}
+- name: Alex Yang
+  students: []
+  year: 2017
 - name: Alice Sheng
   students:
   - {class: CS 168, name: Daniel Nguyen, semester: fa15}
@@ -174,6 +179,7 @@
 - name: Bill Yeh
   students:
   - {class: CS 161, name: Daniel Nguyen, semester: sp16}
+  - {class: CS 161, name: Alex Yang, semester: sp16}
 - name: Brandon Luong
   students:
   - {class: CS 61C, name: Japheth Wong, semester: fa12}
@@ -196,6 +202,7 @@
   students:
   - {class: CS 61B, name: Amanda Chow, semester: sp14}
   - {class: CS 61B, name: Daniel Nguyen, semester: fa13}
+  - {class: CS 61A, name: Alex Yang, semester: fa13}
 - name: Bryan Munar
   students:
   - {class: CS 186, name: Melanie Cebula, semester: fa15}
@@ -224,6 +231,9 @@
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
+- name: Chi Jin
+  students:
+  - {class: CS 188, name: Alex Yang, semester: sp15}
 - name: Chris Jeng
   students: []
 - name: Chung-Wei Lin
@@ -336,6 +346,7 @@
 - name: Evangelos Georganas
   students:
   - {class: CS 170, name: Patrick Lutz, semester: fa14}
+  - {class: CS 170, name: Alex Yang, semester: fa14}
 - name: Faraz Tavakoli
   students:
   - {class: CS 176, name: Jimmy Wu, semester: fa14}
@@ -357,6 +368,9 @@
   students:
   - {class: CS 162, name: Jimmy Wu, semester: sp14}
   - {class: CS 162, name: Riyaz Faizullabhoy, semester: fa13}
+- name: Glen Liang
+  students:
+  - {class: EE 20, name: Alex Yang, semester: fa14}
 - name: Govind Ramnarayan
   students:
   - {class: CS 70, name: Melanie Cebula, semester: sp14}
@@ -415,6 +429,7 @@
   - {class: CS 61B, name: Austin Le, semester: sp14}
   - {class: CS 61B, name: Michelle Tian, semester: sp14}
   - {class: CS 61B, name: Shana Hu, semester: sp13}
+  - {class: CS 61B, name: Alex Yang, semester: sp14}
 - name: Jeffrey Dong
   students:
   - {class: CS 61C, name: Varun Naik, semester: fa13}
@@ -783,6 +798,9 @@
 - name: Samantha Wathugala
   students: []
   year: 2018
+- name: Sandy Huang
+  students:
+  - {class: CS 188, name: Alex Yang, semester: sp15}
 - name: Sarah Chasins
   students:
   - {class: CS 164, name: Japheth Wong, semester: fa14}
@@ -812,6 +830,9 @@
 - name: Shu Zhong
   students:
   - {class: CS 61B, name: Daniel Nguyen, semester: sp14}
+- name: Sibi Venkatesan
+  students:
+  - {class: CS 70, name: Alex Yang, semester: sp14}
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
