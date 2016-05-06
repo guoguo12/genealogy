@@ -16,7 +16,7 @@ var classToColor = function(course) {
 var activeFilter = '';
 var activeSearchHit = '';
 
-var main = function(entries, useForceDirectedLayout) {
+var main = function(entries) {
   var startTime = new Date();
 
   s = new sigma({
@@ -152,6 +152,7 @@ var main = function(entries, useForceDirectedLayout) {
   $('#search').onkeydown = function(e) {
     if (e.keyCode == 13) {
       highlightSearchHit($('#search').value);
+      $('#layout-wrapper').style.display = 'none';
       $('#filter-wrapper').style.display = 'none';
       $('#search-wrapper').style.display = 'none';
       $('#search-cancel').style.display = 'inline';
@@ -185,7 +186,8 @@ var main = function(entries, useForceDirectedLayout) {
   };
   s.refresh();
 
-  if (useForceDirectedLayout) {
+  var layout = $('#layout').value;
+  if (!layout || layout === 'forceDirected') {
     s.startForceAtlas2({
       gravity: 0.5,
       linLogMode: true
@@ -229,6 +231,7 @@ var highlightSearchHit = function(name) {
 var cancelSearchHit = function() {
   if (activeSearchHit) {
     activeSearchHit = '';
+    $('#layout-wrapper').style.display = 'inline';
     $('#filter-wrapper').style.display = 'inline';
     $('#search-wrapper').style.display = 'inline';
     $('#search-cancel').style.display = 'none';
@@ -293,6 +296,10 @@ var filterByCourse = function(course) {
   }
 }
 
+var goToLayout = function(layoutName) {
+  window.location.href = window.location.href.split('?')[0] + '?layout=' + layoutName;
+}
+
 var computeLongest = function() {
   entries.forEach(function(e) { longestPath(e); });
   var sortedKeys = Object.keys(memo).sort(function(a, b){ return memo[a] - memo[b] });
@@ -343,6 +350,22 @@ var topClasses = function() {
   sortedKeys.forEach(function(k) { console.log(k, counter[k]); });
 };
 
+// Modified from http://gomakethings.com/how-to-get-the-value-of-a-querystring-with-native-javascript/
+var getQueryString = function(field) {
+    var href = window.location.href;
+    if (href[href.length - 1] === '/') {
+      href = href.substring(0, href.length - 1);
+    }
+    var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i');
+    var string = reg.exec(href);
+    return string ? string[1] : null;
+};
+
+var parseOptions = function() {
+  $('#layout').value = getQueryString('layout') || 'forceDirected';
+  $('#layout-wrapper').style.display = 'inline';
+}
+
 $.ready().then(function() {
   if (/Mobi/.test(navigator.userAgent)) {
     if (!confirm('Notice: This website is not optimized for mobile view, and may cause your browser to crash or become unresponsive.')) {
@@ -352,8 +375,8 @@ $.ready().then(function() {
   }
   $.fetch('data/data.yaml').then(function(data) {
     entries = jsyaml.load(data.responseText);
-    useForceDirectedLayout = window.location.search.substring(1, 1 + 'forceDirected'.length) === 'forceDirected';
-    main(entries, useForceDirectedLayout);
+    parseOptions();
+    main(entries);
   });
   showColorLegend();
   $('#about')._.transition({ opacity: 0.9 });
