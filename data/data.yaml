@@ -176,6 +176,7 @@
   students:
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
   - {class: CS 61A, name: Arany Uthayakumar, semester: su14}
+  - {class: CS 61A, name: Yifat Amir, semester: fa14}
 - name: Bill Yeh
   students:
   - {class: CS 161, name: Daniel Nguyen, semester: sp16}
@@ -222,6 +223,7 @@
 - name: Calvin Cheng
   students:
   - {class: CS 174, name: Steven Bi, semester: sp16}
+  - {class: CS 174, name: Yifat Amir, semester: sp16}
 - name: Caryn Tran
   students: []
   year: 2017
@@ -455,9 +457,6 @@
 - name: Joey Greenspun
   students:
   - {class: EE 16A, name: Samantha Wathugala, semester: fa15}
-- name: Joey Moghadam
-  students:
-  - {class: CS 188, name: Evan Ye, semester: fa14}
 - name: John Du
   students:
   - {class: CS 188, name: Daniel Nguyen, semester: fa14}
@@ -469,6 +468,10 @@
   - {class: CS 70, name: Allen Guo, semester: fa14}
   - {class: CS 70, name: Daylen Yang, semester: fa14}
   - {class: CS 70, name: Nathan Mandi, semester: fa14}
+- name: Joseph Moghadam
+  students:
+  - {class: CS 188, name: Evan Ye, semester: fa14}
+  - {class: CS 61B, name: Yifat Amir, semester: sp15}
 - name: Joy Jeng
   students:
   - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
@@ -557,6 +560,7 @@
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
   - {class: CS 170, name: Ankit Mathur, semester: fa15}
   - {class: CS 70, name: Ankit Mathur, semester: sp15}
+  - {class: CS 170, name: Yifat Amir, semester: fa15}
 - name: Marc Khoury
   students:
   - {class: CS 274, name: Alan Yao, semester: sp15}
@@ -719,6 +723,7 @@
 - name: Rebecca Herman
   students:
   - {class: CS 61C, name: Lara McConnaughey, semester: sp16}
+  - {class: CS 61C, name: Yifat Amir, semester: sp16}
 - name: Reia Cho
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
@@ -876,6 +881,9 @@
   - {class: CS 61A, name: Japheth Wong, semester: fa11}
   - {class: CS 61A, name: Varun Naik, semester: fa12}
   - {class: CS 61A, name: Ankit Mathur, semester: fa14}
+- name: Sumer Mohammed
+  students:
+  - {class: CS 10, name: Yifat Amir, semester: sp14}
 - name: Sumukh Sridhara
   students:
   - {class: CS 61A, name: Owen Jow, semester: fa14}
@@ -948,6 +956,9 @@
 - name: Winston Hsu
   students:
   - {class: CS 61C, name: Akhil Batra, semester: fa13}
+- name: Yifat Amir
+  students: []
+  year: 2017
 - name: Yun Jae Cho
   students:
   - {class: EE 40, name: Kunal Marwaha, semester: sp13}
