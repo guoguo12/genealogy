@@ -238,6 +238,12 @@
   - {class: CS 188, name: Alex Yang, semester: sp15}
 - name: Chris Jeng
   students: []
+- name: Chris Xie
+  students:
+  - {class: CS 189, name: Edwin Liao, semester: sp14}
+- name: Christopher Shaver
+  students:
+  - {class: CS 164, name: Edwin Liao, semester: fa12}
 - name: Chung-Wei Lin
   students:
   - {class: CS 70, name: Akhil Batra, semester: sp13}
@@ -320,9 +326,11 @@
 - name: Edwin Liao
   students:
   - {class: CS 170, name: Varun Naik, semester: sp14}
+  year: 2014
 - name: Eric Kim
   students:
   - {class: CS 61A, name: Andrew Huang, semester: fa10}
+  - {class: CS 61A, name: Edwin Liao, semester: fa10}
 - name: Eric Love
   students:
   - {class: CS 152, name: Rohin Shah, semester: sp14}
@@ -463,6 +471,9 @@
 - name: Jon Kotker
   students:
   - {class: EE 20, name: Preetum Nakkiran, semester: fa12}
+- name: Jonathan Kummerfeld
+  students:
+  - {class: CS 188, name: Edwin Liao, semester: fa11}
 - name: Joseph Hui
   students:
   - {class: CS 70, name: Allen Guo, semester: fa14}
@@ -479,6 +490,9 @@
   - {class: CS 61A, name: Michelle Tian, semester: fa13}
 - name: Judy Wang
   students: []
+- name: Julia Erhard
+  students:
+  - {class: CS 170, name: Edwin Liao, semester: sp12}
 - name: Kang Wook Lee
   students:
   - {class: EE 126, name: Ajeya Cotra, semester: fa14}
@@ -596,6 +610,9 @@
 - name: Matthew Griffin
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
+- name: Matthias Vallentin
+  students:
+  - {class: CS 161, name: Edwin Liao, semester: sp13}
 - name: Max Dougherty
   students:
   - {class: CS 10, name: Amruta Yelamanchili, semester: fa13}
@@ -655,6 +672,7 @@
 - name: Neeraja Yadwadkar
   students:
   - {class: CS 162, name: Rohin Shah, semester: sp13}
+  - {class: CS 162, name: Edwin Liao, semester: sp13}
 - name: Nicholas Carlini
   students:
   - {class: CS 161, name: Rudy Laprade}
@@ -881,6 +899,9 @@
   - {class: CS 61A, name: Japheth Wong, semester: fa11}
   - {class: CS 61A, name: Varun Naik, semester: fa12}
   - {class: CS 61A, name: Ankit Mathur, semester: fa14}
+- name: Stewart Liu
+  students:
+  - {class: CS 70, name: Edwin Liao, semester: su11}
 - name: Sumer Mohammed
   students:
   - {class: CS 10, name: Yifat Amir, semester: sp14}
@@ -898,6 +919,9 @@
   - {class: CS 61C, name: Kate Rakelly, semester: sp13}
   - {class: CS 61C, name: Shreyas Chand, semester: sp13}
   - {class: CS 61C, name: Kunal Marwaha, semester: sp14}
+- name: Tarush Bali
+  students:
+  - {class: CS 61BL, name: Edwin Liao, semester: sp11}
 - name: Teodor Moldovan
   students:
   - {class: CS 188, name: Patrick Lutz, semester: sp14}
@@ -975,6 +999,9 @@
   students:
   - {class: EE 40, name: Kate Rakelly, semester: sp12}
   - {class: EE 20, name: Caleb Wang, semester: fa12}
+- name: Yunsup Lee
+  students:
+  - {class: CS 61C, name: Edwin Liao, semester: sp11}
 - name: Zeyu Liu
   students:
   - {class: CS 186, name: Judy Wang, semester: fa15}
