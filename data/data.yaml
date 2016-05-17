@@ -89,6 +89,9 @@
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
   - {class: CS 176, name: Patrick Lutz, semester: fa16}
+- name: Alvin Wan
+  students:
+  - {class: CS 61A, name: Vivian Fang, semester: fa15}
 - name: Alvin Wong
   students:
   - {class: CS 188, name: Japheth Wong, semester: sp14}
@@ -962,6 +965,9 @@
   students:
   - {class: CS 61AS, name: Caryn Tran, semester: fa14}
   year: 2016
+- name: Vivian Fang
+  students: []
+  year: 2019
 - name: Weilun Sun
   students:
   - {class: CS 184, name: Zheng Zhu, semester: sp16}
