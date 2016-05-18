@@ -57,6 +57,9 @@
 - name: Alex Kantchelian
   students:
   - {class: CS 170, name: Andrew Huang, semester: sp12}
+- name: Alex Psomas
+  students:
+  - {class: CS 170, name: Giulio Zhou, semester: sp15}
 - name: Alex Triana
   students:
   - {class: CS 168, name: Anusha Ramakuri, semester: fa15}
@@ -230,6 +233,9 @@
 - name: Caryn Tran
   students: []
   year: 2017
+- name: Chang Lan
+  students:
+  - {class: CS 168, name: Giulio Zhou, semester: fa14}
 - name: Chelsea Finn
   students:
   - {class: CS 188, name: Richard Liang, semester: sp15}
@@ -381,6 +387,9 @@
   students:
   - {class: CS 162, name: Jimmy Wu, semester: sp14}
   - {class: CS 162, name: Riyaz Faizullabhoy, semester: fa13}
+- name: Giulio Zhou
+  students: []
+  year: 2016
 - name: Glen Liang
   students:
   - {class: EE 20, name: Alex Yang, semester: fa14}
@@ -428,6 +437,12 @@
 - name: Jack Qiao
   students:
   - {class: CS 61A, name: Michael Zhang, semester: fa14}
+- name: Jackson Chang
+  students:
+  - {class: CS 162, name: Giulio Zhou, semester: fa15}
+- name: James Sha
+  students:
+  - {class: CS 188, name: Giulio Zhou, semester: fa14}
 - name: Japheth Wong
   students: []
   year: 2015
@@ -504,6 +519,7 @@
   - {class: EE 126, name: Nathan Mandi, semester: fa15}
   - {class: EE 126, name: Leah Dickstein, semester: fa14}
   - {class: EE 126, name: Kunal Marwaha, semester: fa14}
+  - {class: EE 126, name: Giulio Zhou, semester: fa15}
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
@@ -545,6 +561,9 @@
   - {class: CS 61B, name: Richard Liaw, semester: sp14}
   - {class: CS 189, name: Richard Liaw, semester: sp15}
   - {class: CS 189, name: Andrew Chen, semester: sp15}
+- name: Khoa Tran
+  students:
+  - {class: CS 70, name: Giulio Zhou, semester: fa14}
 - name: Kunal Marwaha
   students: []
   year: 2016
@@ -700,6 +719,7 @@
   - {class: CS 189, name: Rudy Laprade}
   - {class: CS 188, name: Melanie Cebula, semester: fa14}
   - {class: CS 188, name: Varun Naik, semester: fa14}
+  - {class: CS 189, name: Giulio Zhou, semester: sp15}
 - name: Patrick Lutz
   students: []
   year: 2016
@@ -752,11 +772,13 @@
 - name: Richard Hwang
   students:
   - {class: CS 61A, name: Kunal Marwaha, semester: sp13}
+  - {class: CS 61A, name: Giulio Zhou, semester: fa13}
 - name: Richard Liang
   students: []
   year: 2017
 - name: Richard Liaw
-  students: []
+  students:
+  - {class: CS 186, name: Giulio Zhou, semester: sp16}
   year: 2017
 - name: Richard Starfield
   students:
@@ -835,6 +857,7 @@
 - name: Sarah Kim
   students:
   - {class: CS 61B, name: Nathan Mandi, semester: sp15}
+  - {class: CS 61B, name: Giulio Zhou, semester: su14}
 - name: Shana Hu
   students: []
   year: 2016
@@ -852,6 +875,7 @@
   students:
   - {class: CS 61C, name: Ross Teixeira, semester: sp15}
   - {class: CS 61C, name: Austin Le, semester: sp14}
+  - {class: CS 61C, name: Giulio Zhou, semester: sp14}
   year: 2016
 - name: Shu Zhong
   students:
