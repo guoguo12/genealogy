@@ -2,7 +2,7 @@
 
 This project aims to compile a "family tree" of Berkeley EECS TAs (GSIs).
 
-There are currently 250+ people and 450+ connections represented. Thanks to the 60+ GSIs (past and present) who contributed their genealogical data!
+As of May 19, 2016, the family tree contains over 250 people and 450 connections. Thanks to the 60+ GSIs (past and present) who contributed their genealogical data!
 
 ## How to Contribute
 
