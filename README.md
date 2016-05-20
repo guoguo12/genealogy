@@ -2,6 +2,8 @@
 
 This project aims to compile a "family tree" of Berkeley EECS TAs (GSIs).
 
+There are currently 250+ people and 450+ connections represented. Thanks to the 60+ GSIs (past and present) who contributed their genealogical data!
+
 ## How to Contribute
 
 Are you or were you a Berkeley EECS TA? If so, great! We need your help!
@@ -48,8 +50,6 @@ These are questions about the project as a whole.
 ## Project To-Do
 
 * Find some way to use the "graduation year" data field. Maybe color nodes by age/generation?
-* Collect more data.
-* After more data: Only render a subgraph starting from a specified TA. ("Give me all children and grand-children of [name].")
 * Long term: Find an official EECS organization (like HKN, UPE, etc.) to host this website.
 
 ## Privacy Policy and Credits
