@@ -194,7 +194,7 @@ var main = function(entries) {
       gravity: 0.5,
       linLogMode: true
     });
-    window.setTimeout(function() { s.killForceAtlas2(); }, 10000);
+    window.setTimeout(function() { s.killForceAtlas2(); }, 5000);
   } else {
     // Make sure no nodes overlap
     s.configNoverlap({
