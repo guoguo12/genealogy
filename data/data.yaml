@@ -464,6 +464,7 @@
 - name: Jene Li
   students:
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
+  - {class: CS 61B, name: Ross Teixeira, semester: fa14}
 - name: Jimmy Lee
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
@@ -613,7 +614,7 @@
   - {class: CS 61A, name: Richard Liang, semester: fa13}
 - name: Marvin Zhang
   students:
-  - {class: CS 61A, name: Ross Teixeira, semester: sp16}
+  - {class: CS 61A, name: Ross Teixeira, semester: sp14}
   - {class: CS 189, name: Cale Horeff, semester: sp16}
   - {class: CS 189, name: Stephan Liu, semester: sp16}
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
@@ -644,6 +645,7 @@
 - name: Melanie Cebula
   students:
   - {class: CS 61B, name: Leah Dickstein, semester: sp15}
+  - {class: CS 61B, name: Ross Teixeira, semester: fa14}
   year: 2016
 - name: Michael Ball
   students:
