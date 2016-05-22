@@ -613,7 +613,7 @@
   - {class: CS 61A, name: Richard Liang, semester: fa13}
 - name: Marvin Zhang
   students:
-  - {class: CS 61A, name: Ross Teixeira}
+  - {class: CS 61A, name: Ross Teixeira, semester: sp16}
   - {class: CS 189, name: Cale Horeff, semester: sp16}
   - {class: CS 189, name: Stephan Liu, semester: sp16}
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
@@ -826,7 +826,7 @@
   - {class: CS 188, name: Michelle Tian, semester: sp15}
 - name: Ross Teixeira
   students:
-  - {class: CS 61BL, name: Steven Ho}
+  - {class: CS 61BL, name: Steven Ho, semester: su15}
   year: 2017
 - name: Roy Dong
   students:
