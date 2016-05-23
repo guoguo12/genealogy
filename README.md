@@ -49,6 +49,7 @@ These are questions about the project as a whole.
 
 ## Project To-Do
 
+* Make a "ancestry view" that shows the direct ancestry of a single person. 
 * Find some way to use the "graduation year" data field. Maybe color nodes by age/generation?
 * Long term: Find an official EECS organization (like HKN, UPE, etc.) to host this website.
 
