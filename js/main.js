@@ -285,6 +285,7 @@ var filterByCourse = function(course) {
       }
     });
     s.refresh();
+    $('#layout-wrapper').style.display = 'none';
     $('#search-wrapper').style.display = 'none';
   } else {
     activeFilter = '';
@@ -294,6 +295,7 @@ var filterByCourse = function(course) {
       edge.size = 1;
     });
     s.refresh();
+    $('#layout-wrapper').style.display = 'inline';
     $('#search-wrapper').style.display = 'inline';
   }
 }
