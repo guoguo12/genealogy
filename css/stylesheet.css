@@ -34,6 +34,8 @@ div.awesomplete {
   border: 1px solid #999;
   z-index: 999;
   opacity: 0.9;
+  max-height: 80%;
+  overflow-y: auto;
 }
 
 .textbox ul li {
