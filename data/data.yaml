@@ -332,6 +332,9 @@
 - name: Dorsa Sadigh
   students:
   - {class: EE 120, name: Leah Dickstein, semester: fa15}
+- name: Eddie Groshev
+  students:
+  - {class: CS 70, name: Shane Barratt, semester: fa14}
 - name: Edwin Liao
   students:
   - {class: CS 170, name: Varun Naik, semester: sp14}
@@ -737,6 +740,7 @@
   students:
   - {class: CS 189, name: Rudy Laprade}
   - {class: CS 189, name: Varun Naik, semester: sp15}
+  - {class: CS 189, name: Shane Barratt, semester: sp15}
 - name: Piyush Srivastava
   students:
   - {class: CS 170, name: Preetum Nakkiran, semester: fa13}
@@ -785,6 +789,9 @@
 - name: Richard Starfield
   students:
   - {class: CS 70, name: Varun Naik, semester: sp13}
+- name: Rishi Sharma
+  students:
+  - {class: EE 126, name: Shane Barratt, semester: sp15}
 - name: Riyaz Faizullabhoy
   students:
   - {class: CS 61C, name: Amanda Chow, semester: fa14}
@@ -863,6 +870,9 @@
 - name: Shana Hu
   students: []
   year: 2016
+- name: Shane Barratt
+  students: []
+  year: 2017
 - name: Shaon Barman
   students:
   - {class: CS 164, name: Rohin Shah, semester: sp12}
