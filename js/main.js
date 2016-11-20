@@ -154,11 +154,12 @@ var main = function(entries) {
   // Bind search handler
   $('#search').onkeydown = function(e) {
     if (e.keyCode == 13) {
-      highlightSearchHit($('#search').value);
-      $('#layout-wrapper').style.display = 'none';
-      $('#filter-wrapper').style.display = 'none';
-      $('#search-wrapper').style.display = 'none';
-      $('#search-cancel').style.display = 'inline';
+      if (highlightSearchHit($('#search').value)) {
+        $('#layout-wrapper').style.display = 'none';
+        $('#filter-wrapper').style.display = 'none';
+        $('#search-wrapper').style.display = 'none';
+        $('#search-cancel').style.display = 'inline';
+      }
     }
   };
   // $('body').onkeydown = function(e) {
@@ -172,7 +173,8 @@ var main = function(entries) {
   names.sort();
   new Awesomplete($('#search'), {
     list: names,
-    minChars: 1
+    minChars: 1,
+    autoFirst: true
   });
   $('body').addEventListener('awesomplete-selectcomplete', function(e) {
     $('#search').onkeydown({ keyCode: 13 });  // trigger search handler
@@ -227,7 +229,9 @@ var highlightSearchHit = function(name) {
     activeSearchHit = node.id;
     node.color = '#FFA726';
     s.refresh();
+    return true;
   }
+  return false;
 };
 
 var cancelSearchHit = function() {
