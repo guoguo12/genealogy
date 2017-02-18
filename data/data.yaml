@@ -447,7 +447,8 @@
   students:
   - {class: CS 188, name: Giulio Zhou, semester: fa14}
 - name: Japheth Wong
-  students: []
+  students:
+  - {class: CS 61B, name: Kabir Sial, semester: sp15}
   year: 2015
 - name: Jason Jia
   students:
@@ -468,6 +469,9 @@
   students:
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
   - {class: CS 61B, name: Ross Teixeira, semester: fa14}
+- name: Jian Qiao
+  students:
+  - {class: CS 61A, name: Kabir Sial, semester: fa14}
 - name: Jimmy Lee
   students:
   - {class: CS 61B, name: Chris Jeng, semester: su14}
@@ -515,6 +519,9 @@
 - name: Julia Erhard
   students:
   - {class: CS 170, name: Edwin Liao, semester: sp12}
+- name: Kabir Sial
+  students: []
+  year: 2018
 - name: Kang Wook Lee
   students:
   - {class: EE 126, name: Ajeya Cotra, semester: fa14}
@@ -708,6 +715,9 @@
 - name: Nicholas Ward
   students: []
   year: 2018
+- name: Nikhil Sharma
+  students:
+  - {class: CS 70, name: Kabir Sial, semester: fa15}
 - name: Nima Ahmadipouranari
   students:
   - {class: CS 170, name: Zheng Zhu, semester: fa14}
