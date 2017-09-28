@@ -15,6 +15,7 @@
   - {class: CS 70, name: Shana Hu, semester: su13}
   - {class: CS 61C, name: Shana Hu, semester: fa13}
   - {class: CS 70, name: Arany Uthayakumar, semester: fa14}
+  - {class: CS 70, name: Jen Thakar, semester: sp15}
   year: 2015
 - name: Ajeya Cotra
   students:
@@ -123,7 +124,7 @@
   students:
   - {class: CS 61B, name: Samantha Wathugala, semester: sp15}
   - {class: CS 61AS, name: Steven Bi, semester: fa12}
-  - {class: CS 61A, name: Tiffany Perumpail, semester: fa15}
+  - {class: CS 61A, name: Tiffany Perumpail, semester: sp15}
 - name: Andrew Liu
   students:
   - {class: CS 188, name: Richard Liaw, semester: fa14}
@@ -150,6 +151,9 @@
 - name: Arany Uthayakumar
   students: []
   year: 2017
+- name: Ashley Chen
+  students:
+  - {class: CS 61C, name: Wayne Li, semester: fa16}
 - name: Austin Buchan
   students:
   - {class: CS 150, name: Ajay Tripathi, semester: fa13}
@@ -159,7 +163,8 @@
   - {class: CS 161, name: Richard Liang, semester: sp16}
   - {class: CS 61B, name: Michael Zhang, semester: sp15}
 - name: Austin Le
-  students: []
+  students:
+  - {class: CS 184, name: Eli Lipsitz, semester: sp17}
   year: 2017
 - name: Austin Tai
   students:
@@ -167,6 +172,7 @@
 - name: Barak Gila
   students:
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
+  - {class: CS 170, name: Jen Thakar, semester: sp16}
 - name: Behnam Behroozpour
   students:
   - {class: EE 40, name: Leah Dickstein, semester: sp15}
@@ -208,6 +214,9 @@
 - name: Brielin Brown
   students:
   - {class: CS 174, name: Rohin Shah, semester: sp14}
+- name: Brijen Thananjeyan
+  students:
+  - {class: CS 61B, name: Wayne Li, semester: su16}
 - name: Brittany Cheng
   students:
   - {class: CS 160, name: Shana Hu, semester: sp14}
@@ -251,6 +260,9 @@
 - name: Chi Jin
   students:
   - {class: CS 188, name: Alex Yang, semester: sp15}
+- name: Chris Hsu
+  students:
+  - {class: CS 61C, name: Tiffany Perumpail, semester: fa15}
 - name: Chris Jeng
   students: []
 - name: Chris Xie
@@ -268,6 +280,9 @@
   students:
   - {class: CS 70, name: Pete Yeh, semester: sp14}
   - {class: CS 70, name: Davis Foote, semester: sp14}
+- name: Courtney Vu
+  students:
+  - {class: CS 70, name: Tiffany Perumpail, semester: sp16}
 - name: Courtney Wang
   students:
   - {class: CS 61BL, name: Hurshal Patel, semester: sp11}
@@ -312,6 +327,7 @@
   - {class: CS 189, name: Ajeya Cotra, semester: sp16}
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
+  - {class: CS 189, name: Wayne Li, semester: sp17}
   year: 2017
 - name: Derek Ahmed
   students:
@@ -342,6 +358,9 @@
 - name: Dorsa Sadigh
   students:
   - {class: EE 120, name: Leah Dickstein, semester: fa15}
+- name: Dylan Dreyer
+  students:
+  - {class: CS 61C, name: Eli Lipsitz, semester: fa16}
 - name: Eddie Groshev
   students:
   - {class: CS 70, name: Shane Barratt, semester: fa14}
@@ -349,6 +368,9 @@
   students:
   - {class: CS 170, name: Varun Naik, semester: sp14}
   year: 2014
+- name: Eli Lipsitz
+  students: []
+  year: 2019
 - name: Eric Kim
   students:
   - {class: CS 61A, name: Andrew Huang, semester: fa10}
@@ -456,6 +478,9 @@
 - name: James Sha
   students:
   - {class: CS 188, name: Giulio Zhou, semester: fa14}
+- name: James Uejio
+  students: []
+  year: 2018
 - name: Jane Yu
   students:
   - {class: CS 70, name: Sinho Chewi, semester: fa15}
@@ -478,6 +503,9 @@
 - name: Jeffrey Dong
   students:
   - {class: CS 61C, name: Varun Naik, semester: fa13}
+- name: Jen Thakar
+  students: []
+  year: 2018
 - name: Jene Li
   students:
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
@@ -663,6 +691,9 @@
 - name: Matthew Griffin
   students:
   - {class: CS 61C, name: Cale Horeff, semester: fa14}
+- name: Matthew Mussomele
+  students:
+  - {class: CS 168, name: Eli Lipsitz, semester: fa17}
 - name: Matthias Vallentin
   students:
   - {class: CS 161, name: Edwin Liao, semester: sp13}
@@ -686,6 +717,7 @@
 - name: Michael Zhang
   students:
   - {class: CS 70, name: Samantha Wathugala, semester: sp16}
+  - {class: CS 70, name: Eli Lipsitz, semester: fa16}
   year: 2018
 - name: Michelle Nguyen
   students:
@@ -713,6 +745,9 @@
   - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
   - {class: CS 61B, name: Melanie Cebula, semester: fa13}
   - {class: CS 61B, name: Nicholas Ward, semester: fa14}
+- name: Nathan Malkin
+  students:
+  - {class: CS 161, name: Eli Lipsitz, semester: sp17}
 - name: Nathan Mandi
   students: []
   year: 2018
@@ -758,6 +793,9 @@
 - name: Patrick Lutz
   students: []
   year: 2016
+- name: Patrick Yang
+  students:
+  - {class: CS 162, name: Eli Lipsitz, semester: fa17}
 - name: Pete Yeh
   students:
   - {class: CS 186, name: Anusha Ramakuri, semester: sp16}
@@ -851,6 +889,7 @@
   - {class: CS 61C, name: Pete Yeh, semester: fa14}
   - {class: CS 188, name: Pete Yeh, semester: fa15}
   - {class: CS 189, name: Michael Zhang, semester: sp16}
+  - {class: CS 188, name: Jen Thakar, semester: fa15}
 - name: Rohin Shah
   students:
   - {class: CS 188, name: Alicia Luengo, semester: sp15}
@@ -872,6 +911,9 @@
   - {class: EE 120, name: Nathan Mandi, semester: sp16}
 - name: Rudy Laprade
   students: []
+- name: Ryan Riddle
+  students:
+  - {class: CS 186, name: Eli Lipsitz, semester: fa17}
 - name: Sagar Karandikar
   students:
   - {class: CS 61C, name: Sarah Kim, semester: sp14}
@@ -918,6 +960,7 @@
   - {class: CS 61C, name: Ross Teixeira, semester: sp15}
   - {class: CS 61C, name: Austin Le, semester: sp14}
   - {class: CS 61C, name: Giulio Zhou, semester: sp14}
+  - {class: CS 61C, name: Jen Thakar, semester: fa15}
   year: 2016
 - name: Shu Zhong
   students:
@@ -926,7 +969,8 @@
   students:
   - {class: CS 70, name: Alex Yang, semester: sp14}
 - name: Sinho Chewi
-  students: []
+  students:
+  - {class: CS 70, name: Eli Lipsitz, semester: fa16}
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
@@ -1039,6 +1083,9 @@
 - name: Vivian Fang
   students: []
   year: 2019
+- name: Wayne Li
+  students: []
+  year: 2018
 - name: Weilun Sun
   students:
   - {class: CS 184, name: Zheng Zhu, semester: sp16}
