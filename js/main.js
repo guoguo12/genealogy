@@ -380,7 +380,7 @@ $.ready().then(function() {
       return;
     }
   }
-  var time = new Date().getTime()G
+  var time = new Date().getTime();
   $.fetch('data/data.yaml?t=' + time).then(function(data) {
     entries = jsyaml.load(data.responseText);
     parseOptions();
