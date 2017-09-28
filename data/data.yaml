@@ -88,6 +88,9 @@
   - {class: CS 61A, name: Austin Le, semester: fa13}
   - {class: CS 61A, name: Ajeya Cotra, semester: fa13}
   - {class: CS 61A, name: Richard Liaw, semester: fa13}
+- name: Allen Tang
+  students:
+  - {class: CS 170, name: Sinho Chewi, semester: fa16}
 - name: Allon Wagner
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
@@ -178,6 +181,9 @@
   students:
   - {class: CS 61B, name: Preetum Nakkiran, semester: fa12}
   - {class: CS 164, name: Hurshal Patel, semester: fa13}
+- name: Benjamin Weitz
+  students:
+  - {class: CS 270, name: Sinho Chewi, semester: sp17}
 - name: Beth Marrone
   students:
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
@@ -279,7 +285,8 @@
   students:
   - {class: CS 191, name: Kunal Marwaha, semester: fa14}
 - name: Daniel Nguyen
-  students: []
+  students:
+  - {class: CS 61B, name: Sinho Chewi, semester: fa15}
   year: 2017
 - name: Daniel Xu
   students:
@@ -322,6 +329,9 @@
 - name: Dibyo Majumdar
   students: []
   year: 2016
+- name: Dickson Tsai
+  students:
+  - {class: CS 61A, name: Sinho Chewi, semester: sp15}
 - name: Diego Kiner
   students:
   - {class: EE 127, name: Vivek Rangaswamy, semester: sp16}
@@ -446,6 +456,9 @@
 - name: James Sha
   students:
   - {class: CS 188, name: Giulio Zhou, semester: fa14}
+- name: Jane Yu
+  students:
+  - {class: CS 70, name: Sinho Chewi, semester: fa15}
 - name: Japheth Wong
   students:
   - {class: CS 61B, name: Kabir Sial, semester: sp15}
@@ -505,10 +518,16 @@
   - {class: CS 70, name: Allen Guo, semester: fa14}
   - {class: CS 70, name: Daylen Yang, semester: fa14}
   - {class: CS 70, name: Nathan Mandi, semester: fa14}
+- name: Joseph Menke
+  students:
+  - {class: EE 126, name: Sinho Chewi, semester: fa16}
 - name: Joseph Moghadam
   students:
   - {class: CS 188, name: Evan Ye, semester: fa14}
   - {class: CS 61B, name: Yifat Amir, semester: sp15}
+- name: Joshua Achiam
+  students:
+  - {class: EE 127, name: Sinho Chewi, semester: sp17}
 - name: Joy Jeng
   students:
   - {class: CS 61A, name: Sumukh Sridhara, semester: fa12}
@@ -534,6 +553,7 @@
 - name: Karthik Narayan
   students:
   - {class: CS 188, name: Ross Teixeira, semester: sp16}
+  - {class: CS 188, name: Sinho Chewi, semester: sp16}
 - name: Kate Rakelly
   students: []
   year: 2015
@@ -905,6 +925,8 @@
 - name: Sibi Venkatesan
   students:
   - {class: CS 70, name: Alex Yang, semester: sp14}
+- name: Sinho Chewi
+  students: []
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
@@ -914,6 +936,9 @@
 - name: Soham Mehta
   students:
   - {class: CS 184, name: Akhil Batra, semester: sp14}
+- name: Soham Phade
+  students:
+  - {class: EE 226A, name: Sinho Chewi, semester: fa17}
 - name: Soumya Basu
   students:
   - {class: CS 61A, name: Stephan Liu, semester: fa13}
@@ -1035,6 +1060,9 @@
 - name: Yifat Amir
   students: []
   year: 2017
+- name: Yiqun Chen
+  students:
+  - {class: CS 189, name: Sinho Chewi, semester: sp17}
 - name: Yun Jae Cho
   students:
   - {class: EE 40, name: Kunal Marwaha, semester: sp13}
