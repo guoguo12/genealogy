@@ -548,6 +548,7 @@
   - {class: CS 70, name: Nathan Mandi, semester: fa14}
 - name: Joseph Menke
   students:
+  - {class: EE 126, name: Allen Guo, semester: fa16}
   - {class: EE 126, name: Sinho Chewi, semester: fa16}
 - name: Joseph Moghadam
   students:
@@ -555,6 +556,7 @@
   - {class: CS 61B, name: Yifat Amir, semester: sp15}
 - name: Joshua Achiam
   students:
+  - {class: EE 127, name: Allen Guo, semester: sp17}
   - {class: EE 127, name: Sinho Chewi, semester: sp17}
 - name: Joy Jeng
   students:
