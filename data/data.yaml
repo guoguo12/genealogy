@@ -52,6 +52,9 @@
 - name: Albert Wu
   students:
   - {class: CS 61A, name: Cynthia Shen, semester: sp15}
+- name: Aldo Pacchiano
+  students:
+  - {class: CS 188, name: Vivian Fang, semester: fa16}
 - name: Alec Mouri
   students:
   - {class: CS 162, name: Cale Horeff, semester: fa15}
@@ -209,6 +212,8 @@
 - name: Beliz Gunel
   students:
   - {class: EE 16A, name: Nathan Mandi, semester: sp16}
+  - {class: EE 16A, name: Vivian Fang, semester: sp16}
+  - {class: EE 16B, name: Vivian Fang, semester: sp17}
 - name: Ben Mildenhall
   students:
   - {class: CS 184, name: Owen Jow, semester: sp16}
@@ -719,6 +724,9 @@
   - {class: CS 170, name: Evan Ye, semester: fa13}
   - {class: CS 170, name: Ajay Tripathi, semester: sp14}
   - {class: CS 170, name: Abhishek Fatehpuria, semester: sp15}
+- name: Luise Valentin
+  students:
+  - {class: CS 168, name: Vivian Fang, semester: fa16}
 - name: Lydia Lee
   students: []
   year: 2017
@@ -1062,6 +1070,7 @@
   students:
   - {class: CS 70, name: Eli Lipsitz, semester: fa16}
   - {class: CS 70, name: Shreyas Parthasarathy, semester: sp16}
+  - {class: CS 70, name: Vivian Fang, semester: fa16}
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
@@ -1088,6 +1097,7 @@
 - name: Stephanie Wang
   students:
   - {class: CS 162, name: Antares Chen, semester: fa17}
+  - {class: CS 162, name: Vivian Fang, semester: fa17}
 - name: Stephen Bailey
   students:
   - {class: CS 184, name: Roger Chen, semester: sp15}
