@@ -55,6 +55,7 @@
 - name: Aldo Pacchiano
   students:
   - {class: CS 188, name: Vivian Fang, semester: fa16}
+  - {class: CS 188, name: Jobel Vecino, semester: fa16}
 - name: Alec Mouri
   students:
   - {class: CS 162, name: Cale Horeff, semester: fa15}
@@ -68,12 +69,16 @@
   - {class: CS 162, name: Dibyo Majumdar, semester: sp16}
   - {class: CS 162, name: Sumukh Sridhara, semester: sp16}
   - {class: CS 162, name: Michelle Tian, semester: fa15}
+  - {class: CS 61B, name: Jobel Vecino, semester: fa14}
 - name: Alex Kantchelian
   students:
   - {class: CS 170, name: Andrew Huang, semester: sp12}
 - name: Alex Khodaverdian
   students:
   - {class: CS 61C, name: Antares Chen, semester: sp16}
+- name: Alex Khodaverian
+  students:
+  - {class: CS 61C, name: Vinitra Swamy, semester: sp16}
 - name: Alex Psomas
   students:
   - {class: CS 170, name: Giulio Zhou, semester: sp15}
@@ -328,7 +333,8 @@
   students:
   - {class: CS 61BL, name: Hurshal Patel, semester: sp11}
 - name: Cynthia Shen
-  students: []
+  students:
+  - {class: CS 70, name: Seiya Ono, semester: sp17}
   year: 2018
 - name: Dan Crankshaw
   students:
@@ -459,7 +465,8 @@
   - {class: CS 170, name: Patrick Lutz, semester: fa14}
   - {class: CS 170, name: Alex Yang, semester: fa14}
 - name: Fahad Kamran
-  students: []
+  students:
+  - {class: CS 188, name: Vinitra Swamy, semester: su16}
   year: 2018
 - name: Faraz Tavakoli
   students:
@@ -602,6 +609,9 @@
 - name: Joao Carreira
   students:
   - {class: CS 162, name: Cynthia Shen, semester: sp17}
+- name: Jobel Vecino
+  students: []
+  year: 2018
 - name: Joey Greenspun
   students:
   - {class: EE 16A, name: Samantha Wathugala, semester: fa15}
@@ -611,6 +621,9 @@
 - name: Jon Kotker
   students:
   - {class: EE 20, name: Preetum Nakkiran, semester: fa12}
+- name: Jon McKinsey
+  students:
+  - {class: CS 10, name: Jobel Vecino, semester: fa13}
 - name: Jonathan Kummerfeld
   students:
   - {class: CS 188, name: Edwin Liao, semester: fa11}
@@ -627,6 +640,9 @@
   students:
   - {class: CS 188, name: Evan Ye, semester: fa14}
   - {class: CS 61B, name: Yifat Amir, semester: sp15}
+- name: Josh Don
+  students:
+  - {class: CS 162, name: Jobel Vecino, semester: sp17}
 - name: Joshua Achiam
   students:
   - {class: EE 127, name: Allen Guo, semester: sp17}
@@ -814,6 +830,9 @@
   - {class: CS 186, name: Austin Le, semester: fa15}
   - {class: CS 186, name: Pete Yeh, semester: sp15}
   - {class: CS 186, name: Richard Liaw, semester: sp15}
+- name: Michelle Ruby Hwang
+  students:
+  - {class: CS 61A, name: Jobel Vecino, semester: sp14}
 - name: Michelle Tian
   students: []
   year: 2017
@@ -905,6 +924,9 @@
   - {class: CS 70, name: Nathan Mandi, semester: fa14}
   - {class: CS 70, name: Nicholas Ward, semester: fa14}
   year: 2016
+- name: Qi Zhong
+  students:
+  - {class: CS 161, name: Jobel Vecino, semester: fa15}
 - name: Rachel Albert
   students:
   - {class: CS 194-26, name: Roger Chen, semester: fa15}
@@ -1013,6 +1035,7 @@
   - {class: CS 61C, name: Sumukh Sridhara, semester: sp14}
   - {class: CS 61C, name: Melanie Cebula, semester: sp14}
   - {class: CS 61C, name: Max Wolffe, semester: fa13}
+  - {class: CS 61C, name: Jobel Vecino, semester: sp15}
 - name: Sahaana Suri
   students:
   - {class: EE 126, name: Alan Yao, semester: fa14}
@@ -1031,6 +1054,13 @@
   students:
   - {class: CS 61B, name: Nathan Mandi, semester: sp15}
   - {class: CS 61B, name: Giulio Zhou, semester: su14}
+  - {class: CS 61B, name: Seiya Ono, semester: sp16}
+- name: Seiya Ono
+  students: []
+  year: 2019
+- name: Selena Shang
+  students:
+  - {class: CS  186, name: Vinitra Swamy, semester: fa16}
 - name: Shana Hu
   students: []
   year: 2016
@@ -1087,6 +1117,9 @@
 - name: Soumya Basu
   students:
   - {class: CS 61A, name: Stephan Liu, semester: fa13}
+- name: Stan Chu
+  students:
+  - {class: CS 61A, name: Seiya Ono, semester: fa15}
 - name: Stanley Hung
   students:
   - {class: CS 162, name: Varun Naik, semester: fa14}
@@ -1098,6 +1131,7 @@
   students:
   - {class: CS 162, name: Antares Chen, semester: fa17}
   - {class: CS 162, name: Vivian Fang, semester: fa17}
+  - {class: CS 162, name: Seiya Ono, semester: fa17}
 - name: Stephen Bailey
   students:
   - {class: CS 184, name: Roger Chen, semester: sp15}
@@ -1115,7 +1149,8 @@
   students:
   - {class: EE 105, name: Kunal Marwaha, semester: fa13}
 - name: Steven Ho
-  students: []
+  students:
+  - {class: CS 61C, name: Seiya Ono, semester: fa16}
 - name: Steven Tang
   students:
   - {class: CS 61A, name: Roger Chen, semester: fa12}
@@ -1143,6 +1178,9 @@
   - {class: CS 61C, name: Kate Rakelly, semester: sp13}
   - {class: CS 61C, name: Shreyas Chand, semester: sp13}
   - {class: CS 61C, name: Kunal Marwaha, semester: sp14}
+- name: Tammy Nguyen
+  students:
+  - {class: CS 61A, name: Vinitra Swamy, semester: fa15}
 - name: Tarush Bali
   students:
   - {class: CS 61BL, name: Edwin Liao, semester: sp11}
@@ -1191,9 +1229,15 @@
 - name: Vicenc Rubies Royo
   students:
   - {class: CS 70, name: Aditya Baradwaj, semester: su16}
+- name: Vidya Muthukumar
+  students:
+  - {class: EE 16A, name: Seiya Ono, semester: fa15}
 - name: Vincent Donato
   students:
   - {class: CS 70, name: James Hulett, semester: sp16}
+- name: Vinitra Swamy
+  students: []
+  year: 2018
 - name: Vivek Rangaswamy
   students:
   - {class: CS 61AS, name: Caryn Tran, semester: fa14}
