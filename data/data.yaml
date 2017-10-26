@@ -116,6 +116,7 @@
   students:
   - {class: CS 170, name: Sinho Chewi, semester: fa16}
   - {class: CS 170, name: Brandon Lee, semester: sp16}
+  - {class: CS 70, name: Courtney Vu, semester: sp15}
 - name: Allon Wagner
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
@@ -211,6 +212,7 @@
   - {class: CS 170, name: Nathan Mandi, semester: fa15}
   - {class: CS 170, name: Jen Thakar, semester: sp16}
   - {class: CS 170, name: James Hulett, semester: fa16}
+  - {class: CS 170, name: Yuxiang Yang, semester: fa15}
 - name: Behnam Behroozpour
   students:
   - {class: EE 40, name: Leah Dickstein, semester: sp15}
@@ -298,6 +300,9 @@
 - name: Chelsea Finn
   students:
   - {class: CS 188, name: Richard Liang, semester: sp15}
+- name: Chenyang Yuan
+  students:
+  - {class: EE 16A, name: Yuxiang Yang, semester: fa15}
 - name: Chenyu Zhao
   students:
   - {class: CS 70, name: Alan Yao, semester: sp13}
@@ -329,6 +334,7 @@
   students:
   - {class: CS 70, name: Tiffany Perumpail, semester: sp16}
   - {class: CS 70, name: Cynthia Shen, semester: sp16}
+  year: 2018
 - name: Courtney Wang
   students:
   - {class: CS 61BL, name: Hurshal Patel, semester: sp11}
@@ -388,6 +394,7 @@
   - {class: CS 189, name: Nathan Mandi, semester: sp16}
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
   - {class: CS 189, name: Wayne Li, semester: sp17}
+  - {class: CS 189, name: Courtney Vu, semester: sp17}
   year: 2017
 - name: Dennis Zhao
   students:
@@ -755,6 +762,7 @@
   - {class: CS 70, name: Ankit Mathur, semester: sp15}
   - {class: CS 170, name: Yifat Amir, semester: fa15}
   - {class: CS 170, name: Ashley Chen, semester: fa15}
+  - {class: CS 170, name: Courtney Vu, semester: fa15}
 - name: Marc Khoury
   students:
   - {class: CS 274, name: Alan Yao, semester: sp15}
@@ -778,6 +786,8 @@
   - {class: CS 189, name: Leah Dickstein, semester: fa16}
   - {class: CS 189, name: Pete Yeh, semester: sp16}
   - {class: CS 61A, name: Lara McConnaughey, semester: sp15}
+  - {class: CS 61A, name: Courtney Vu, semester: fa14}
+  - {class: CS 188, name: Yuxiang Yang, semester: fa15}
   year: 2017
 - name: Matt Miller
   students:
@@ -1302,6 +1312,9 @@
 - name: Yunsup Lee
   students:
   - {class: CS 61C, name: Edwin Liao, semester: sp11}
+- name: Yuxiang Yang
+  students: []
+  year: 2018
 - name: Zeyu Liu
   students:
   - {class: CS 186, name: Judy Wang, semester: fa15}
