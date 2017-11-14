@@ -314,7 +314,8 @@
   - {class: CS 61C, name: Tiffany Perumpail, semester: fa15}
   - {class: CS 61C, name: Cynthia Shen, semester: sp16}
 - name: Chris Jeng
-  students: []
+  students:
+  - {class: CS 170, name: Mudit Gupta, semester: sp17}
 - name: Chris Xie
   students:
   - {class: CS 189, name: Edwin Liao, semester: sp14}
@@ -352,6 +353,7 @@
 - name: Daniel Aranki
   students:
   - {class: EE 16A, name: Aditya Baradwaj, semester: fa15}
+  - {class: EE 16A, name: Mudit Gupta, semester: fa15}
 - name: Daniel Bruckner
   students:
   - {class: CS 162, name: Japheth Wong, semester: sp13}
@@ -853,6 +855,9 @@
   students:
   - {class: CS 61AS, name: Alicia Luengo, semester: fa13}
   - {class: CS 61B, name: Vivek Rangaswamy, semester: sp13}
+- name: Mudit Gupta
+  students: []
+  year: 2019
 - name: Munim Ali
   students:
   - {class: CS 61B, name: Sumukh Sridhara, semester: fa13}
@@ -877,6 +882,7 @@
   students:
   - {class: CS 162, name: Rohin Shah, semester: sp13}
   - {class: CS 162, name: Edwin Liao, semester: sp13}
+  - {class: CS 162, name: Mudit Gupta, semester: fa17}
 - name: Nicholas Carlini
   students:
   - {class: CS 161, name: Rudy Laprade}
