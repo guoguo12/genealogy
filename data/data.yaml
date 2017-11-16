@@ -316,6 +316,9 @@
 - name: Chris Jeng
   students:
   - {class: CS 170, name: Mudit Gupta, semester: sp17}
+- name: Chris Le
+  students:
+  - {class: CS 61A, name: Sequoia Eyzaguirre, semester: fa16}
 - name: Chris Xie
   students:
   - {class: CS 189, name: Edwin Liao, semester: sp14}
@@ -1077,6 +1080,9 @@
 - name: Selena Shang
   students:
   - {class: CS  186, name: Vinitra Swamy, semester: fa16}
+- name: Sequoia Eyzaguirre
+  students: []
+  year: 2019
 - name: Shana Hu
   students: []
   year: 2016
