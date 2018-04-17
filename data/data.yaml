@@ -132,6 +132,7 @@
   - {class: CS 170, name: Sinho Chewi, semester: fa16}
   - {class: CS 170, name: Brandon Lee, semester: sp16}
   - {class: CS 70, name: Courtney Vu, semester: sp15}
+  - {class: EE 127, name: Kaylee Burns, semester: fa17}
 - name: Allon Wagner
   students:
   - {class: CS 176, name: Amanda Chow, semester: fa15}
@@ -373,6 +374,7 @@
   - {class: CS 70, name: Tiffany Perumpail, semester: sp16}
   - {class: CS 70, name: Cynthia Shen, semester: sp16}
   - {class: CS 70, name: Matthew Sit, semester: sp17}
+  - {class: CS  70, name: Kaylee Burns, semester: sp16}
   year: 2018
 - name: Courtney Wang
   students:
@@ -561,6 +563,9 @@
   students:
   - {class: CS 162, name: Jimmy Wu, semester: sp14}
   - {class: CS 162, name: Riyaz Faizullabhoy, semester: fa13}
+- name: Gilbert Ghang
+  students:
+  - {class: CS 61B, name: Kaylee Burns, semester: fa15}
 - name: Giulio Zhou
   students:
   - {class: CS 189, name: Shreyas Parthasarathy, semester: fa16}
@@ -776,6 +781,9 @@
 - name: Kaushik Iyer
   students:
   - {class: CS 61B, name: Andrew Huang, semester: sp11}
+- name: Kaylee Burns
+  students: []
+  year: 2018
 - name: Kaylee Mann
   students:
   - {class: CS 61A, name: Samantha Wathugala, semester: fa14}
@@ -1269,6 +1277,7 @@
   - {class: CS 70, name: Shreyas Parthasarathy, semester: sp16}
   - {class: CS 70, name: Vivian Fang, semester: fa16}
   - {class: CS 70, name: Kevin Lowe, semester: sp16}
+  - {class: EE 126, name: Kaylee Burns, semester: sp17}
 - name: Siu Man Chan
   students:
   - {class: CS 170, name: Jimmy Wu, semester: sp13}
@@ -1340,6 +1349,7 @@
   - {class: CS 61A, name: Nathan Mandi, semester: fa14}
   - {class: CS 61A, name: Leah Dickstein, semester: fa14}
   - {class: CS 61A, name: Richard Liang, semester: fa14}
+  - {class: CS 61A, name: Kaylee Burns, semester: sp15}
   year: 2016
 - name: Sung Roa Yoon
   students:
@@ -1383,6 +1393,9 @@
 - name: TongKe Xue
   students:
   - {class: CS 172, name: Amanda Chow, semester: sp15}
+- name: Tony Duan
+  students:
+  - {class: CS 170, name: Kaylee Burns, semester: fa16}
 - name: Tselil Schramm
   students:
   - {class: CS 70, name: Rudy Laprade}
